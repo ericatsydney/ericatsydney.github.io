@@ -13,6 +13,6 @@ categories: jekyll update
 
 故事里到处是隐喻，前后有处处联系着，千丝万缕，好像是派将他所有的吾到的道都都融到了这个寓言故事里。我边看边想，一旦想通了其中的奥妙，就兴奋不已。我想这个就是看好电影的乐趣了吧。
 
-{% highlight ruby %}
+{% highlight text%}
 Jekyll真心好，这文章我是在飞机上用Mac book写的，写完用git保存，到家git push搞掂，yeah！
 {% endhighlight %}
