@@ -2,7 +2,7 @@
 layout: post
 title:  "少年派的奇幻漂流"
 date:   2015-11-21 20:00:52 +1000
-categories: jekyll update
+categories: Reading
 ---
 
 有些电影要快进着看，有些看一次已经足够，而有极少数可以一看再看，而且每次看都有新的感觉和得着。少年派的奇幻漂流就属于最后一种。
