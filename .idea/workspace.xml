@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -97,8 +98,8 @@
       <file leaf-file-name="2016-02-25-keep-programming.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3810345">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23448277">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -367,7 +368,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456511953052</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update Image.">
+      <created>1456511976712</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1456511976712</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -787,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3810345">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23448277">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
