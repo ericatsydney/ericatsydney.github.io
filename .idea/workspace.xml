@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -362,7 +361,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456511536437</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update Image.">
+      <created>1456511953052</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1456511953052</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +412,8 @@
     <MESSAGE value="Added 2 new post and update the visible switch." />
     <MESSAGE value="Added 1 new post." />
     <MESSAGE value="Add photo and update paragraph ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add photo and update paragraph ." />
+    <MESSAGE value="Update Image." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Image." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
