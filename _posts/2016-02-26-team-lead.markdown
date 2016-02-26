@@ -4,4 +4,4 @@ title:  "臀结实是力量"
 date:   2016-02-26 17:30:52 +1000
 categories: Promgramming
 ---
-![Team Work](http://gph.is/1Oo7Sr8)
+![Team Work](/assets/lionking.gif)
