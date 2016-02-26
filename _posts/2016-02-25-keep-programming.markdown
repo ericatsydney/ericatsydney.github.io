@@ -4,9 +4,7 @@ title:  "码农"
 date:   2016-02-26 17:30:52 +1000
 categories: Promgramming
 ---
-<image src="/assets/programmer.gif">
-
-<br>
+![Keep Programming](/assets/programmer.gif)
 
 究竟程序员可以做到多少岁。国内的同学和旧同事通常到了这个年纪都会转做BA,PM，继续编码好像是一件很丢人的事似的。听见你三十好几还做编码，一脸的鄙夷。
 
