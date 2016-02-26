@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lionking.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-26-team-lead.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-26-team-lead.markdown" />
+      <change type="MOVED" beforePath="C:\Users\Eric\Code\ericatsydney.github.io\_posts\2016-02-25-keep-programming.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown" />
+      <change type="MOVED" beforePath="C:\Users\Eric\Code\ericatsydney.github.io\_posts\2016-02-26-team-lead.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -86,21 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-02-25-keep-programming.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown">
+      <file leaf-file-name="2016-02-26-keep-programming.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.296296">
-              <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+            <state vertical-scroll-proportion="-2.5185184">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-02-26-team-lead.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-02-26-team-lead.markdown">
+      <file leaf-file-name="2016-02-27-team-lead.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16803955">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.08401977">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -155,6 +155,7 @@
         <option value="$PROJECT_DIR$/_posts/2016-01-30-formula-milk.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-02-26-team-lead.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" />
       </list>
     </option>
   </component>
@@ -414,7 +415,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456516120699</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added a pic.">
+      <created>1456516280700</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1456516280700</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -462,7 +469,8 @@
     <MESSAGE value="Update Image." />
     <MESSAGE value="Update paragraph." />
     <MESSAGE value="Added a new post." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new post." />
+    <MESSAGE value="Added a pic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a pic." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -827,18 +835,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.296296">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        <state vertical-scroll-proportion="-2.5185184">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-02-26-team-lead.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16803955">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.08401977">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
