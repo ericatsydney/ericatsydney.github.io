@@ -5,7 +5,7 @@ date:   2016-03-05 22:00:52 +1000
 categories: Promgramming
 ---
 
-Inspired by http://www.sitepoint.com/dependency-injection-laravels-ioc/
+Inspired by <a href='http://www.sitepoint.com/dependency-injection-laravels-ioc/'>this blog</a>
 
 当看Laravel文档时，一定会看到service provider和service container.
 

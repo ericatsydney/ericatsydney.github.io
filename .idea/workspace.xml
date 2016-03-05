@@ -108,8 +108,8 @@
       <file leaf-file-name="2016-03-05-dependency-injection.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-03-05-dependency-injection.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61551726">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5275862">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -439,7 +439,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457180495198</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updated a post.">
+      <created>1457181728777</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1457181728777</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,7 +495,8 @@
     <MESSAGE value="Added a pic." />
     <MESSAGE value="Update timestamp." />
     <MESSAGE value="Added a new post." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new post." />
+    <MESSAGE value="Updated a post." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated a post." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -859,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-03-05-dependency-injection.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61551726">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5275862">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
