@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "信念"
+date:   2016-04-09 08:00:52 +1000
+categories: Thinking
+---
+
+相信内心，并为此坚持，这就是力量的来源。
