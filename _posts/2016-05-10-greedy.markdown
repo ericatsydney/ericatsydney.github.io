@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "贪"
-date:   2016-05-11 18:00:52 +1000
+date:   2016-05-10 18:00:52 +1000
 categories: Thinking
 ---
 
