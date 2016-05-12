@@ -1,7 +1,0 @@
----
-layout: post
-title:  "黑客精神"
-date:   2016-05-12 7:00:52 +1000
-categories: Thinking
----
-
