@@ -2,7 +2,7 @@
 layout: post
 title:  "2016年愿望"
 date:   2015-12-30 7:30:52 +1000
-categories: Readings
+categories: Reading
 ---
 35岁的我最想获得的是什么？妻子、孩子、房子、车子都有了，不过好像这些都过时了，现代人应该对自己提出更高的要求：升职加薪，出任CEO, 迎娶白富美，走向人生的巅峰。
 

@@ -15,7 +15,7 @@
 
       <div class="trigger">
         {% for cat in site.categories %}
-        <li>{{ cat[0] }}</li>
+        <a class="page-link" href="#">{{ cat[0] }}</a>
         {% endfor %}
 
         {% for my_page in site.pages %}

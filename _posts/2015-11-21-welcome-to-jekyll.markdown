@@ -2,7 +2,7 @@
 layout: post
 title:  "Eric is Here!"
 date:   2015-11-21 00:46:52 +1000
-categories: jekyll update
+categories: Thinking
 ---
 
 回忆总是美好的，因为记忆经常被感情篡改。。。

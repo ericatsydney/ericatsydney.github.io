@@ -2,7 +2,7 @@
 layout: post
 title:  "不能沟通等于没有思想"
 date:   2015-11-26 9:00:52 +1000
-categories: reading
+categories: Reading
 ---
 李开复《高效能沟通者》
 
