@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "治愈系哲学"
-date:   2016-05-23 22:05:52 +1000
+date:   2016-05-22 22:05:52 +1000
 categories: Thinking
 ---
 
