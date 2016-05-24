@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "重构"
-date:   2016-05-23 7:05:52 +1000
+date:   2016-05-24 7:05:52 +1000
 categories: Programming
 ---
 
@@ -17,15 +17,19 @@ setup sass, rb file
 JS:
 - once vs one
 - separate file according to the function, e.g. setting, eventHandler, utility, main
-- Setting use this pattern, and use $.extend() for further enhancement by branding
+
+{% highlight js %}
 defaultSetting = {
   variable1: value1,
   variable2: value2,
-  .....
+  // More variables .....
 }
+{% highlight js %}
+
 - Setting use this pattern to set dependency
+{% highlight javascript %}
 defaultSetting = {
   variable1: value1,
   variable2: value2,
-  .....
 }
+{% highlight js %}

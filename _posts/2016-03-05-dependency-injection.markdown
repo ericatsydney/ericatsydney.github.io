@@ -2,7 +2,7 @@
 layout: post
 title:  "Denpendency Injection"
 date:   2016-03-05 22:00:52 +1000
-categories: Promgramming
+categories: Programming
 ---
 
 不知道service provider和service container，就等于没有很好地理解Laravel.
