@@ -5,7 +5,8 @@ date:   2016-05-24 7:05:52 +1000
 categories: Programming
 ---
 
-h2.Java Script:
+Java Script
+===========
 
 - Change file name to use this pattern: [module].[some]-[function].js.
 
@@ -36,7 +37,8 @@ $.each(eventHandlers, function(eventName, callback) {
 });
 {% endhighlight %}
 
-h2.PHP (based on Drupal):
+PHP (based on Drupal)
+=====================
 
 - Setup Drupal variable, create admin UI (form API).
 
@@ -66,9 +68,11 @@ h2.PHP (based on Drupal):
 - Use block to put multiple template together
 
 
-*Styling*
+Styling
+===========
 
 - Setup SASS environment, setup rb file.
+
 - Drupal template file: use class provided by UI framework instead creating customized styling, use "BEM":http://getbem.com/introduction/ syntax.
 
 
