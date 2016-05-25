@@ -6,27 +6,39 @@ categories: Programming
 ---
 
 PHP based on Drupal:
+
 - setup variable, and admin form
+
 - template file: use framework class, with BEM syntax
+
 - use `include` to import separate file
+
 - use array to organize the relations (implode, array_map)
+
 - use block to put multiple template together
 
 SASS:
-setup sass, rb file
+
+- setup sass, rb file
 
 
 JS:
+
 - once vs one
+
 - change file name, use this pattern: [module].[function].js
+
 - separate file according to the function, e.g. setting, eventHandler, utility, main
 
+- Use object literal to setup variable, so we could use jQuery extend function to override the configuration in the future.
 {% highlight js %}
 defaultSetting = {
   variable1: value1,
   variable2: value2,
   // More variables .....
 }
+
+$.extend(defaultSetting, overrideSetting)
 {% endhighlight %}
 
 - short hand name, object notation, foreach to simplify logic
