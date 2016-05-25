@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Updated 'refactoring'.">
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -78,8 +78,8 @@
       <file leaf-file-name="2016-05-24-refactoring.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.3809524">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.47619048">
+              <caret line="75" column="138" selection-start-line="75" selection-start-column="138" selection-end-line="75" selection-end-column="138" />
               <folding />
             </state>
           </provider>
@@ -337,12 +337,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Update post">
-      <created>1449197233844</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1449197233844</updated>
     </task>
     <task id="LOCAL-00005" summary="Update post">
       <created>1449197327565</created>
@@ -632,7 +626,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464181513976</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Updated 'refactoring'.">
+      <created>1464181795446</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1464181795446</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1086,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3809524">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.47619048">
+          <caret line="75" column="138" selection-start-line="75" selection-start-column="138" selection-end-line="75" selection-end-column="138" />
           <folding />
         </state>
       </provider>

@@ -73,7 +73,7 @@ Styling
 
 - Setup SASS environment, setup rb file.
 
-- Drupal template file: use class provided by UI framework instead creating customized styling, use "BEM":http://getbem.com/introduction/ syntax.
+- Drupal template file: use class provided by UI framework instead creating customized styling, use [BEM](http://getbem.com/introduction/) syntax.
 
 
 
