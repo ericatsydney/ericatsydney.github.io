@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -25,26 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015-12-04-build-your-own-business.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-12-04-build-your-own-business.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5185184">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-12-30-keep-calm.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-12-30-keep-calm.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5185184">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2016-01-21-shameless.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-01-21-shameless.markdown">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +77,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-05-24-refactoring.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-05-24-refactoring.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3809524">
-              <caret line="32" column="123" selection-start-line="32" selection-start-column="123" selection-end-line="32" selection-end-column="123" />
+            <state vertical-scroll-proportion="-6.296296">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-02-26-keep-programming.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5185184">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-02-27-team-lead.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,7 +154,6 @@
         <option value="$PROJECT_DIR$/_posts/2016-01-30-formula-milk.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-02-25-keep-programming.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-02-26-team-lead.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-04-09-faith.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-04-10-being-humble.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-04-23-dream.markdown" />
@@ -180,6 +181,8 @@
         <option value="$PROJECT_DIR$/_posts/2016-05-25-how-to-draw.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-22-philosophy-save-life.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" />
       </list>
     </option>
   </component>
@@ -645,7 +648,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464170890619</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Updated one post.">
+      <created>1464174741615</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1464174741615</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -820,20 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1096,8 +1091,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3809524">
-          <caret line="32" column="123" selection-start-line="32" selection-start-column="123" selection-end-line="32" selection-end-column="123" />
+        <state vertical-scroll-proportion="-6.296296">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5185184">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -2,7 +2,7 @@
 layout: post
 title:  "码农"
 date:   2016-02-26 17:30:52 +1000
-categories: Promgramming
+categories: Programming
 ---
 ![Keep Programming](/assets/programmer.gif)
 
