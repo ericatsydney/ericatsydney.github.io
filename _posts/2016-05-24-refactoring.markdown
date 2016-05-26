@@ -25,7 +25,7 @@ defaultSetting = {
 $.extend(defaultSetting, overrideSetting)
 {% endhighlight %}
 
-- DRY: use object notation, callback function name, jQuery `each` function to simplify logic and decouple modules.
+- DRY: use object literal, callback function name, jQuery `each` function to simplify logic and decouple modules.
 {% highlight js %}
 eventHandlers = {
   event1: callBack1,
@@ -44,6 +44,8 @@ PHP (based on Drupal)
 
 - Slip `.inc` files and use `require_once` to import separate files.
 
+- Use pre-processor hook to add the JS.
+
 - Use PHP iterator to register theme (so cool~).
 {% highlight php%}
    // Define a theme per template.
@@ -61,11 +63,17 @@ PHP (based on Drupal)
    }
 {% endhighlight %}
 
-- Use `array_map` function to call a function multiple times according to array value.
+- Use `array_map` function to call a function multiple times, every time one element will be assign as parameter.
+
+- Use `array_reduce` function to call a function iteratively, reduce the array to single value.
+
+- Use `array_merge` function to override default value in array (e.g. extend/override configuration).
 
 - Use `array_fill_keys` ????
 
-- Use block to put multiple template together
+- Use block to put multiple template together ????
+
+- Create CTOOL plugin make the block could be controlled in panel
 
 
 Styling
