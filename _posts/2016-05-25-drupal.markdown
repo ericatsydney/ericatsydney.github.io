@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Drupal"
+date:   2016-05-25 7:05:52 +1000
+categories: Programming
+---
+
+Theme and Template
+=====================
+There are two meanings of 'theme' in Drupal, first one is the folder under 'themes' and it's the whole presentation layer; second one is the [theme API](https://api.drupal.org/api/drupal/includes%21theme.inc/function/theme/7.x).
+
+I would like to talk about second one here. Drupal have its mechanism to cast the content into the mockups, which's suffix is like 'xxxx.tpl.php'. We call the mockup is templates. It looks likes that:
+<code goes here>
+
+Templates has the naming convention according to the different components, here's some example:
+Fields:
+Forms:
+Nodetype:
+
+You can get this information when you use [dpm](links goes here) to check the theme suggestion
+
+What if you would like to use some existing template but not in the suggest list? you can use
+
+What if you would like to add some template not use that naming convention? You can use `theme` function
+
+
+
+Panelizer vs Panel
+====================
+
+Ctool
+==================
+
+Form API
+==================
+
+Block
+==================
+
+Formatter and Widget
+===================
+
+View
+===================
+
+Preprocessor
+===================
+
+Javascript in Drupal
+====================
+
+How Foundation work in Drupal
+============================
+
+Misc
+=====================
+- phpstorm setup for Drupal
+
+
