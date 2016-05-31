@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chrome开发工具"
+title:  "JS的代码审查"
 date:   2016-05-30 6:05:52 +1000
 categories: Thinking
 ---
