@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-05-30-understanding-css.markdown" />
-      <change type="DELETED" beforePath="C:\Users\Eric\Code\ericatsydney.github.io\_posts\2016-05-31-understanding-css.markdown" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-05-29-JS-code-standard.markdown" />
+      <change type="MOVED" beforePath="C:\Users\Eric\Code\ericatsydney.github.io\_posts\2016-05-30-understanding-css.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-31-understanding-css.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -90,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-05-30-understanding-css.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-05-30-understanding-css.markdown">
+      <file leaf-file-name="2016-05-31-understanding-css.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-05-31-understanding-css.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27101448">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.32028985">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -194,8 +193,8 @@
         <option value="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-30-chrome-dev-tool.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-05-31-understanding-css.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-30-understanding-css.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-05-31-understanding-css.markdown" />
       </list>
     </option>
   </component>
@@ -372,12 +371,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Add photo and update paragraph .">
-      <created>1456511536437</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1456511536437</updated>
     </task>
     <task id="LOCAL-00013" summary="Update Image.">
       <created>1456511953052</created>
@@ -667,7 +660,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464697589212</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Fix utf problem.">
+      <created>1464697771052</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1464697771052</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1102,10 +1101,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-05-30-understanding-css.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-31-understanding-css.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27101448">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.32028985">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
