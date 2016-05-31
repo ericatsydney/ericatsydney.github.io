@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "自嘲"
+title:  "Chrome开发工具"
 date:   2016-05-30 6:05:52 +1000
 categories: Thinking
 ---
