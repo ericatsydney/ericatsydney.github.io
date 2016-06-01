@@ -5,8 +5,22 @@ date:   2016-05-30 6:05:52 +1000
 categories: Thinking
 ---
 
-看王西的栋笃笑，隔着屏幕也能感觉到他心中的力量。
+Elements
+link to css
 
-你轻易看不出他的自信，甚至觉得他有点怯，但整个表演下来他都能保持着稳定的语速、平静的表情，在大家大笑鼓掌前，他稍微停一停，腼腆地笑笑，因为他非常自信地肯定他的幽默已经感染了你。
+Console
+check log from JS
+test code snippet
 
-自信的人能自嘲，不是自轻自贱，而是明白自己的状态，用乐观的态度去看待。王西用这种手法和心态来表达他作为移民的尴尬和压力。
+Source
+确认css，JS是否已经加载，查找源代码
+
+Network
+No Throttling更换网络
+查看XHR
+
+Timeline
+需要人手打开来记录网络所有发生过的请求
+
+Resources
+查看local storage， Cookie, Session
