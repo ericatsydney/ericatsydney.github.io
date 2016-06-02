@@ -16,6 +16,8 @@ border box的计算
 position可以改变一切：
 absolute之后，parent会collaps成高度为零的box
 
+关于floating
+
 关于foundation grid的一些使用技巧
 
 Fixed Width带来的麻烦

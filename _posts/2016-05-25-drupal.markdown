@@ -50,6 +50,8 @@ Here's the plugin register sample, usually we put it the `.module` file:
 In the `.inc` file itself, we could clarify 2 thing: how to render, how to configuration:
 <code goes here>
 
+Could ctool plugin stand alone without module?
+
 Form API
 ==================
 [Form API](#) is most used concept in Drupal. There are some many technique(trap) in there area. I list some of them I encounter in daily work.
