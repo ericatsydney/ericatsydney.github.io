@@ -26,7 +26,7 @@ $.extend(defaultSetting, overrideSetting)
 {% endhighlight %}
 
 - DRY: use object literal to organize code
- *Example 1: * callback function name, jQuery `each` function to simplify logic and decouple modules.
+ *Example 1:* callback function name, jQuery `each` function to simplify logic and decouple modules.
 {% highlight js %}
 eventHandlers = {
   event1: callBack1,
@@ -38,7 +38,7 @@ $.each(eventHandlers, function(eventName, callback) {
 });
 {% endhighlight %}
 
-*Example 2: * Use object literal to replace switch, it could better the performance.
+*Example 2:* Use object literal to replace switch, it could better the performance.
 {% highlight js %}
 conditions = {
   condition1: 'result1',
@@ -54,7 +54,7 @@ else {
 }
 {% endhighlight %}
 
-*Example 3: * Use object literal to create DOM
+*Example 3:* Use object literal to create DOM
 {% highlight js %}
 $dom = $.create('<div />', {
   attribute1: 'value1',
