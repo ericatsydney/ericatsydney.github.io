@@ -16,7 +16,7 @@ border box的计算
 position可以改变一切：
 absolute之后，parent会collaps成高度为零的box
 
-关于floating
+关于floating， float之后height失效
 
 关于foundation grid的一些使用技巧
 

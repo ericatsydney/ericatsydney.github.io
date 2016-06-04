@@ -25,7 +25,8 @@ defaultSetting = {
 $.extend(defaultSetting, overrideSetting)
 {% endhighlight %}
 
-- DRY: use object literal, callback function name, jQuery `each` function to simplify logic and decouple modules.
+- DRY: use object literal to organize code
+ *Example 1: * callback function name, jQuery `each` function to simplify logic and decouple modules.
 {% highlight js %}
 eventHandlers = {
   event1: callBack1,
@@ -35,6 +36,34 @@ eventHandlers = {
 $.each(eventHandlers, function(eventName, callback) {
   janrain.events[eventName].addHandler(callback);
 });
+{% endhighlight %}
+
+*Example 2: * Use object literal to replace switch, it could better the performance.
+{% highlight js %}
+conditions = {
+  condition1: 'result1',
+  condition2: 'result2',
+  ....
+}
+
+if (conditions.hasOwnProperty(value) {
+  returnResult = conditions[value];
+})
+else {
+  returnResult = defaultResult;
+}
+{% endhighlight %}
+
+*Example 3: * Use object literal to create DOM
+{% highlight js %}
+$dom = $.create('<div />', {
+  attribute1: 'value1',
+  attribute2: 'value2',
+  attribute3: 'value3',
+}).attr({
+  attribute4: 'value4',
+  attribute5: 'value5',
+}).appendTo('#anotherDiv');
 {% endhighlight %}
 
 PHP (based on Drupal)
