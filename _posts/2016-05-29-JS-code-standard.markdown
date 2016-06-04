@@ -19,6 +19,4 @@ categories: Thinking
 
 格式
 
-PHP的代码审查
-用 foreach （$array as $key => $value）, $key可以充当计数器$i
-
+参考资料： [AirBnB Style Guide](https://github.com/airbnb/javascript/)
