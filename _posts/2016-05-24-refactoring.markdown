@@ -26,7 +26,8 @@ $.extend(defaultSetting, overrideSetting)
 {% endhighlight %}
 
 - DRY: use object literal to organize code
- *Example 1:* callback function name, jQuery `each` function to simplify logic and decouple modules.
+
+##Example 1:## callback function name, jQuery `each` function to simplify logic and decouple modules.
 {% highlight js %}
 eventHandlers = {
   event1: callBack1,
@@ -38,7 +39,7 @@ $.each(eventHandlers, function(eventName, callback) {
 });
 {% endhighlight %}
 
-*Example 2:* Use object literal to replace switch, it could better the performance.
+##Example 2:## Use object literal to replace switch, it could better the performance.
 {% highlight js %}
 conditions = {
   condition1: 'result1',
@@ -54,7 +55,7 @@ else {
 }
 {% endhighlight %}
 
-*Example 3:* Use object literal to create DOM
+##Example 3:## Use object literal to create DOM
 {% highlight js %}
 $dom = $.create('<div />', {
   attribute1: 'value1',
@@ -75,7 +76,8 @@ PHP (based on Drupal)
 
 - Use pre-processor hook to add the JS.
 
-- Use PHP iterator to register theme (so cool~).
+- To keep the code `DRY`, we could use these techniques:
+-- Use PHP iterator and `foreach ($array as $key => $value)`, you don't need the counter $i any more.
 {% highlight php%}
    // Define a theme per template.
    $templates = new RecursiveIteratorIterator(new RecursiveDirectoryIterator(
@@ -92,15 +94,41 @@ PHP (based on Drupal)
    }
 {% endhighlight %}
 
-- Use `array_map` function to call a function multiple times, every time one element will be assign as parameter.
+-- Use `array_map` function to call a function multiple times, every time one element will be assign as parameter.
+{% highlight php%}
+// Drupal 'theme' function will get the corresponding template back.
+// The result will be stored in array.
+$rendered_html = array_map('theme', [
+    'theme1',
+    'theme2',
+    'theme3',
+]);
+{% endhighlight %}
 
-- Use `array_reduce` function to call a function iteratively, reduce the array to single value.
+-- Use `array_reduce` function to call a function iteratively, reduce the array to single value.
 
-- Use `array_merge` function to override default value in array (e.g. extend/override configuration).
+-- Use `array_merge` function to override default value in array (e.g. extend/override configuration).
+{% highlight php%}
+  $block_default = ['cache' => DRUPAL_NO_CACHE, 'category' => t('CATEGORY')];
+  $blocks['BLOCK1'] = array_merge($block_default, [
+    'info' => t('BLOCK ONE'),
+  ]);
+  $blocks['BLOCK2'] = array_merge($block_default, [
+    'info' => t('BLOCK TWO'),
+  ]);
+  $blocks['BLOCK3'] = array_merge($block_default, [
+    'info' => t('BLOCK THREE'),
+  ]);
+{% endhighlight %}
 
-- Use `array_fill_keys` ????
+-- Use `array_fill_keys` to assign same value to all the elements in an array
+{% highlight php%}
+$keys = array('Batman', 'Superman', 'Spiderman', 'Ironman');
+$a = array_fill_keys($keys, 'Marvel Comics');
+{% endhighlight %}
 
-- Use block to put multiple template together ????
+
+- Use block to put multiple template together
 
 - Create CTOOL plugin make the block could be controlled in panel
 
@@ -112,8 +140,11 @@ Styling
 
 - Drupal template file: use class provided by UI framework instead creating customized styling
 
-- use [BEM](http://getbem.com/introduction/) syntax. Could we use more than 2 level elements in BEM.
+- Use [BEM](http://getbem.com/introduction/) syntax. Could we use more than 2 level elements in BEM.
 
+- Here's the [BEM guideline in Drupal 8](https://www.drupal.org/node/933976)
+
+- Check out the [SMACSS](https://smacss.com/book/categorizing)
 
 
 Devops, Data Structure, Style Practise, React, Restful API, CSS box model in-depth
