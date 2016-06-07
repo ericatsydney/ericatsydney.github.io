@@ -145,8 +145,9 @@ Styling
 
 - Use [BEM](http://getbem.com/introduction/) syntax. Could we use more than 2 level elements in BEM.
 
-- Here's the [BEM guideline in Drupal 8](https://www.drupal.org/node/933976)
-
+- Here's the [BEM guideline in Drupal 8](https://www.drupal.org/coding-standards/css/architecture)
+   Never use id selectors in CSS.
+   Strictly use ·!important`
 - Check out the [SMACSS](https://smacss.com/book/categorizing)
 
 

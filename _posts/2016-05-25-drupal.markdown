@@ -93,8 +93,6 @@ I touched `View` in the first week I start using Drupal, so it is most basic adv
 
 And the `view` is doing more than the SQL GUI, it also provide the exposed filter, contextual filter to let user interact (AJAX). No return result message, header, footer is also very help to better the user experiences.
 
-
-
 Preprocessor
 ===================
 Hook is powerful but also headache, you can only remember a few of them (like `hook_menu`, `hook_form_alter`, `hook_html`). I would like to take a separate blog for the preprocessor.
