@@ -67,7 +67,7 @@ $dom = $.create('<div />', {
 }).appendTo('#anotherDiv');
 {% endhighlight %}
 
-参考资料： [AirBnB Style Guide](https://github.com/airbnb/javascript/)
+Reference： [AirBnB Style Guide](https://github.com/airbnb/javascript/)
 
 
 PHP (based on Drupal)
@@ -148,7 +148,9 @@ Styling
 - Here's the [BEM guideline in Drupal 8](https://www.drupal.org/coding-standards/css/architecture)
    Never use id selectors in CSS.
    Strictly use ·!important`
-- Check out the [SMACSS](https://smacss.com/book/categorizing)
+
+- Check it out: the [SMACSS](https://smacss.com/book/categorizing)
+  Don't apply the styling to early, so if you see code to reset the border, padding, margin, you need refactoring.
 
 
 Devops, Data Structure, Style Practise, React, Restful API, CSS box model in-depth
