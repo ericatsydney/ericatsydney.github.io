@@ -5,3 +5,12 @@ date:   2016-06-03 21:30:52 +1000
 categories: Programming
 ---
 
+装个Plugin呗
+提高效率，在setting -> plugin
+Linting: scss-lint, jshint
+
+代码模板
+
+隐藏不必要的文件夹
+
+
