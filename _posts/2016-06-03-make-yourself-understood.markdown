@@ -12,15 +12,15 @@ visible: false
 
 从打招呼开始：
 
-What's up?/ How have you been? / Howdy / How are you?
-
-回答：
-
-Same Old/ Pretty Well/ Good， yourself.
+What's up? -> nothing
+ How have you been? -> same old
+ How are you? -> pretty well / good
+ hey man / yo -> what's up
+ Howdy
 
 评价：
 
-sweet/ Sick / Awesome  很好的意思
+Sweet/ Sick / Awesome  很好的意思
 
 Suck 很糟糕
 
@@ -34,114 +34,46 @@ Propably / Apparently / it seems
 
 Fair enough
 
-go
-
-base on xxxx
-
-it would get cached
-
-Pretty sure
-
 I cannot make it
 
 I will buzz you
 
 工作上的问题陈述方式：
 
-have anyone experienced this
+名词：Exclamation, flexibility, demo/ prototype
 
-That ring my bell.
+形容词：ideal / future-proofing
 
-which can be avoided
+副词：eventually, temporarily, actually, basically
 
-temporarily
+动词：go, remove, point to, Assign, Nest / embed, Render, Store, Override, make, require, set, use, switch over, assume, take over, combine
 
-waste time doing sth
+短语：
 
-this is for the benefit of xxxx
+What if / How about/ What do you think
 
-point to
-
-in read-only mode
-
-What if / How about
-
-What do you think
-
-Split up / Separate pages
-
-I have a feeling that / I feel like we missed
-
-at the moment
-
-what exactly the issue was
-
-doesn't appear
-
-looking into this now
-
-have you attempt to
-
-future-proofing
-
-flexibility
-
-Assign
-
-Nest / embed
-
-Render
-
-Store
-
-Override
-
-make
-
-require
-
-set
-
-use
-
-ideal
-
-assume
-
-depend on
-
-happy
-
-combine
-
-apply the change
+I have a feeling that / I feel like we missed / I am not 100% clear on / sure about / Pretty sure
 
 best approach might be
 
-remove
-
-I am not 100% clear on / sure about
-
-Almost/nearly/pretty much done/ completed
-
-demo/ prototype
-
-sure thing
-
-clarify xxx stuff
-
-actually, basically
-
-looking to do sth
-
-switch over
-
-take over
-
-which is unfortunate
+Almost/nearly/pretty much done/ completed / sure thing
 
 I didn't have a chance to ....
 
-Do you have a minute, I would like to confirm the design with you
+it would get cached
 
-感叹号
+have anyone experienced this / That ring my bell.
+
+Split up / Separate pages
+
+waste time doing sth / this is for the benefit of xxxx / which can be avoided  / base on xxxx / depend on
+
+in read-only mode / at the moment
+
+doesn't appear / what exactly the issue was
+
+looking to do sth / looking into this now / have you attempt to
+
+clarify xxx stuff/ apply the change
+
+which is unfortunateyou have a minute, I would like to confirm the design with you
