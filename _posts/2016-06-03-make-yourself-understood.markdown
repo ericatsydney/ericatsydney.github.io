@@ -6,27 +6,31 @@ categories: Thinking
 visible: false
 ---
 
-从小就觉得表达自己是一件不容易的事，是不是思维问题，又或者是天生的。如果可以冷静下来，应该有7成把握可以做好表达，另外三成是靠练习和技巧。
+简单清楚地表达想法，对我来说从来不是一件容易的事。在我看来，我在语言组织（流畅）、逻辑（清晰）、信心（稳定），上都有待改进：
 
-来到英语世界，表达好自己就更加不容易了。下面是我的一些总结：
+##一切从词汇开始##
 
-从打招呼开始：
+名词：Exclamation, flexibility, demo/ prototype
 
-What's up? -> nothing
+形容词：ideal / future-proofing， Sweet/ Sick / Awesome  很好的意思， Suck 很糟糕
+
+副词：eventually, temporarily, actually, basically
+
+动词：go, remove, point to, Assign, Nest / embed, Render, Store, Override, make, require, set, use, switch over, assume, take over, combine, miss out, enable
+
+##如何打招呼:##
+
+ What's up? -> nothing
+
  How have you been? -> same old
+
  How are you? -> pretty well / good
+
  hey man / yo -> what's up
+
  Howdy
 
-评价：
-
-Sweet/ Sick / Awesome  很好的意思
-
-Suck 很糟糕
-
-GG / Good game 做得不错，有时是讽刺
-
-日常对话：
+##日常对话的短语##
 
 What did you get for your lunch?
 
@@ -38,19 +42,13 @@ I cannot make it
 
 I will buzz you
 
-工作上的问题陈述方式：
+GG / Good game 做得不错，有时是讽刺
 
-名词：Exclamation, flexibility, demo/ prototype
+##工作上的问题陈述方式：##
 
-形容词：ideal / future-proofing
+询问意见：What if / How about/ What do you think
 
-副词：eventually, temporarily, actually, basically
-
-动词：go, remove, point to, Assign, Nest / embed, Render, Store, Override, make, require, set, use, switch over, assume, take over, combine
-
-短语：
-
-What if / How about/ What do you think
+step back in a different aspect to see
 
 I have a feeling that / I feel like we missed / I am not 100% clear on / sure about / Pretty sure
 
@@ -77,3 +75,27 @@ looking to do sth / looking into this now / have you attempt to
 clarify xxx stuff/ apply the change
 
 which is unfortunateyou have a minute, I would like to confirm the design with you
+
+##逻辑##
+
+总分关系：
+
+因果关系： because, so, that's why
+
+递进关系：further more
+
+转折关系： but
+
+顺序关系：then
+
+选择关系：alternatively
+
+补充说明：which means xxxx
+
+条件：If xxxxxx / Once xxxxxx / When xxxxxx / Using this method, xxxxxxx
+
+对比：the down side of xxxx is that
+
+##技巧##
+
+直指要点，再分步说明。

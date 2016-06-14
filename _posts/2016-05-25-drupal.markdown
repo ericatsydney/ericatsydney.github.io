@@ -50,7 +50,7 @@ Here's the plugin register sample, usually we put it the `.module` file:
 In the `.inc` file itself, we could clarify 2 thing: how to render, how to configuration:
 <code goes here>
 
-Could ctool plugin stand alone without module?
+Ctool plugin could also living on theme level, layout and content type is its appearance.
 
 Form API
 ==================
@@ -111,7 +111,7 @@ But in the meantime it generate a lot of problem
 
 Javascript in Drupal
 ====================
-We use `drupal_add_js`, and could control the position by `weight`.
+We use `drupal_add_js`, and could control the position by `weight`, `position`.
 
 Here's a very useful aritcle about `Drupal.behaviors.attach`, we could use context and variable as well.
 
