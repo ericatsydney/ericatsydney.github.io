@@ -38,19 +38,53 @@ Panelizer is a super version of the panel. We could turn on panelizer for a cont
 
 And even more, we could do some special handling base on that variation (e.g. content, layout, context) only for one node.
 
-Ctool
+Ctools Plugins
 ==================
-Ctool plugin is a contributed module to help make module logic/ content to wrap it as a pane, so that we could put it in the panel.
+Ctools module is a contributed module to provide a set of API and function, like Page Manager, Context tools, Access tools (visibility rules), configuration exportability, form wizards.
 
-In the pane, we could have admin UI to set the configuration.
+And the `Plugins` is one function this module provide, With this tool we could extend the modules or themes with `.inc' file. There're 3 kinds of include file: layouts (in theme, feature), content type and styles (in modules).
 
-Here's the plugin register sample, usually we put it the `.module` file:
-<code goes here>
+`content_types` ctools plugin exits in module, it allow us to create our own panel pane that display dynamic content. In the pane, we could even setup a form to do the configuration.
 
-In the `.inc` file itself, we could clarify 2 thing: how to render, how to configuration:
-<code goes here>
+In `.module` file, we could use `HOOK_ctools_plugin_directory` to register the plugin directory:
+{% highlight php%}
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function MODULE_ctools_plugin_directory($owner, $plugin_type) {
+  switch ("$owner:$plugin_type") {
+    case 'panels:styles':
+      return "plugins/$plugin_type";
 
-Ctool plugin could also living on theme level, layout and content type is its appearance.
+    case 'panels:content_types':
+      return "plugins/$plugin_type";
+
+    case 'ctools:content_types':
+      return "plugins/$plugin_type";
+  }
+
+  return NULL;
+}
+{% endhighlight %}
+
+In the `.inc` file itself, we will do 2 things: how to render, how to configuration (optional).
+{% highlight php%}
+$plugin = array(
+  'title' => t('TESTING'),
+  'description' => t('TESTING'),
+  'hook theme' => array(
+      'path' => '/PATH/TO/TEMPLATE',
+      'template' => 'TEMPLATE-NAME',
+    ),
+  ),
+  'settings form' => 'CALL_BACK_FUNCTION',
+);
+{% endhighlight %}
+
+`content type` plugins could also be living in features, the create action will still keep the registration and `.inc` file. And we avoid putting in the theme level, as the pane could be used across themes.
+
+Here's another sample for the layout include file.
+
 
 Form API
 ==================

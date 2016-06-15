@@ -80,7 +80,7 @@ which is unfortunateyou have a minute, I would like to confirm the design with y
 
 总分关系：
 
-因果关系： because, so, that's why
+因果关系： cause / so / due to
 
 递进关系：further more
 
@@ -92,7 +92,9 @@ which is unfortunateyou have a minute, I would like to confirm the design with y
 
 补充说明：which means xxxx
 
-条件：If xxxxxx / Once xxxxxx / When xxxxxx / Using this method, xxxxxxx
+条件关系：If xxxxxx / Once xxxxxx / When xxxxxx /
+
+假设关系：Using this method, xxxxxxx / By requesting A, xxxxxx
 
 对比：the down side of xxxx is that
 

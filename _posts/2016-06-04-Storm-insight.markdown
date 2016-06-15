@@ -9,7 +9,7 @@ categories: Programming
 提高效率，在setting -> plugin
 Linting: scss-lint, jshint
 
-代码模板
+how to set snippet template
 
 隐藏不必要的文件夹
 
