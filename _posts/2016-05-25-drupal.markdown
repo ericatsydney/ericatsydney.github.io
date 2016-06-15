@@ -40,13 +40,13 @@ And even more, we could do some special handling base on that variation (e.g. co
 
 Ctools Plugins
 ==================
-Ctools module is a contributed module to provide a set of API and function, like Page Manager, Context tools, Access tools (visibility rules), configuration exportability, form wizards.
+Ctools module is a contributed module to provide a set of API and function, like Page Manager, Context tools, Access tools (visibility rules), configuration exportability, form wizards and so on.
 
-And the `Plugins` is one function this module provide, With this tool we could extend the modules or themes with `.inc' file. There're 3 kinds of include file: layouts (in theme, feature), content type and styles (in modules).
+And the `Plugins` is one of functions this module provide. Using this tool we could extend the modules or themes with `.inc' file. There're 3 kinds of include file: layouts (in theme), content type and styles (in modules, feature).
 
-`content_types` ctools plugin exits in module, it allow us to create our own panel pane that display dynamic content. In the pane, we could even setup a form to do the configuration.
+`content_types` ctools plugin exits in modules, it allow us to create our own panel pane that display dynamic content. In the pane, we could even setup a form to do the configuration.
 
-In `.module` file, we could use `HOOK_ctools_plugin_directory` to register the plugin directory:
+In `.module` file, we could use `HOOK_ctools_plugin_directory` to register the plugin directory like this:
 {% highlight php%}
 /**
  * Implements hook_ctools_plugin_directory().
@@ -67,7 +67,7 @@ function MODULE_ctools_plugin_directory($owner, $plugin_type) {
 }
 {% endhighlight %}
 
-In the `.inc` file itself, we will do 2 things: how to render, how to configuration (optional).
+In the `.inc` file itself, we will do 2 things, clarify how to render and how to finish configuration (optional).
 {% highlight php%}
 $plugin = array(
   'title' => t('TESTING'),
@@ -81,10 +81,10 @@ $plugin = array(
 );
 {% endhighlight %}
 
-`content type` plugins could also be living in features, the create action will still keep the registration and `.inc` file. And we avoid putting in the theme level, as the pane could be used across themes.
+`content type` plugins could also lives in features, feature recreate action will not override/ remove the registration or `.inc` file. And we avoid putting `content type` plugins in the theme level, as the pane could be used across different themes.
 
 Here's another sample for the layout include file.
-
+TBC
 
 Form API
 ==================
