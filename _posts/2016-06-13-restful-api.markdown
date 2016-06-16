@@ -27,10 +27,10 @@ responsive type = token and code
 
 P.S. Wechat scan QR code to login on desktop:
 
-# Visit desktop website, unique ID is generated as QR code.
+1. Visit desktop website, unique ID is generated as QR code.
 
-# Open Wechat on mobile, scan QR code.
+2. Open Wechat on mobile, scan QR code.
 
-# Authenticate login on mobile, Wechat App send Wechat ID and unique ID to server.
+3. Authenticate login on mobile, Wechat App send Wechat ID and unique ID to server.
 
-# Sever grant authority on desktop.
+4. Sever grant authority on desktop.
