@@ -25,17 +25,32 @@ For the second one, Drupal have its mechanism to cast the content into the mock-
 
 
 Templates has the naming convention according to the different components, here's some example:
-Fields:
-Forms:
-Nodetype:
 
-You can get this information when you use [dpm](links goes here) to check the theme suggestion
+- Fields: field--<field-name>.tpl.php
+
+- Nodetype: node--<node-type>.tpl.php
+
+- Views: views-view--<view-name>.tpl.php (we can check this in view admin UI)
+
+The theme suggestion information could be checked using [dpm](https://api.drupal.org/api/devel/devel.module/function/dpm/7.x-1.x) to check the theme suggestion
 
 What if you would like to use some existing template but not in the suggest list? you can use
 
 What if you would like to add some template not use that naming convention? You can use `theme` function, but remember to register the theme before you use that.
-<code goes here>
-
+{% highlight php%}
+/**
+ * Implements hook_theme().
+ */
+function THEME_NAME_theme() {
+  $path = drupal_get_path('theme', 'THEME_NAME') . '/templates';
+  $templates['TEMPLATE_NAME'] = array(
+    'template' => 'TEMPLATE-FILE',
+    'path' => $path,
+    'type' => 'theme',
+  );
+  return $templates;
+}
+{% endhighlight %}
 
 Panelizer vs Panel
 ====================
@@ -43,8 +58,23 @@ Panel is like a container to put all the different kind of components together, 
 
 To organize the content better, we could use different layouts. In the layouts, we define several regions in grid system. It's good for the responsive as well.
 
-Here's a sample of layout.
-<code goes here>
+Here's a sample of layout defined via ctool plugin.
+{% highlight php%}
+$plugin = array(
+  'title' => t('Full'),
+  'category' => t('CATEGORY'),
+  'icon' => 'full.png',
+  'theme' => 'panels_full',
+  'css' => 'full.css',
+  'regions' => array(
+    'banner' => t('Banner'),
+    'body' => t('body'),
+    'tabs' => t('Tabs'),
+    'bottom' => t('Bottom'),
+  ),
+);
+{% endhighlight %}
+
 
 Panelizer is a super version of the panel. We could turn on panelizer for a content type, create several variation for this content type, and choose which node use a specific variation.
 
@@ -100,16 +130,38 @@ TBC
 
 Form API
 ==================
-[Form API](#) is most used concept in Drupal. There are some many technique(trap) in there area. I list some of them I encounter in daily work.
+[Form API](https://api.drupal.org/api/drupal/developer!topics!forms_api_reference.html/7.x) is most used concept in Drupal. There are some many technique(trap) in there area. I list some of them I encounter in daily work.
 
 - Method GET and POST matters, as the form token is needed.
-<code goes here>
+{% highlight php%}
+$form['#method'] = 'get'; 
+ {% endhighlight %}
 
-- You could define the form template like this, and remember you don't need to print all the item manually, we could focus on the fields we want to tailer-make, the rest of them (e.g hidden fields), you could use the `render_form_children` to finish:
-<code goes here>
+- `drupal_render_children` could help us to print the remaining items (e.g hidden fields), so we could focus on the fields we want to tailor-make.:
+{% highlight php%}
+<div class="row collapse">
+  <div class="small-10 large-11 xlarge-10 columns">
+    <?php print render($form['search_keys']); ?>
+  </div>
+  <div class="small-2 large-1 xlarge-2 columns">
+    <?php print render($form['op']); ?>
+    <?php
+    // Print remaining items (hidden fields).
+    print drupal_render_children($form);
+    ?>
+  </div>
+</div>
+{% endhighlight %}
+
 
 - The class attributes should be stored in a array like this
-<code goes here>
+{% highlight php%}
+'#attributes' => array(
+        'class' => array('button', 'form-submit', 'postfix', 'icon', 'icon-search'),
+        'id' => 'edit-submit',
+      ),
+{% endhighlight %}
+
 
   - more more
 
@@ -118,7 +170,8 @@ Block and context
 Block is container to wrap the content/logic provided by a module, in this aspect, it's like the pane created by ctools. But block could be put in the region based on the context (e.g. content type, URL). You don't need to configure the setting for every panel/node. As all the setting is done in the module itself.
 
  This is the classic code for the block.
- <code goes here>
+ 
+ 
 
 
 Formatter and Widget
@@ -175,10 +228,3 @@ Build up the variables (color, font-family)
 We put grid in `page.tpl.php` and layout template (used in panel) and any template.
 Try to use Foundation class instead of creating customized styling.
 If customized styling is needed, it means either create helper class and reuse, or create a component classes and reuse.
-
-
-Misc
-=====================
-- phpstorm setup for Drupal give links
-
-
