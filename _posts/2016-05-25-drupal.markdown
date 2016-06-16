@@ -180,7 +180,7 @@ Drupal provide a serias field type to us, but sometimes we need some special fie
 
 In this case, we need to build a new field. And we need to answer two questions, how could we render that in page (we use `formatter`), and how could we update the content in admin UI (we use `widget`).
 
- We will do that like this:
+We will do that like this:
  <code goes here>
 
 
@@ -228,3 +228,6 @@ Build up the variables (color, font-family)
 We put grid in `page.tpl.php` and layout template (used in panel) and any template.
 Try to use Foundation class instead of creating customized styling.
 If customized styling is needed, it means either create helper class and reuse, or create a component classes and reuse.
+
+P.S.
+Drupal [Exmaple module](https://www.drupal.org/project/examples) is a really good template we could start working on.
