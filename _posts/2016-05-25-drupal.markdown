@@ -9,8 +9,20 @@ Theme and Template
 =====================
 There are two meanings of 'theme' in Drupal, first one is the folder under 'themes' and it's the whole presentation layer; second one is the [theme API](https://api.drupal.org/api/drupal/includes%21theme.inc/function/theme/7.x).
 
-I would like to talk about second one here. Drupal have its mechanism to cast the content into the mockups, which's suffix is like 'xxxx.tpl.php'. We call the mockup is templates. It looks likes that:
-<code goes here>
+For the second one, Drupal have its mechanism to cast the content into the mock-ups, which's suffix is like 'xxxx.tpl.php'. We call the mock up is templates. It looks likes that:
+```php
+<div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
+
+  <?php print render($title_prefix); ?>
+  <?php if ($title): ?>
+    <h4<?php print $title_attributes; ?>><?php print $title; ?></h4>
+  <?php endif; ?>
+  <?php print render($title_suffix); ?>
+
+  <?php print $content; ?>
+```
+
+
 
 Templates has the naming convention according to the different components, here's some example:
 Fields:

@@ -75,7 +75,7 @@ PHP (based on Drupal)
 
 - Setup Drupal variable, create admin UI (form API).
 
-- Slip `.inc` files and use `require_once` to import separate files.
+- Split `.inc` files and use `require_once` to import separate files.
 
 - Use pre-processor hook to add the JS.
 
@@ -134,7 +134,7 @@ $a = array_fill_keys($keys, 'Marvel Comics');
 - Use block to put multiple template together
 
 - Create CTOOL plugin make the block could be controlled in panel
-
+Check the sample [here](/programming/2016/05/24/drupal.html)
 
 Styling
 ===========
@@ -153,4 +153,4 @@ Styling
   Don't apply the styling to early, so if you see code to reset the border, padding, margin, you need refactoring.
 
 
-Devops, Data Structure, Style Practise, React, Restful API, CSS box model in-depth
+Devops, Data Structure, React

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Restful API"
-date:   2016-06-03 21:30:52 +1000
+date:   2016-06-13 21:30:52 +1000
 categories: Programming
 ---
 When we use API to work, the authentication is the first or the most important thing we need to finish.
