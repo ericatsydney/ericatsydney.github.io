@@ -5,11 +5,13 @@ date:   2016-05-31 6:05:52 +1000
 categories: Programming
 ---
 
-盒型模型有很多奇怪的地方。
+CSS box model has many tricky thing.
+ 
+> CSS is a hack.
+> ** by someone **
 
 **negative margin**
-
-比父容器更宽
+Make the child is wider than the parent.
 
 
 **border box的计算**
@@ -28,7 +30,7 @@ absolute之后，parent会collapse（高度由没有absolute的内容决定）
 **置中的方法**
 
 parent relative
-child absolute, left: 100%, margin-left: 50%;
+child absolute, left: 100%, margin-left: -50%;
 
 关于floating， float之后collapse height失效
 Clear empty div or after psudo class
