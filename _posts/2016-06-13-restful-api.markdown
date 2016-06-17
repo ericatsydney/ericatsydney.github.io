@@ -23,8 +23,15 @@ Here's an article about [OAuth2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_
 
 ![flow chart](/assets/slack_oauth_flow_diagram@2x.png)
 
+Reference:
+[Slack Authentication](https://api.slack.com/docs/oauth)
+[Linkedin Authentication](https://developer.linkedin.com/docs/oauth2) 
+
 
 Restful API
+===========
+
+After athentication, we could start using the API to control the resource.
 
 - url stand for the resources
 
@@ -32,7 +39,8 @@ Restful API
 
 - use post/get/delete/put to change the presentation layter
 
-Janrain
+Janrain study
+=============
 
 session = access token
 

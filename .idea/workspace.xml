@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/slack_oauth_flow_diagram@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-06-17-learn-how-to-learn.markdown" />
-      <change type="MOVED" beforePath="C:\Users\Eric\Code\ericatsydney.github.io\_posts\2016-05-31-understanding-css.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-31-understanding-css-box-model.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-01-release-management.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-01-release-management.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-13-restful-api.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-13-restful-api.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -85,8 +80,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.5902778">
-                <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <first_editor vertical-scroll-proportion="0.5868056">
+                <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -406,12 +401,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00038" summary="Updated one post.">
-      <created>1462970483275</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1462970483275</updated>
-    </task>
     <task id="LOCAL-00039" summary="Updated one post.">
       <created>1463056170513</created>
       <option name="number" value="00039" />
@@ -700,7 +689,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466080845600</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Update a image for API.">
+      <created>1466158962358</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1466158962358</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -740,7 +735,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated 1 posts." />
     <MESSAGE value="Updated 1 post." />
     <MESSAGE value="Updated two post." />
     <MESSAGE value="Added category links." />
@@ -765,7 +759,8 @@
     <MESSAGE value="Update the restful API." />
     <MESSAGE value="Update the release control." />
     <MESSAGE value="Update the order list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the order list." />
+    <MESSAGE value="Update a image for API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update a image for API." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1290,8 +1285,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.5902778">
-            <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <first_editor vertical-scroll-proportion="0.5868056">
+            <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
