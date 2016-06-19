@@ -110,8 +110,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-04-Storm-insight.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.5277778">
-                <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+              <first_editor vertical-scroll-proportion="0.7934028">
+                <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -416,12 +416,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00046" summary="Updated the JS highlight.">
-      <created>1464093846364</created>
-      <option name="number" value="00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1464093846364</updated>
-    </task>
     <task id="LOCAL-00047" summary="Updated one post.">
       <created>1464095341754</created>
       <option name="number" value="00047" />
@@ -710,7 +704,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466336950011</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Update storm insight.">
+      <created>1466337044072</created>
+      <option name="number" value="00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1466337044072</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1299,8 +1299,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.5277778">
-            <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+          <first_editor vertical-scroll-proportion="0.7934028">
+            <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
