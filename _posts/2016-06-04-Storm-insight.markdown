@@ -59,14 +59,12 @@ Setup Xdebug (copied from Mavericks Wiki)
 Xdebug will enable you to debug Drupal sites effectively. The setup explained here is called "zero-configuration debugging", which is not quite accurate.
 
 1. Setup xdebug.ini, update `/etc/php5/apache2/conf.d/20-xdebug.ini` with the following code and restart apache service.
-    {% highlight php%}
-    zend_extension=/usr/lib/php5/20121212/xdebug.so 
-    xdebug.remote_enable=1 
-    xdebug.remote_handler=dbgp 
-    xdebug.remote_host=192.168.50.1 
-    xdebug.remote_port=9000 
-    xdebug.remote_autostart=0
-    {% endhighlight %}
+> zend_extension=/usr/lib/php5/20121212/xdebug.so 
+> xdebug.remote_enable=1 
+> xdebug.remote_handler=dbgp 
+> xdebug.remote_host=192.168.50.1 
+> xdebug.remote_port=9000 
+> xdebug.remote_autostart=0
 
 2. Install xdebug plugins for your browsers
     Chrome: [Xdebug helper](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc?hl=en) extension.

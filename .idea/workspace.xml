@@ -110,8 +110,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-04-Storm-insight.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.9409722">
-                <caret line="80" column="104" selection-start-line="80" selection-start-column="104" selection-end-line="80" selection-end-column="104" />
+              <first_editor vertical-scroll-proportion="0.5277778">
+                <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -416,12 +416,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00045" summary="Added one post.">
-      <created>1464093516025</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1464093516025</updated>
-    </task>
     <task id="LOCAL-00046" summary="Updated the JS highlight.">
       <created>1464093846364</created>
       <option name="number" value="00046" />
@@ -710,7 +704,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466336788744</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Update storm insight.">
+      <created>1466336950011</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1466336950011</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1299,8 +1299,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9409722">
-            <caret line="80" column="104" selection-start-line="80" selection-start-column="104" selection-end-line="80" selection-end-column="104" />
+          <first_editor vertical-scroll-proportion="0.5277778">
+            <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
