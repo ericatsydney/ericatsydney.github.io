@@ -10,6 +10,8 @@ Some Short Cut
 
 - `Ctrl + D` duplicate the selection.
 
+- `Ctrl + K` commit and push changes.
+
 - Double-press `Shift` search by file name.
 
 - `Shift + F6` refactoring change file name.
