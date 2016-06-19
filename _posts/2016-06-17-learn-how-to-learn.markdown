@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "我要当学霸"
-date:   2016-05-23 7:05:52 +1000
+date:   2016-06-17 7:05:52 +1000
 categories: Thinking
 ---
 生命有限而知识无限，如何高效地学习成为各学霸的必修课。时间有限，来不及解释了，先看看专家怎么说：
 
-https://www.youtube.com/watch?v=O96fE1E-rf8
+[Learning how to learn](https://www.youtube.com/watch?v=O96fE1E-rf8)
 
 片里有几点英雄所见，很有启发共鸣。
 
@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=O96fE1E-rf8
 
 - 如何在专注和发散思维模式间切换
 
-- 如何练习、加强专注力
+- 如何练习、加强专注力 (这里附上一个[番茄钟](https://zh.wikipedia.org/wiki/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95)的wiki链接)
 
 - 放松和专注一样的重要
 
