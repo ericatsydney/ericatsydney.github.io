@@ -33,6 +33,9 @@ Restful API
 
 After athentication, we could start using the API to control the resource.
 
+[Twitter API](https://dev.twitter.com/rest/reference/get/direct_messages) 
+[Linkedin API](https://developer.linkedin.com/docs/rest-api) 
+
 - url stand for the resources
 
 - client to server
