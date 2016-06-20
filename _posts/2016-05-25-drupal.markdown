@@ -163,13 +163,11 @@ $form['#method'] = 'get';
 {% endhighlight %}
 
 
-  - more more
-
 Block and context
 ==================
 Block is container to wrap the content/logic provided by a module, in this aspect, it's like the pane created by ctools. But block could be put in the region based on the context (e.g. content type, URL). You don't need to configure the setting for every panel/node. As all the setting is done in the module itself.
 
- This is the classic code for the block.
+This is the classic code for the block.
  
  
 

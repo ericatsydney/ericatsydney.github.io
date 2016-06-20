@@ -7,30 +7,32 @@ categories: Thinking
 
 Elements
 ========
-link to css
+- Check CSS (SCSS).
+
+- Pick color even on a image using Color picker.
+
+- Modify the html markup directly, use drag and draw to reorganize the DOM.
 
 Console
 ========
-check log from JS
+- Check log from JS.
 
-test code snippet
+- Test JS code snippet.
 
 Source
 =======
-确认css，JS是否已经加载，查找源代码
+In this tab, we could make sure if specific CSS，JS is loaded and check the source code, for the minified version, we could click `{}` Pretty Print button to see the raw version, that's handy for debug. 
 
 Network
 =======
-Open recorder, check history and use filter to get the request, check the header.
+- Use `Throttling` to simulate the mobile network.
 
-Use `Throttling` to simulate the mobile network.
-
-Check XHR
-
+- Use filter tab to filter the request type: XHR, JS. Then use Headers, Timing tab to view the detail. 
+ 
 Timeline
 =========
-需要人手打开来记录网络所有发生过的请求
+In this tab, we could check request history, to know the loading time, sequence and so on. But the recorder is needed to enable manually.  
 
 Resources
 =========
-查看local storage， Cookie, Session
+In this tab, we could check Local Storage，Cookie, Session.
