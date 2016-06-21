@@ -167,19 +167,96 @@ Block and context
 ==================
 Block is container to wrap the content/logic provided by a module, in this aspect, it's like the pane created by ctools. But block could be put in the region based on the context (e.g. content type, URL). You don't need to configure the setting for every panel/node. As all the setting is done in the module itself.
 
-This is the classic code for the block.
- 
- 
+{% highlight php%}
+/**
+ * Implements hook_block_info().
+ */
+function module_name_block_info() {
+  $blocks = array();
+  $blocks['block_name'] = array(
+    'info' => t('GSA Search Form'),
+  );
+  return $blocks;
+}
 
+/**
+ * Implements hook_block_view().
+ */
+function module_name_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'block_name':
+      $block['subject'] = '';
+      $block['content'] = drupal_get_form('form_id');
+      break;
+  }
+  return $block;
+}
 
+/**
+ * Implements hook_form().
+ */
+function module_name_form($form, &$form_state) {
+  $form = array(
+    'search_keys' => array(
+      '#type'     => 'textfield',
+      '#required' => TRUE,
+      '#attributes' => array(
+        'class' => array('form-text'),
+        'id' => 'edit-search-keys',
+        'placeholder' => array('Search'),
+      ),
+      '#theme_wrappers' => array(),
+    ),
+    'op' => array(
+      '#type' => 'submit',
+      '#attributes' => array(
+        'class' => array('button', 'form-submit', 'postfix', 'icon', 'icon-search'),
+        'id' => 'edit-submit',
+      ),
+      '#value' => 'I',
+    ),
+    '#theme' =>  'theme_name',
+  );
+  return $form;
+}
+{% endhighlight %}
+
+ 
 Formatter and Widget
 ===================
 Drupal provide a serias field type to us, but sometimes we need some special field, like the map, icon, feature, which is combination of entity reference, existing field type, taxonomy.
 
 In this case, we need to build a new field. And we need to answer two questions, how could we render that in page (we use `formatter`), and how could we update the content in admin UI (we use `widget`).
 
-We will do that like this:
- <code goes here>
+- Define how to render `formatter`:
+ {% highlight php%}
+  function hook_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {
+    $element = array();
+    $settings = $instance['widget']['settings'] + field_info_widget_settings($instance['widget']['type']);
+    $module_path = drupal_get_path('module', 'fcl_custom_fields');
+    $js_path = $module_path . '/js';
+    $css_path = $module_path . '/css';
+  
+    switch ($display['type']) {
+      case 'fcl_custom_experience':
+        foreach ($items as $delta => $item) {
+          // Provide the element as a themeable item.
+          $element[$delta] = array(
+            '#theme' => 'fcl_custom_experience',
+            '#type' => $item['type'],
+            '#title' => $item['title'],
+            '#desc' => $item['desc'],
+          );
+        }
+        break;
+    }
+  }
+ {% endhighlight %}
+ 
+- Define how to render `widget`, using `hook_field_widget_form()`.
+
+- Define how to save, using `hook_field_presave()`.
 
 
 View
@@ -192,7 +269,7 @@ And the `view` is doing more than the SQL GUI, it also provide the exposed filte
 
 Preprocessor
 ===================
-Hook is powerful but also headache, you can only remember a few of them (like `hook_menu`, `hook_form_alter`, `hook_html`). I would like to take a separate blog for the preprocessor.
+This is another [blog](http://ericatsydney.github.io/programming/2016/05/24/drupal-hook.html) talking about the hook system.
 
 
 Feature
@@ -214,9 +291,7 @@ Here's a very useful aritcle about `Drupal.behaviors.attach`, we could use conte
 
 We could use drupal variable to pass the configuration from admin UI to JS.
 
-Once function in jQuery
-
-more more.
+Once function in jQuery TBC
 
 
 How Foundation work in Drupal
