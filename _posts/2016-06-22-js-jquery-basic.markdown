@@ -12,11 +12,11 @@ this is mystry
 
 - `this` refers to the global object in the following cases:
 
-  -- in the outermost context, outside of any function block
+  - in the outermost context, outside of any function block
 
-  -- in functions that are not methods of objects
+  - in functions that are not methods of objects
 
-  -- in functions that are not object constructors
+  - in functions that are not object constructors
 
 - When a function is called as a property on a parent object, this refers to the parent object.
 
@@ -33,4 +33,10 @@ unbind
 
 unbind's drawback
 
-$selector.once().on('event', function() {})
+Solution is chain `once` and `on` to attach function only once.
+{% highlight javascript%}
+  $selector.once().on('eventName', function() {
+    //callback function.
+  });
+{% endhighlight %}
+
