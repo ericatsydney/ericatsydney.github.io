@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "重构"
+title:  "Refactoring"
 date:   2016-05-24 7:05:52 +1000
 categories: Programming
 ---

@@ -8,6 +8,7 @@ categories: Programming
 CSS box model has many tricky thing.
  
 > CSS is a hack.
+
 > ** by someone **
 
 **negative margin**
@@ -22,10 +23,17 @@ content box反之
 
 **position可以改变一切**
 
-absolute 会找最近的父类作为参照物。
+- absolute 会找最近的relative父容器作为参照物。
+{% highlight %}
 position: absolute;
 left: 100%;
-absolute之后，parent会collapse（高度由没有absolute的内容决定）
+{% endhighlight %}
+
+- absolute 中child DOM会继承absolute的特性，需要添加relative才能显示在正确位置。
+
+- absolute之后，parent会collapse（高度由没有absolute的内容决定）
+
+
 
 **置中的方法**
 
