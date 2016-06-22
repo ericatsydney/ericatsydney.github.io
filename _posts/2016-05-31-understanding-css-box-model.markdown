@@ -24,7 +24,7 @@ content box反之
 **position可以改变一切**
 
 - absolute 会找最近的relative父容器作为参照物。
-{% highlight %}
+{% highlight css%}
 position: absolute;
 left: 100%;
 {% endhighlight %}
