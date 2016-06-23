@@ -22,10 +22,12 @@ this is mystry
 
 - When a function is called using call() or apply(), or bind(), this refers to the first argument passed to these methods. If the first argument is null or not an object, this refers to the global object.
 
-event
-=====
+Use event to decouple
+=====================
 
-Use `trigger` and `on` to throw and catch the event.
+Use `trigger` and `on` to throw and catch the event, rather than call function in different file directly. 
+ 
+The jQuery `on` function is not compatible against version under 1.7.
 
 
 unbind

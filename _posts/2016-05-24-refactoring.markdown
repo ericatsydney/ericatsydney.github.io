@@ -14,6 +14,8 @@ Java Script
 
 - Split files according to different purpose: main logic, default setting, implementation, utility, event sequence.
 
+- Performance: reduce the event trigger, listen, make them happen once.
+
 - Use object literal to setup variable, so we could use jQuery `extend` function to override the configuration in the future.
 {% highlight js %}
 defaultSetting = {

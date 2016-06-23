@@ -12,7 +12,38 @@ CSS box model has many tricky thing.
 > ** by someone **
 
 **negative margin**
-Make the child is wider than the parent.
+
+Without seting the child width and floating, `negative margin` make the child wider than the parent.
+
+{% highlight html%}
+<div class='parent'> 
+  <div class='child'></div>
+</div>
+{% endhighlight %}
+
+{% highlight css%}
+div {
+  display: block;
+  border: 1px solid #000;
+}
+
+.parent {
+  background-color: red;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 300px
+}
+
+.child {
+  background-color: blue;
+  height: 50px;
+  position: relative;
+  margin: 0 -20px;
+}
+{% endhighlight %}
+
 
 
 **border box的计算**
@@ -33,15 +64,17 @@ left: 100%;
 
 - absolute之后，parent会collapse（高度由没有absolute的内容决定）
 
-
-
 **置中的方法**
 
 parent relative
 child absolute, left: 100%, margin-left: -50%;
 
-关于floating， float之后collapse height失效
-Clear empty div or after psudo class
+**floating**
+子元素floating之后父容器collapse， height=0.
+1. 父容器 直接设定 height
+2. 子元素 empty div or after psudo class clear：both
+3. 父容器 float 
+4. 父容器 overflow： auto
 
 **动态**
 
@@ -52,6 +85,6 @@ transition: all, .5s, ease-out;
 
 Row可以放在一个固定width的div里，再使用column。
 
-Fixed Width带来的麻烦
+**Fixed Width带来的麻烦**
 
 Chrome的辅助：颜色吸取器，实时效果，固定悬停效果，DOM的位置
