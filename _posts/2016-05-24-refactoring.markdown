@@ -156,3 +156,6 @@ Styling
 
 
 Devops, Data Structure, React
+isset vs empty
+
+gulp task

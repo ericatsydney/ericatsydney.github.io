@@ -304,3 +304,7 @@ If customized styling is needed, it means either create helper class and reuse, 
 
 P.S.
 Drupal [Exmaple module](https://www.drupal.org/project/examples) is a really good template we could start working on.
+
+
+drupal variable 
+js setting

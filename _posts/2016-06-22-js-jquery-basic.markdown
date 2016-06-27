@@ -42,3 +42,9 @@ Solution is chain `once` and `on` to attach function only once.
   });
 {% endhighlight %}
 
+
+this
+once vs one
+bind vs proxy
+js handler pass the data.
+ready vs attach

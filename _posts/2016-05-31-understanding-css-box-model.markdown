@@ -44,20 +44,17 @@ div {
 }
 {% endhighlight %}
 
-
-
 **border box的计算**
 
-将padding，border都计算到width里
+`box-sizing: border-box` 将padding，border都计算到width里。
 
-content box反之
+`box-sizing: content-box` 则反之。
 
 **position可以改变一切**
 
 - absolute 会找最近的relative父容器作为参照物。
 {% highlight css%}
 position: absolute;
-left: 100%;
 {% endhighlight %}
 
 - absolute 中child DOM会继承absolute的特性，需要添加relative才能显示在正确位置。
@@ -65,20 +62,62 @@ left: 100%;
 - absolute之后，parent会collapse（高度由没有absolute的内容决定）
 
 **置中的方法**
+当元素需要在父容器里置中，而且父容器里只有该元素。这很容易实现：
+{% highlight css%}
+.child {
+  display: block;
+  margin: 0 auto;
+  width: 99px;
+}
+{% endhighlight %}
 
-parent relative
-child absolute, left: 100%, margin-left: -50%;
+当元素需要在同一层的元素中置中，或者父容器有多个元素需要重叠置中（例如fliping effect）。就可以这样实现
+{% highlight css%}
+.peer-div {
+  position: relative;
+}
+.center-div {
+  position: absolute;
+  left: 50%;
+  margin-left: -45.5%; // margin left to peer-div is 0.5%;
+}
+{% endhighlight %}
+
+当需要将`:before`, `:after` 元素一起置中时，可以使用无敌的`calc` 函数。
+{% highlight css%}
+.center-div {
+  width: 40px;
+  
+  &:before {
+    width: 40%;
+    position: absolute;
+    right: calc(50% - 20px);
+  }
+  
+  &:after {
+    width: 40%;
+    position: absolute;
+    left: calc(50% - 20px);
+  }
+}
+{% endhighlight %}
+
 
 **floating**
-子元素floating之后父容器collapse， height=0.
-1. 父容器 直接设定 height
-2. 子元素 empty div or after psudo class clear：both
-3. 父容器 float 
-4. 父容器 overflow： auto
+子元素floating之后父容器collapse， `height=0`. 解决方法有下面几个：
 
-**动态**
+1. 父容器 直接设定 `height`;
+
+2. 子元素 后面添加一个空的 div 或者 after pseudo class，赋值 `clear：both`;
+
+3. 父容器 也float起来;
+
+4. 父容器 赋值 `overflow： auto`。
+
+**Animation**
 
 transition: all, .5s, ease-out;
+
 定义:hover 状态
 
 **关于foundation grid的一些使用技巧**
@@ -88,3 +127,5 @@ Row可以放在一个固定width的div里，再使用column。
 **Fixed Width带来的麻烦**
 
 Chrome的辅助：颜色吸取器，实时效果，固定悬停效果，DOM的位置
+
+
