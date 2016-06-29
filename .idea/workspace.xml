@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-06-29-knowledge-stucture.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-31-understanding-css-box-model.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-31-understanding-css-box-model.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -47,15 +41,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-06-27-sass-101.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016-06-27-sass-101.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.8854167">
-                <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <first_editor vertical-scroll-proportion="0.39605734">
+                <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -127,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-06-28-increase-your-memory.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-06-28-increase-your-memory.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
@@ -250,11 +244,11 @@
         <option value="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-31-understanding-css-box-model.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-18-how-to-be-efficent.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-29-knowledge-stucture.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
       </list>
     </option>
   </component>
@@ -420,12 +414,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Updated 'refactoring'.">
-      <created>1464265226900</created>
-      <option name="number" value="00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1464265226901</updated>
     </task>
     <task id="LOCAL-00056" summary="Updated 'refactoring'.">
       <created>1464348635440</created>
@@ -715,7 +703,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467029949116</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Added 2 posts.">
+      <created>1467204003469</created>
+      <option name="number" value="00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1467204003471</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -724,6 +718,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29217792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -732,7 +727,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -755,7 +749,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added 2 posts." />
     <MESSAGE value="Fix utf problem." />
     <MESSAGE value="继续挖坑." />
     <MESSAGE value="Update post." />
@@ -780,7 +773,8 @@
     <MESSAGE value="Update sublime tricks." />
     <MESSAGE value="Update javascript basic." />
     <MESSAGE value="Update css box model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update css box model." />
+    <MESSAGE value="Added 2 posts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 posts." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1244,20 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.8854167">
-            <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-23-jouney-to-vim.markdown">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1336,6 +1316,20 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.27419356">
             <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.39605734">
+            <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
