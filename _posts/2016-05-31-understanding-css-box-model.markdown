@@ -62,6 +62,7 @@ position: absolute;
 - absolute之后，parent会collapse（高度由没有absolute的内容决定）
 
 **置中的方法**
+
 当元素需要在父容器里置中，而且父容器里只有该元素。这很容易实现：
 {% highlight css%}
 .child {
@@ -104,6 +105,7 @@ position: absolute;
 
 
 **floating**
+
 子元素floating之后父容器collapse， `height=0`. 解决方法有下面几个：
 
 1. 父容器 直接设定 `height`;
@@ -126,6 +128,6 @@ Row可以放在一个固定width的div里，再使用column。
 
 **Fixed Width带来的麻烦**
 
-Chrome的辅助：颜色吸取器，实时效果，固定悬停效果，DOM的位置
+
 
 

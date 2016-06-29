@@ -155,7 +155,7 @@ Styling
   Don't apply the styling to early, so if you see code to reset the border, padding, margin, you need refactoring.
 
 
-Devops, Data Structure, React
+React
 isset vs empty
 
 gulp task

@@ -13,6 +13,8 @@ Elements
 
 - Modify the html markup directly, use drag and draw to reorganize the DOM.
 
+- Right click on the element to fix the `focus` effect.
+
 Console
 ========
 - Check log from JS.

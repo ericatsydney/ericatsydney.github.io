@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "SASS 101"
+date:   2016-06-23 6:30:52 +1000
+categories: Programming
+---
+
+variable
+========
+{% highlight css%}
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+{% endhighlight %}
+
+
+mixin
+=====
+{% highlight css%}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+{% endhighlight %}
+
+
