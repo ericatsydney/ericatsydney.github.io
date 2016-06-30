@@ -7,13 +7,30 @@ categories: Programming
 
 variable
 ========
-{% highlight css%}
+{% highlight sass%}
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 {% endhighlight %}
 
-
 mixin
 =====
+{% highlight sass%}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+{% endhighlight %}
+
+each
+====
+{% highlight sass%}
+$list: adam john wynn mason kuroir
+
+  @each $author in $list
+    .photo-#{$author}
+      background: image-url("avatars/#{$author}.png") no-repeat
+{% endhighlight %}
 
 

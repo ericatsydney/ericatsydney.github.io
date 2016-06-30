@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -50,8 +48,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.3046595">
-                <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
+              <first_editor vertical-scroll-proportion="0.20788531">
+                <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -417,12 +415,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00057" summary="Updated 'Drupal'.">
-      <created>1464353534483</created>
-      <option name="number" value="00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1464353534483</updated>
-    </task>
     <task id="LOCAL-00058" summary="Added 2 posts.">
       <created>1464697284240</created>
       <option name="number" value="00058" />
@@ -711,7 +703,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467204286557</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Update the memory.">
+      <created>1467283840516</created>
+      <option name="number" value="00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1467283840516</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -751,7 +749,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="继续挖坑." />
     <MESSAGE value="Update post." />
     <MESSAGE value="Added a post." />
     <MESSAGE value="Updated a post." />
@@ -776,7 +773,8 @@
     <MESSAGE value="Update css box model." />
     <MESSAGE value="Added 2 posts." />
     <MESSAGE value="Fix highlight error." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix highlight error." />
+    <MESSAGE value="Update the memory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the memory." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1330,8 +1328,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.3046595">
-            <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
+          <first_editor vertical-scroll-proportion="0.20788531">
+            <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
             <folding />
           </first_editor>
           <second_editor />
