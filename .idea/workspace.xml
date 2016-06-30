@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -48,8 +50,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.39605734">
-                <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.3046595">
+                <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -112,7 +114,7 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.059027776">
+              <first_editor vertical-scroll-proportion="0.0609319">
                 <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
                 <folding />
               </first_editor>
@@ -128,8 +130,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.27419356">
-                <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <first_editor vertical-scroll-proportion="0.33512545">
+                <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -137,15 +139,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-06-21-Sublime-tricks.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-06-21-Sublime-tricks.markdown">
+      <file leaf-file-name="2016-06-03-make-yourself-understood.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.0">
-                <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -229,7 +231,6 @@
         <option value="$PROJECT_DIR$/_posts/2016-06-02-children-drawing.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-29-JS-code-standard.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-31-understanding-css.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-01-release-management.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-19-now-vims-time.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-13-restful-api.markdown" />
@@ -247,6 +248,7 @@
         <option value="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-18-how-to-be-efficent.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-29-knowledge-stucture.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
       </list>
@@ -414,12 +416,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Updated 'refactoring'.">
-      <created>1464348635440</created>
-      <option name="number" value="00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1464348635440</updated>
     </task>
     <task id="LOCAL-00057" summary="Updated 'Drupal'.">
       <created>1464353534483</created>
@@ -709,7 +705,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467204003471</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Fix highlight error.">
+      <created>1467204286557</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1467204286557</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -749,7 +751,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix utf problem." />
     <MESSAGE value="继续挖坑." />
     <MESSAGE value="Update post." />
     <MESSAGE value="Added a post." />
@@ -774,7 +775,8 @@
     <MESSAGE value="Update javascript basic." />
     <MESSAGE value="Update css box model." />
     <MESSAGE value="Added 2 posts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 2 posts." />
+    <MESSAGE value="Fix highlight error." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix highlight error." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1134,20 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-04-Storm-insight.markdown">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9516129">
@@ -1294,13 +1282,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-29-knowledge-stucture.markdown">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.059027776">
+          <first_editor vertical-scroll-proportion="0.0609319">
             <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             <folding />
           </first_editor>
@@ -1314,8 +1316,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.27419356">
-            <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <first_editor vertical-scroll-proportion="0.33512545">
+            <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1328,8 +1330,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.39605734">
-            <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.3046595">
+            <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />

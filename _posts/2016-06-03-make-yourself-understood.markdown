@@ -8,7 +8,7 @@ visible: false
 
 简单清楚地表达想法，对我来说从来不是一件容易的事。在我看来，我在语言组织（流畅）、逻辑（清晰）、信心（稳定），上都有待改进：
 
-##一切从词汇开始##
+##从词汇开始##
 
 名词：Exclamation, flexibility, demo/ prototype
 
@@ -18,7 +18,7 @@ visible: false
 
 动词：go, remove, point to, Assign, Nest / embed, Render, Store, Override, make, require, set, use, switch over, assume, take over, combine, miss out, enable
 
-##如何打招呼:##
+##日常对话的短语##
 
  What's up? -> nothing
 
@@ -28,53 +28,33 @@ visible: false
 
  hey man / yo -> what's up
 
- Howdy
+ Howdy / Howdy
 
-##日常对话的短语##
+ Propably / Apparently / it seems
 
-What did you get for your lunch?
+ Fair enough
 
-Propably / Apparently / it seems
+ I cannot make it
 
-Fair enough
+ I will buzz you
 
-I cannot make it
-
-I will buzz you
-
-GG / Good game 做得不错，有时是讽刺
+ GG / Good game 做得不错，有时是讽刺
 
 ##工作上的问题陈述方式：##
 
-询问意见：What if / How about/ What do you think
+陈述：looking to do sth / looking into this now / Split up / Separate pages / in read-only mode / at the moment / clarify xxx stuff/ apply the change
 
-step back in a different aspect to see
+解释：this is for the benefit of xxxx / base on xxxx / depend on / it would get cached / in a different aspect / That ring my bell
 
-I have a feeling that / I feel like we missed / I am not 100% clear on / sure about / Pretty sure
+提问：have anyone experienced this
 
-best approach might be
+提议：best approach might be / What if / How about/ What do you think / have you attempt to / if you have a minute, I would like to confirm the design with you
 
-Almost/nearly/pretty much done/ completed / sure thing
+判断：I have a feeling that / I feel like we missed / I am not 100% clear on / sure about / Pretty sure / I reckon
 
-I didn't have a chance to ....
+肯定： Almost/nearly/pretty much done/ completed / sure thing
 
-it would get cached
-
-have anyone experienced this / That ring my bell.
-
-Split up / Separate pages
-
-waste time doing sth / this is for the benefit of xxxx / which can be avoided  / base on xxxx / depend on
-
-in read-only mode / at the moment
-
-doesn't appear / what exactly the issue was
-
-looking to do sth / looking into this now / have you attempt to
-
-clarify xxx stuff/ apply the change
-
-which is unfortunateyou have a minute, I would like to confirm the design with you
+否定： I didn't have a chance to .... / which can be avoided  / doesn't appear / what exactly the issue was / which is unfortunate  
 
 ##逻辑##
 

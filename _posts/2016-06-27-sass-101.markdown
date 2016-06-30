@@ -7,6 +7,10 @@ categories: Programming
 
 variable
 ========
+{% highlight css%}
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+{% endhighlight %}
 
 
 mixin
