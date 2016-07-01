@@ -9,6 +9,8 @@ Understanding Hook:
 
 HOOK is the theme, module
 
+In many situations, we use the hook as pre-processor,  
+
 Hook's Sequence
 hook_preprocess_theme -> template
 hook_preprocess_block

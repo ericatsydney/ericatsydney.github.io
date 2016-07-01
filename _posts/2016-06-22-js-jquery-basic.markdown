@@ -47,3 +47,7 @@ js handler pass the data
 
 ready vs attach
 ===============
+
+
+event vs callback function
+==========================

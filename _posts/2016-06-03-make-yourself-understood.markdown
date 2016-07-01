@@ -20,7 +20,7 @@ visible: false
 
 ##日常对话的短语##
 
- What's up? -> nothing
+ What's up / what's happening? -> nothing
 
  How have you been? -> same old
 
@@ -40,44 +40,22 @@ visible: false
 
  GG / Good game 做得不错，有时是讽刺
 
-##工作上的问题陈述方式：##
+##工作上的问题陈述方式（逻辑）：##
 
-陈述：looking to do sth / looking into this now / Split up / Separate pages / in read-only mode / at the moment / clarify xxx stuff/ apply the change
+陈述（总分关系， 顺序关系， 转折关系， 递进关系）：then / but / further more
 
-解释：this is for the benefit of xxxx / base on xxxx / depend on / it would get cached / in a different aspect / That ring my bell
+对比（选择关系）：the down side of xxxx is that / alternatively
 
-提问：have anyone experienced this
+解释 (因果关系)：this is for the benefit of xxxx / base on xxxx / depend on / it would get cached / in a different aspect / That ring my bell / cause / so / due to
+
+假设（条件关系）： Using this method, xxxxxxx / By requesting A, xxxxxx / If xxxxxx / Once xxxxxx / When xxxxxx /
 
 提议：best approach might be / What if / How about/ What do you think / have you attempt to / if you have a minute, I would like to confirm the design with you
+
+提问：have anyone experience this / how to reproduce this problem
 
 判断：I have a feeling that / I feel like we missed / I am not 100% clear on / sure about / Pretty sure / I reckon
 
 肯定： Almost/nearly/pretty much done/ completed / sure thing
 
 否定： I didn't have a chance to .... / which can be avoided  / doesn't appear / what exactly the issue was / which is unfortunate  
-
-##逻辑##
-
-总分关系：
-
-因果关系： cause / so / due to
-
-递进关系：further more
-
-转折关系： but
-
-顺序关系：then
-
-选择关系：alternatively
-
-补充说明：which means xxxx
-
-条件关系：If xxxxxx / Once xxxxxx / When xxxxxx /
-
-假设关系：Using this method, xxxxxxx / By requesting A, xxxxxx
-
-对比：the down side of xxxx is that
-
-##技巧##
-
-直指要点，再分步说明。

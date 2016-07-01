@@ -19,6 +19,6 @@ Framework / CMS / Library
 
 Data Structure
 
-Workflow / Tooling
+Workflow / Tooling / IDE
 
 DevOps

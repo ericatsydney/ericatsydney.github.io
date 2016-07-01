@@ -7,13 +7,15 @@ categories: Programming
 
 variable
 ========
+SASS variable just like the variable in other language. 
 {% highlight sass%}
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 {% endhighlight %}
 
-mixin
-=====
+@mixin
+======
+Mixin make it possible to pass the parameters in.
 {% highlight sass%}
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -23,8 +25,9 @@ mixin
 }
 {% endhighlight %}
 
-each
-====
+@each
+=====
+SASS also provide `@if`, `@for`, `@while` to make complicated logic.
 {% highlight sass%}
 $list: adam john wynn mason kuroir
 
