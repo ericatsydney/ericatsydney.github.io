@@ -19,4 +19,6 @@ categories: Thinking
 
 联想：相似（相反），时空，因果
 
+思维的形式：分析， 综合， 抽象， 概括（归纳）
+
 Story: given when then
