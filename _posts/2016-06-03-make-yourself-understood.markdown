@@ -39,6 +39,8 @@ visible: false
  I will buzz you
 
  GG / Good game 做得不错，有时是讽刺
+ 
+ kind of 
 
 ##工作上的问题陈述方式（逻辑）：##
 

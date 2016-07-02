@@ -38,6 +38,20 @@ Solution is chain `once` and `on` to attach function only once.
 
 once vs one
 ===========
+- `once()` is a plugin of jQuery:
+{% highlight javascript%}
+// The following will change the color of each paragraph to red, just once
+// for the "changecolor" key.
+$('p').once('changecolor').css('color', 'red');
+{% endhighlight %}
+
+- while `one()` is a jQuery function, it attach a handler to an event for the elements, and the handler will be executed once per element per event type.
+{% highlight javascript%}
+// .one(events, handler)
+$( "#foo" ).one( "click", function() {
+  alert( "This will be displayed only once." );
+});
+{% endhighlight %}
 
 bind vs proxy
 =============

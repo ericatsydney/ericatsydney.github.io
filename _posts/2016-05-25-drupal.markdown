@@ -283,17 +283,21 @@ But in the meantime it generate a lot of problem
 - Export feature time/ resource consuming.
 
 
-Javascript in Drupal
-====================
-We use `drupal_add_js`, and could control the position by `weight`, `position`.
+Javascript API
+==============
+`drupal_add_js` could be used to load the JS via HOOK, and `weight`, `position` is the option to control the loading position.
 
-Here's a very useful aritcle about `Drupal.behaviors.attach`, we could use context and variable as well.
+- `Drupal.setttings` is what enable us to pass information from PHP code to JS code
 
-We could use drupal variable to pass the configuration from admin UI to JS.
+- `Drupal.behaviors` will get called DOM has loaded (for AJAX load as well), we can use `context` to know which DOM is being processed.
 
-Once function in jQuery TBC
-
-
+- `Once` function is jQuery plugin, we can use `once()` in Drupal out of the box.
+ {% highlight javascript%}
+// The following will change the color of each paragraph to red, just once
+// for the "changecolor" key.
+$('p').once('changecolor').css('color', 'red'); 
+ {% endhighlight %}
+ 
 How Foundation work in Drupal
 ============================
 Setup the font size base, use rem to setup breakpoint: small, medium, large, x-large.
