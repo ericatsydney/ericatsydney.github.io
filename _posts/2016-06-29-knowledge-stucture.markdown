@@ -65,7 +65,7 @@ Workflow / Tooling / IDE
 
 - postman
 
-testing
+Testing
 =======
 
 - ChimpJS
@@ -103,3 +103,4 @@ Design Pattern
 DevOps
 Google Analytics
 Google Tag Manager
+vagrant
