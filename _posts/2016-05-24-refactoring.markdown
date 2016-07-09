@@ -5,14 +5,22 @@ date:   2016-05-24 7:05:52 +1000
 categories: Programming
 ---
 
-Java Script
-===========
+Principle
+=========
+- Centralize: keep the same logic, setting in one file.
+
+- DRY: use iterator to repeat.
+
+- Decoupling: observer design pattern
+
+Javascript
+==========
 
 - Change file name to use this pattern: [module].[some]-[function].js.
 
 - Change variable name to camel case.
 
-- Split files according to different purpose: main logic, default setting, implementation, utility, event sequence.
+- Split files according to different purpose: main logic, setting, implementation(callback function), utility, event.
 
 - Performance: reduce the event trigger, listen, make them happen once.
 
@@ -154,5 +162,6 @@ Styling
 - Check it out: the [SMACSS](https://smacss.com/book/categorizing)
   Don't apply the styling to early, so if you see code to reset the border, padding, margin, you need refactoring.
 
+- Use class instead of html tag
 
 isset vs empty

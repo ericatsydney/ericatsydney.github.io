@@ -22,8 +22,18 @@ Use event to decouple
 =====================
 
 Use `trigger` and `on` to throw and catch the event, rather than call function in different file directly. 
- 
+
 The jQuery `on` function is not compatible against version under 1.7.
+
+In the `on` function, we could use object to define multiple events.
+{% highlight js%}
+  $(document).on({
+  'event1': functionReference2,
+  'event2': functionReference2,
+  'event3': functionReference3
+  })
+{% endhighlight %}
+
 
 unbind
 ======
