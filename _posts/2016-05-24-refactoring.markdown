@@ -11,6 +11,8 @@ Principle
 
 - DRY: use iterator to repeat.
 
+- Slip files according to the functions.
+
 - Decoupling: observer design pattern
 
 Javascript

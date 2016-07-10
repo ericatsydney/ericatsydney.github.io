@@ -19,12 +19,29 @@ Shortcut Cheatsheet
 
 - `%s\old\new\g` global replace, `%s\old\new\gc` replace with confirmation
 
-- `yy` `yw`
+- yank `yy` `yw`
 
+- `gg` go to the top of the file, `zz` make the current line to the center.
+     
 - Go to the paragraph end
+
 
 Multple File Editing
 ====================
+- `:vsp` slip screen vertically
+
+- `ctrl + w` and `ctrl + h` swap the slip, so we could add mapping like this:
+{% highlight js%}
+nmap <C + L> : <C + W> <C + L>
+{% endhighlight %}
+
+- `:bn`, `:bp`, `:b1`, `:b2`, `:b3` change buffer
+
+- `ctrl + ^` swap buffer
+
+- plugin `vundle`, `vinegar`, `nerdtree`: help to show files in folders
+
+- plugin `controlP` help to quick search by file name
 
 Linting
 =======

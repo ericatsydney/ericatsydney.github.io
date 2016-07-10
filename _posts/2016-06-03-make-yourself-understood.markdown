@@ -10,7 +10,7 @@ visible: false
 
 ##从词汇开始##
 
-名词：Exclamation, flexibility, demo/ prototype
+名词：Exclamation, flexibility, demo/ prototype, parentheses, caret
 
 形容词：ideal / future-proofing， Sweet/ Sick / Awesome  很好的意思， Suck 很糟糕
 
