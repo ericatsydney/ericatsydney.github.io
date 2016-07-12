@@ -72,6 +72,12 @@ js handler pass the data
 ready vs attach
 ===============
 
-
 event vs callback function
 ==========================
+
+type casting
+============
+{% highlight js%}
+(string) variable1
+{% endhighlight %}
+

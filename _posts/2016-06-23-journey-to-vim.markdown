@@ -6,25 +6,29 @@ categories: Programming
 ---
 Shortcut Cheatsheet
 ===================
+[A very simple reference](http://www.worldtimzone.com/res/vi.html).
 
 - `Ctrl + v` switch column edit mode (visual block) , use 'up' and 'down' to choose column, `I` switch to insert mode, edit then `Esc`
 
 - in normal mode, press `v` switch to visual mode
 
-- `dd` cut line
+- `gg` go to the top of the file, `G` go to the bottom of the file ,`zz` make the current line to the center.
 
-- `d` cut
+- `dd` cut one line, `d` cut
 
+- `cw`, `cc` delete and insert
+
+- yank `yy` `yw`
+
+- `}` Go to the paragraph end
+     
 - `p` paste
 
 - `%s\old\new\g` global replace, `%s\old\new\gc` replace with confirmation
 
-- yank `yy` `yw`
-
-- `gg` go to the top of the file, `zz` make the current line to the center.
-     
-- Go to the paragraph end
-
+How to install Plugin
+=====================
+ctrlP, nerdtree
 
 Multple File Editing
 ====================
@@ -45,9 +49,3 @@ nmap <C + L> : <C + W> <C + L>
 
 Linting
 =======
-
-Plugin
-======
-ctrlP, nurtree
-
-

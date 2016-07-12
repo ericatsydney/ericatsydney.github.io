@@ -4,6 +4,17 @@ title:  "SASS 101"
 date:   2016-06-23 6:30:52 +1000
 categories: Programming
 ---
+Configration
+============
+When we use `compass` to compile we need to setup the configuration file call `config.rb`.
+{% highlight sass%}
+# Setup the directories
+
+{% endhighlight %}
+
+import vs include
+=================
+
 
 variable
 ========
@@ -37,3 +48,8 @@ $list: adam john wynn mason kuroir
 {% endhighlight %}
 
 
+A real sample code
+==================
+{% highlight sass%}
+
+{% endhighlight %}

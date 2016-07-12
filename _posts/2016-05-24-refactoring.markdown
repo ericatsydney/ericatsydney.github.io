@@ -7,13 +7,18 @@ categories: Programming
 
 Principle
 =========
-- Centralize: keep the same logic, setting in one file.
+- Sufficient comment.
 
-- DRY: use iterator to repeat.
+- Semantic naming.
 
 - Slip files according to the functions.
 
+- Centralize: keep the similar functions, setting in one file.
+
 - Decoupling: observer design pattern
+
+- DRY: use iterator to repeat.
+
 
 Javascript
 ==========
@@ -81,6 +86,20 @@ $dom = $.create('<div />', {
 
 Reference： [AirBnB Style Guide](https://github.com/airbnb/javascript/)
 
+- Programmatically trigger events;
+{% highlight js%}
+$.each(janrain.events, function(event) {
+  if (typeof janrain.events[event].addHandler === 'function') {
+    janrain.events[event].addHandler(function() {
+      // E.g. `onCaptureProfileLink` => `CaptureProfileLink`.
+      var eventName = 'fcl.janrain.' + event.replace(/^on/, '', event);
+      $(document).trigger(eventName, arguments);
+    });
+  }
+});
+{% endhighlight %}
+ 
+
 
 PHP (based on Drupal)
 =====================
@@ -142,6 +161,7 @@ $keys = array('Batman', 'Superman', 'Spiderman', 'Ironman');
 $a = array_fill_keys($keys, 'Marvel Comics');
 {% endhighlight %}
 
+-- Use `array_filter` to remove the empty value.
 
 - Use block to put multiple template together
 
@@ -166,4 +186,4 @@ Styling
 
 - Use class instead of html tag
 
-isset vs empty
+- Use mixin with parameter, refer this [sample](http://ericatsydney.github.io/programming/2016/06/27/sass-101.html)
