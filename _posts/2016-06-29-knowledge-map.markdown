@@ -2,7 +2,7 @@
 layout: post
 title:  "Knowledge Map"
 date:   2016-06-29 6:30:52 +1000
-categories: Thinking
+categories: Programming
 ---
 
 UX / UI
@@ -101,6 +101,15 @@ Design Pattern
 - MVC
 
 DevOps
+======
+- Shell script / command / Crontab
+
+- User account setup
+
+- Deployment: Forge
+
+
+
 Google Analytics
 Google Tag Manager
 vagrant

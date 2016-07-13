@@ -13,3 +13,7 @@ type casting
 {% highlight php%}
 {% endhighlight %}
 
+Utility
+=======
+1. `fcl_get` Get with the default value
+2. `sorting`

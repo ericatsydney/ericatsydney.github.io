@@ -81,3 +81,7 @@ type casting
 (string) variable1
 {% endhighlight %}
 
+arguments
+=========
+
+

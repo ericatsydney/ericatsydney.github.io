@@ -6,10 +6,12 @@ categories: Programming
 ---
 Configration
 ============
-When we use `compass` to compile we need to setup the configuration file call `config.rb`.
+When we use `compass` to compile we need to setup the [configration](http://compass-style.org/help/documentation/configuration-reference/) file call `config.rb`.
 {% highlight sass%}
 # Setup the directories
-
+css_dir = "assets/stylesheets"
+fonts_dir = "assets/fonts"
+relative_assets = true
 {% endhighlight %}
 
 import vs include
