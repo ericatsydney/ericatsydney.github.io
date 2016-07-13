@@ -28,7 +28,11 @@ Shortcut Cheatsheet
 
 How to install Plugin
 =====================
-ctrlP, nerdtree
+- Pathogen use `git clone` command to get the source code
+
+- Vunble use .vimrc to config and run `:PluginInstall`
+
+- Some useful plugins: ctrlP, nerdtree, airline, syntastic
 
 Multple File Editing
 ====================
@@ -43,9 +47,12 @@ nmap <C + L> : <C + W> <C + L>
 
 - `ctrl + ^` swap buffer
 
-- plugin `vundle`, `vinegar`, `nerdtree`: help to show files in folders
+- plugin `nerdtree`: help to show files in folders
 
 - plugin `controlP` help to quick search by file name
 
+- plugin `airline` help to organize tab
+
 Linting
 =======
+- plugin `Syntastic` help to manager the linting checker
