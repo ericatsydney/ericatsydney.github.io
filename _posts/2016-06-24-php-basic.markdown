@@ -4,7 +4,6 @@ title:  "php basic"
 date:   2016-06-22 22:30:52 +1000
 categories: Programming
 ---
-
 Type Conversion
 ===============
 {% highlight php%}
@@ -16,13 +15,11 @@ function foo_bar($arg1) {
   }
   return $result;
 }
-
 print foo_bar(1);     // Output 1.
 print foo_bar([2,3]); // Output 5.
-
 {% endhighlight %}
 
-require
+Require
 =======
 
 
