@@ -68,7 +68,7 @@ Workflow / Tooling / IDE
 Testing
 =======
 
-- ChimpJS
+- [BDD Terminology](/programming/2016/07/14/BDD-terminology.html) 
 
 - phpUnit
 

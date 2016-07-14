@@ -162,6 +162,13 @@ $form['#method'] = 'get';
       ),
 {% endhighlight %}
 
+- How to use programatically render a form.
+{% highlight php%}
+$form = drupal_get_form('user_register_form');
+print drupal_render($form);
+{% endhighlight %}
+
+
 
 Block and context
 ==================

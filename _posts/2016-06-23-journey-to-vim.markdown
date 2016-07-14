@@ -10,7 +10,7 @@ Shortcut Cheatsheet
 
 - `Ctrl + v` switch column edit mode (visual block) , use 'up' and 'down' to choose column, `I` switch to insert mode, edit then `Esc`
 
-- in normal mode, press `v` switch to visual mode
+- `v` in normal mode to switch to visual mode
 
 - `gg` go to the top of the file, `G` go to the bottom of the file ,`zz` make the current line to the center.
 
@@ -18,7 +18,7 @@ Shortcut Cheatsheet
 
 - `cw`, `cc` delete and insert
 
-- yank `yy` `yw`
+- `yy` `yw` yank command
 
 - `}` Go to the paragraph end
      
@@ -53,6 +53,12 @@ nmap <C + L> : <C + W> <C + L>
 
 - plugin `airline` help to organize tab
 
+- plugin `vinegar` help you to get files in current directory
+
 Linting
 =======
 - plugin `Syntastic` help to manager the linting checker
+
+- `:SyntasticCheck` enable the linting
+
+- `:SyntasticInfo` check the current checkers.

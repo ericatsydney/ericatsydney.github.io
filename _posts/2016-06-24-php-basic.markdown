@@ -5,13 +5,30 @@ date:   2016-06-22 22:30:52 +1000
 categories: Programming
 ---
 
+Type Conversion
+===============
+{% highlight php%}
+// Use type conversion to make the function accept both number and array.
+function foo_bar($arg1) {
+  $result = 0;
+  foreach ((array) $arg1 as $value) {
+      $result += $value;
+  }
+  return $result;
+}
+
+print foo_bar(1);     // Output 1.
+print foo_bar([2,3]); // Output 5.
+
+{% endhighlight %}
+
+require
+=======
+
+
 isset vs empty
 ==================
 
-type casting
-============
-{% highlight php%}
-{% endhighlight %}
 
 Utility
 =======

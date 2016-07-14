@@ -18,7 +18,7 @@ Linux
 
 - find 
 
-- which
+- which / whereis
 
 - scp
 

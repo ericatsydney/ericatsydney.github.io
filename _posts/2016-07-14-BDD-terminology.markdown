@@ -20,6 +20,7 @@ Then an assertable state is achieved
  
 - Selenium2.O / Webdriver: testing framework for web application, it provide record/ playback tool.
 ![Selenium RC Architecture](/assets/chapt5_img01_Architecture_Diagram_Simple.png) 
+
 [Image Credit](http://www.seleniumhq.org/docs/05_selenium_rc.jsp) 
 
 - Webdriverio: a implementation of Selenium, it basically send request to a Selenium server via the WebDriver Wire Protocol and handle the response.

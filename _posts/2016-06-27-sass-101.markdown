@@ -14,11 +14,7 @@ fonts_dir = "assets/fonts"
 relative_assets = true
 {% endhighlight %}
 
-import vs include
-=================
-
-
-variable
+Variable
 ========
 SASS variable just like the variable in other language. 
 {% highlight sass%}
@@ -35,6 +31,18 @@ Mixin make it possible to pass the parameters in.
      -moz-border-radius: $radius;
       -ms-border-radius: $radius;
           border-radius: $radius;
+}
+{% endhighlight %}
+
+Import vs Include
+=================
+{% highlight sass%}
+// @import a partial file name '_partial.scss'. 
+@import "the/partial"
+
+// Use a mixin by @include.
+.div {
+  @include a-mixin(10px)
 }
 {% endhighlight %}
 

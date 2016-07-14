@@ -9,3 +9,5 @@ Some Short Cut
 - `Ctrl K` + `Ctrl B` toggle the sidebar.
 
 - `Ctrl + P` Blur search.
+
+- `Ctrl + shift + P` install package

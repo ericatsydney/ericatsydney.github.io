@@ -34,12 +34,26 @@ In the `on` function, we could use object to define multiple events.
   })
 {% endhighlight %}
 
+How to pass parameter via event
+=============================================
 
-unbind
-======
-unbind's drawback ??????
 
-Solution is chain `once` and `on` to attach function only once.
+Type Conversion
+===============
+{% highlight js%}
+// Convert the object name to string, so that we could reuse that in bracket notation.
+$.each(nameSpace.events, function(event) {
+  if (typeof nameSpace.events[String(event)].functionName === 'function') {
+    nameSpace.events[String(event)].functionName();
+  }
+}
+{% endhighlight %}
+
+Avoid to use unbind
+===================
+The drawback of `unbind` is ??????.
+
+And the solution is chain `once` and `on` to attach function only once.
 {% highlight javascript%}
   $selector.once().on('eventName', function() {
     //callback function.
@@ -66,22 +80,13 @@ $( "#foo" ).one( "click", function() {
 bind vs proxy
 =============
 
-js handler pass the data
-========================
-
 ready vs attach
 ===============
 
 event vs callback function
 ==========================
 
-type casting
-============
-{% highlight js%}
-(string) variable1
-{% endhighlight %}
-
-arguments
-=========
+arguments??
+===========
 
 
