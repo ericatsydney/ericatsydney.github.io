@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Linting"
+date:   2016-07-16 2:30:52 +1000
+categories: Programming
+---
+
+jshint
+======
+ - install
+ {% highlight shell%}
+    sudo npm install -g jshint
+ {% endhighlight %}
+
+ - configuration
+**enforcing** is making the `jshint` more strict, **relaxing** is to suppress some warning.
+[.jshintrc](https://github.com/jshint/jshint/blob/master/examples/.jshintrc) option explanation.
+
+scss-lint
+=========
+- install
+{% highlight shell%}
+    sudo apt-get install ruby
+    sudo gem install scss_lint
+{% endhighlight %}
+
+
+ 

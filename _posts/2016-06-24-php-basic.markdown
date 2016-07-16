@@ -7,7 +7,7 @@ categories: Programming
 Type Conversion
 ===============
 {% highlight php%}
-// Use type conversion to make the function accept both number and array.
+// Use type conversion to make the function accept both number and array as data type.
 function foo_bar($arg1) {
   $result = 0;
   foreach ((array) $arg1 as $value) {
@@ -19,13 +19,20 @@ print foo_bar(1);     // Output 1.
 print foo_bar([2,3]); // Output 5.
 {% endhighlight %}
 
-Require
-=======
-
-
-isset vs empty
+Require vs include
 ==================
+`require` is identical as `include`, except it can throw error when failure.
 
+`require_once` will check if the file has already been included.
+
+Isset vs empty vs isnull
+========================
+
+- `isset` return true when the variable is **not null**
+
+- `empty` return true when the variable is an **empty string** / **false** / **array()** / **null** / **0** and a unset value.
+
+- `isnull` is opposite as `isset`, return true when **null**
 
 Utility
 =======

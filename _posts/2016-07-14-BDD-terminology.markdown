@@ -23,7 +23,7 @@ Then an assertable state is achieved
 
 [Image Credit](http://www.seleniumhq.org/docs/05_selenium_rc.jsp) 
 
-- Webdriverio: a implementation of Selenium, it basically send request to a Selenium server via the WebDriver Wire Protocol and handle the response.
+- Webdriverio: A implementation of Selenium, it basically send request to a Selenium server via the WebDriver Wire Protocol and handle the response.
  -- browser: a global variable, through this we can access session and all information using this [API](http://webdriver.io/api.html)
 {% highlight js%}
  this.Given(/^I am on "([^"]*)" page$/, function (page) {
@@ -32,7 +32,7 @@ Then an assertable state is achieved
 {% endhighlight %}
 
  
-- Jasmin: A BDD testing framework for Javascript, it provide a `expect()` function for assertion.
+- Jasmin: A BDD library for Javascript, it provide assertion functions, like `expect()`.
  -- expectation: true or false
  -- spec: passing or falling 
 {% highlight js%}
@@ -42,3 +42,5 @@ describe('Hello world', function() {
   });
 });
 {% endhighlight %}
+
+- Mocha: A framework for asynchronous testing. 

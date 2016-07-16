@@ -11,6 +11,10 @@ CSS box model has many tricky thing.
 
 > ** by someone **
 
+**Full page Background**
+
+[css tricks](https://css-tricks.com/perfect-full-page-background-image/) 
+
 **negative margin**
 
 Without seting the child width and floating, `negative margin` make the child wider than the parent.
@@ -117,8 +121,12 @@ position: absolute;
 4. 父容器 赋值 `overflow： auto`。
 
 **Animation**
+{% highlight css%}
+.div {
+  transition: all, .5s, ease-out;
+}
+{% endhighlight %}
 
-transition: all, .5s, ease-out;
 
 定义:hover 状态
 
@@ -127,7 +135,4 @@ transition: all, .5s, ease-out;
 Row可以放在一个固定width的div里，再使用column。
 
 **Fixed Width带来的麻烦**
-
-
-
 
