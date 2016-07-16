@@ -14,7 +14,7 @@ Linux
 
 - Crontab
 
-- grep
+- grep, pipe
 
 - find 
 
@@ -27,3 +27,7 @@ Linux
 - start service
 
 - backup file
+
+- package management: `yum install` and `apt-get`
+
+- `curl` and `wget`
