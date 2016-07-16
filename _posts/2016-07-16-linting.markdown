@@ -20,9 +20,16 @@ scss-lint
 =========
 - install
 {% highlight shell%}
-    sudo apt-get install ruby
+    # we need the ruby2.0 or above to install scss-lint.
+    sudo apt-add-repository ppa:brightbox/ruby-ng
+    sudo apt-get update
+    sudo apt-get install ruby2.3 ruby2.3-dev    
     sudo gem install scss_lint
 {% endhighlight %}
+
+- configure
+Create a `.scss-lint.yml` in user home directory.
+This is the default [yaml config](https://raw.githubusercontent.com/brigade/scss-lint/master/config/default.yml)  in official site.
 
 
  
