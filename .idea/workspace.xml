@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Updated linting.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-16-linting.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-16-linting.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -46,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.76565295">
+              <first_editor vertical-scroll-proportion="0.7670251">
                 <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
                 <folding />
               </first_editor>
@@ -62,8 +64,24 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-07-16-linting.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.9086022">
-                <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.82258064">
+                <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-05-24-refactoring.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.33512545">
+                <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -78,8 +96,40 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.9390681">
-                <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.39605734">
+                <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-06-22-js-jquery-basic.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.48022598">
+                <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-07-17-BDD-file-structure.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.21326165">
+                <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -119,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-05-30-chrome-dev-tool.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-30-understanding-css.markdown" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch" />
         <option value="$PROJECT_DIR$/_posts/2016-05-22-philosophy-save-life.markdown" />
@@ -151,7 +200,6 @@
         <option value="$PROJECT_DIR$/_posts/2016-07-08-decision-making.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-07-mr-six.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-25-algorithm.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-09-rationality.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-12-problem-solving.markdown" />
@@ -162,13 +210,15 @@
         <option value="$PROJECT_DIR$/_posts/2016-06-21-Sublime-tricks.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-23-journey-to-vim.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-25-drupal.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-31-understanding-css-box-model.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-24-php-basic.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-16-linting.markdown" />
       </list>
     </option>
@@ -269,7 +319,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="knowledge&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;css&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;php&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-24-php-basic.markdown&#10;box&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;vim&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-23-journey-to-vim.markdown&#10;sub&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-21-Sublime-tricks.markdown&#10;kn&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;pr&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-02-26-keep-programming.markdown&#10;sass&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-27-sass-101.markdown&#10;kno&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-stucture.markdown&#10;make&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-03-make-yourself-understood.markdown&#10;index.ht&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_site/about/index.html&#10;config&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_config.yml" />
+    <property name="SearchEverywhereHistoryKey" value="kn&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;refa&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-24-refactoring.markdown&#10;knowledge&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;css&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;php&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-24-php-basic.markdown&#10;box&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;vim&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-23-journey-to-vim.markdown&#10;sub&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-21-Sublime-tricks.markdown&#10;pr&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-02-26-keep-programming.markdown&#10;sass&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-27-sass-101.markdown&#10;kno&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-stucture.markdown&#10;make&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-03-make-yourself-understood.markdown&#10;index.ht&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_site/about/index.html&#10;config&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_config.yml" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
     <property name="com.intellij.ide.scratch.NewScratchFileAction" value="PHP" />
@@ -321,12 +371,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Update the ctools plugin sample code.">
-      <created>1465994294728</created>
-      <option name="number" value="00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1465994294728</updated>
     </task>
     <task id="LOCAL-00081" summary="Using the live template.">
       <created>1466075961411</created>
@@ -616,7 +660,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468709296541</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Updated linting.">
+      <created>1468718658776</created>
+      <option name="number" value="00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1468718658776</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -688,13 +738,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846">
@@ -969,19 +1012,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.8172043">
-            <caret line="188" column="115" selection-start-line="188" selection-start-column="115" selection-end-line="188" selection-end-column="115" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Vim/_vimrc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16639479">
@@ -1064,19 +1094,6 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="1.9193548">
             <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.5517891">
-            <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
@@ -1217,20 +1234,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.76565295">
-            <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1245,11 +1248,67 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.33512545">
+            <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9390681">
-            <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.39605734">
+            <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.48022598">
+            <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.7670251">
+            <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.21326165">
+            <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1262,8 +1321,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-07-16-linting.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9086022">
-            <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.82258064">
+            <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

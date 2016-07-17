@@ -9,7 +9,7 @@ Principle
 =========
 - Sufficient comment.
 
-- Semantic naming.
+- Semantic naming (variables, functions, ).
 
 - Slip files according to the functions.
 
