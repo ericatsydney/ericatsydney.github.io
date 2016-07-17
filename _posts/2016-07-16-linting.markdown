@@ -9,10 +9,11 @@ jshint
 ======
  - install
  {% highlight shell%}
-    sudo npm install -g jshint
+   $ sudo npm install -g jshint
  {% endhighlight %}
 
  - configuration
+ 
 **enforcing** is making the `jshint` more strict, **relaxing** is to suppress some warning.
 [.jshintrc](https://github.com/jshint/jshint/blob/master/examples/.jshintrc) option explanation.
 
@@ -28,7 +29,9 @@ we need the ruby2.0 or above to install scss-lint.
 {% endhighlight %}
 
 - configure
+
 Create a `.scss-lint.yml` in user home directory.
+
 This is the default [yaml config](https://raw.githubusercontent.com/brigade/scss-lint/master/config/default.yml)  in official site.
 
 
@@ -43,5 +46,3 @@ $ mv composer.phar /usr/local/bin/composer;
 $ composer help
 $ composer global require "squizlabs/php_codesniffer=*"
  {% endhighlight %}
- 
- 

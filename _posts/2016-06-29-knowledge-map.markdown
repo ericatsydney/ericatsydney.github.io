@@ -25,7 +25,7 @@ UX / UI
 Language Understanding
 ======================
 
-- PHP
+- [PHP](http://ericatsydney.github.io/programming/2016/06/22/php-basic.html) 
 
 - Python
 
@@ -61,7 +61,7 @@ Workflow / Tooling / IDE
 
 - [Vim](http://ericatsydney.github.io/programming/2016/06/22/journey-to-vim.html) 
 
-- linting (scss-lint, jshint, eslint)
+- [Linting](http://ericatsydney.github.io/programming/2016/07/15/linting.html) (scss-lint, jshint, eslint)
 
 - postman
 
@@ -102,7 +102,7 @@ Design Pattern
 
 DevOps
 ======
-- Shell script / command / Crontab
+- [Shell script / command / Crontab](http://ericatsydney.github.io/programming/2016/06/22/shell-and-linux.html) 
 
 - User account setup
 
