@@ -5,9 +5,28 @@ date:   2016-06-22 22:30:52 +1000
 categories: Programming
 ---
 
-naming space
-============
+Ternary statement
+=================
+Only use for a very simple / short logic.
+{% highlight js%}
+var a;
+a = (b > c) ? b : c;
+{% endhighlight %}
 
+Namespace
+=========
+Use object literal to create the namespace
+{% highlight js%}
+var name.space = {
+  setting1: value1,
+  setting2: value2,
+  fooMethod: function() {
+  },
+  barMethod: function() {
+  }
+}
+console.log(name.sapce.fooMethod());
+{% endhighlight %}
 
 `this` is a mystry
 ==================
@@ -31,16 +50,20 @@ The jQuery `on` function is not compatible against version under 1.7.
 
 In the `on` function, we could use object to define multiple events.
 {% highlight js%}
-  $(document).on({
-  'event1': functionReference2,
-  'event2': functionReference2,
-  'event3': functionReference3
-  })
+  bindEvent: function() {
+    $(document).on({
+      'event1': eventHandler1,
+      'event2': eventHandler2,
+      'event3': eventHandler3
+    });
+  },
+  eventHandler1: function() {
+  },
+  eventHandler2: function() {
+  },
+  eventHandler3: function() {
+  },
 {% endhighlight %}
-
-How to pass parameter via event
-=============================================
-
 
 Type Conversion
 ===============
@@ -70,7 +93,9 @@ once vs one
 {% highlight javascript%}
 // The following will change the color of each paragraph to red, just once
 // for the "changecolor" key.
-$('p').once('changecolor').css('color', 'red');
+$('p').once('changecolor', function() {
+  this.css('color', 'red');
+}
 {% endhighlight %}
 
 - while `one()` is a jQuery function, it attach a handler to an event for the elements, and the handler will be executed once per element per event type.
@@ -81,16 +106,39 @@ $( "#foo" ).one( "click", function() {
 });
 {% endhighlight %}
 
-bind vs proxy
-=============
-
 ready vs attach
 ===============
+The `ready` event is fired when the full DOM has been loaded. This event is only fired once per page.
 
-event vs callback function
-==========================
+The `attach` event on the other hand is fired by **Drupal** whenever the DOM changes in response to an AJAX callback or similar event.
 
-arguments??
-===========
+event handler vs callback function
+==================================
+When we use '$.on()' function, we could use either event handler or callback function. And we can pass the arguments to the call back function.
+
+{% highlight js%}
+$(document).on('event1'', function() {
+  // logic goes here.
+});
+
+// When use event handler, remember to drop the parentheses.
+$(document).on('event2'', eventHandler2);
+
+eventHandler2 = function(event, arg) {
+  // logic goes here.
+};
+$('#id').trigger('event2', arg);
+{% endhighlight %}
+
+bind vs proxy
+=============
+Here the `prototype.bind` function is not the same as `$().bind` function, it will pass the object to the function's `this` variable. It is the similar as `$().proxy`.
+{% highlight js%}
+  var $container = $(this.productContainer);
+  // pass the `this` to bindEvents, so in the bindEvents function
+  // it will get the nameSpace scope but not the $container. 
+  $container.once('shortlist_page', this.bindEvents.bind(this));
+{% endhighlight %}
 
 
+ 
