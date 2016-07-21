@@ -5,21 +5,6 @@ date:   2016-05-24 7:05:52 +1000
 categories: Programming
 ---
 
-Principle
-=========
-- Sufficient comment.
-
-- Semantic naming (variables, functions, ).
-
-- Slip files according to the functions.
-
-- Centralize: keep the similar functions, setting in one file.
-
-- Decoupling: observer design pattern
-
-- DRY: use iterator to repeat.
-
-
 Javascript
 ==========
 
