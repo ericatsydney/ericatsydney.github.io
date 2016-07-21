@@ -1,15 +1,19 @@
----
+..*-
 layout: post
 title:  "Refactoring AGAIN"
 date:   2016-07-21 9:05:52 +1000
 categories: Programming
----
+..*-
 
-To a programmer, refactoring should never end. In the real-life project, the endless refactoring is impossible. But we could do it in our mind, read the old coding created by you, think any better solution or new way to implement.
+To a programmer, refactoring should never end. 
 
-Like setting up my `.vimrc`, that's a happy project will last forever. because I reckon it will help me better the work flow and make me more productive, and further more I can learn the new exciting stuff.
+In a real-life project, we cannot afford the endless refactoring. But we could do it in mind, have the chance to read some old coding created by yourself and rethink. Any other solution? Any better way to implement?
 
-I have make a post about [refactoring](http://ericatsydney.github.io/programming/2016/05/23/refactoring.html). And in this post, I would like to make notes about some general rule or more idea in JS aspect.
+Just like setting up my `.vimrc`, that is a happy project probably lasting forever. Because I reckon it will help me better the work-flow and then make me more productive, and further more I could learn some cool stuff from that.
+
+I have made a post about drupal [refactoring](http://ericatsydney.github.io/programming/2016/05/23/refactoring.html) in my daily life.
+ 
+And here I would like to make some notes about the general rules and ideas in JS aspect.
 
 Some general principle
 ======================
@@ -17,23 +21,23 @@ All of these aim to make the program **readable, extensible, efficient**.
 
 - readable
 
--- Sufficient comment.
+..* Sufficient comment.
 
--- Semantic naming (variables, functions, ).
+..* Semantic naming (variables, functions, nameSpace).
 
-- [Linting](http://ericatsydney.github.io/programming/2016/07/15/linting.html)
+..* [Linting](http://ericatsydney.github.io/programming/2016/07/15/linting.html)
 
 - extensible
 
--- Slip / extract logic to separate functions/files.
+..* Extract logic to separate functions / files.
 
--- Centralize: keep the similar functions, setting in one file.
+..* Centralize: keep the similar functions, setting in one file.
 
--- Decoupling: observer design pattern
+..* Decoupling: observer design pattern
 
--- DRY: use iterator to repeat.
+..* DRY: use iterator to repeat.
 
--- Use function's parameter  
+..* Use function's parameter  
 
 Reference
 =========
