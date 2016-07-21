@@ -1,9 +1,9 @@
-..*-
+---
 layout: post
 title:  "Refactoring AGAIN"
 date:   2016-07-21 9:05:52 +1000
 categories: Programming
-..*-
+---
 
 To a programmer, refactoring should never end. 
 
@@ -21,23 +21,23 @@ All of these aim to make the program **readable, extensible, efficient**.
 
 - readable
 
-..* Sufficient comment.
+  * Sufficient comment.
 
-..* Semantic naming (variables, functions, nameSpace).
+  * Semantic naming (variables, functions, nameSpace).
 
-..* [Linting](http://ericatsydney.github.io/programming/2016/07/15/linting.html)
+  * [Linting](http://ericatsydney.github.io/programming/2016/07/15/linting.html)
 
 - extensible
 
-..* Extract logic to separate functions / files.
+  * Extract logic to separate functions / files.
 
-..* Centralize: keep the similar functions, setting in one file.
+  * Centralize: keep the similar functions, setting in one file.
 
-..* Decoupling: observer design pattern
+  * Decoupling: observer design pattern
 
-..* DRY: use iterator to repeat.
+  * DRY: use iterator to repeat.
 
-..* Use function's parameter  
+  * Use function's parameter  
 
 Reference
 =========

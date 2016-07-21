@@ -77,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-07-21-refactoring-again.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.734375">
-                <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <first_editor vertical-scroll-proportion="0.6753472">
+                <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -401,12 +401,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00085" summary="Update the release control.">
-      <created>1466080687684</created>
-      <option name="number" value="00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1466080687684</updated>
-    </task>
     <task id="LOCAL-00086" summary="Update the order list.">
       <created>1466080845600</created>
       <option name="number" value="00086" />
@@ -695,7 +689,13 @@
       <option name="project" value="LOCAL" />
       <updated>1469100678334</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Updated refactoring again.">
+      <created>1469102096548</created>
+      <option name="number" value="00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1469102096549</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -735,7 +735,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added 2 posts." />
     <MESSAGE value="Fix highlight error." />
     <MESSAGE value="Update the memory." />
     <MESSAGE value="Update the sass." />
@@ -760,7 +759,8 @@
     <MESSAGE value="Updated jquery." />
     <MESSAGE value="Updated jquery and problem solving." />
     <MESSAGE value="Added refactoring again." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added refactoring again." />
+    <MESSAGE value="Updated refactoring again." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated refactoring again." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1352,8 +1352,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-07-21-refactoring-again.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.734375">
-            <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <first_editor vertical-scroll-proportion="0.6753472">
+            <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
