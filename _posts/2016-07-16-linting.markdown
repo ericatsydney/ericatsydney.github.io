@@ -8,9 +8,9 @@ categories: Programming
 jshint
 ======
  - install
- {% highlight shell%}
-   $ sudo npm install -g jshint
- {% endhighlight %}
+{% highlight shell%}
+    $ sudo npm install -g jshint
+{% endhighlight %}
 
  - configuration
  
@@ -22,10 +22,10 @@ scss-lint
 - install
 we need the ruby2.0 or above to install scss-lint.
 {% highlight shell%}
-   $ sudo apt-add-repository ppa:brightbox/ruby-ng
-   $ sudo apt-get update
-   $ sudo apt-get install ruby2.3 ruby2.3-dev    
-   $ sudo gem install scss_lint
+    $ sudo apt-add-repository ppa:brightbox/ruby-ng
+    $ sudo apt-get update
+    $ sudo apt-get install ruby2.3 ruby2.3-dev    
+    $ sudo gem install scss_lint
 {% endhighlight %}
 
 - configure
@@ -40,17 +40,17 @@ phpcs
  It's code sniffer for php
  
  - install
- {% highlight shell%}
-$ curl -sS https://getcomposer.org/installer | php;
-$ mv composer.phar /usr/local/bin/composer;
-$ composer help
-$ composer global require "squizlabs/php_codesniffer=*"
- {% endhighlight %}
+{% highlight shell%}
+    $ curl -sS https://getcomposer.org/installer | php;
+    $ mv composer.phar /usr/local/bin/composer;
+    $ composer help
+    $ composer global require "squizlabs/php_codesniffer=*"
+{% endhighlight %}
  
  - config
- 
+
  Create a `phpcs.xml` in home directory, use `--standard=/path/to/phpcs.xml` to setup the customized configuration.
 
-eshint
+eslint
 ======
 

@@ -13,11 +13,11 @@ Just like setting up my `.vimrc`, that is a happy project probably lasting forev
 
 I have made a post about drupal [refactoring](http://ericatsydney.github.io/programming/2016/05/23/refactoring.html) in my daily life.
  
-And here I would like to make some notes about the general rules and ideas in JS aspect.
+And here I would like to make some notes about the rules in JS aspect or the general ideas.
 
 Some general principle
 ======================
-All of these aim to make the program **readable, extensible, efficient**.
+All the refactoring aim to make the program **readable, extensible, efficient**.
 
 - readable
 
@@ -37,7 +37,7 @@ All of these aim to make the program **readable, extensible, efficient**.
 
   * DRY: use iterator to repeat.
 
-  * Use function's parameter  
+  * Use function's parameter
 
 Reference
 =========
