@@ -31,3 +31,5 @@ Linux
 - package management: `yum install` and `apt-get`
 
 - `curl` and `wget`
+
+- shortcut: `ctrl + a` go to start of the command, `ctrl + e` go to the end of the command

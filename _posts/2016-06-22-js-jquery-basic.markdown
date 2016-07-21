@@ -5,6 +5,18 @@ date:   2016-06-22 22:30:52 +1000
 categories: Programming
 ---
 
+Regex in JS
+===========
+Use the literal notation to create regex `\^Begin\` rather than the `new RegExp()`.
+
+This is the some useful sample.
+
+{% highlight js%}
+var startPattern = \^Begin\?
+    endPattern = \^Begin\,
+    .....
+{% endhighlight %}
+
 Ternary statement
 =================
 Only use for a very simple / short logic.
@@ -28,7 +40,7 @@ var name.space = {
 console.log(name.sapce.fooMethod());
 {% endhighlight %}
 
-`this` is a mystry
+this is a mystry
 ==================
 
 `this` is the value of the object that invoke the function where `this` is used. It could be
@@ -87,8 +99,8 @@ And the solution is chain `once` and `on` to attach function only once.
   });
 {% endhighlight %}
 
-once vs one
-===========
+Function once vs one
+====================
 - `once()` is a plugin of jQuery:
 {% highlight javascript%}
 // The following will change the color of each paragraph to red, just once
@@ -106,18 +118,18 @@ $( "#foo" ).one( "click", function() {
 });
 {% endhighlight %}
 
-ready vs attach
-===============
+Event ready vs attach
+=====================
 The `ready` event is fired when the full DOM has been loaded. This event is only fired once per page.
 
 The `attach` event on the other hand is fired by **Drupal** whenever the DOM changes in response to an AJAX callback or similar event.
 
-event handler vs callback function
+Event handler vs Callback function
 ==================================
 When we use '$.on()' function, we could use either event handler or callback function. And we can pass the arguments to the call back function.
 
 {% highlight js%}
-$(document).on('event1'', function() {
+$(document).on('event1', function() {
   // logic goes here.
 });
 
@@ -130,8 +142,8 @@ eventHandler2 = function(event, arg) {
 $('#id').trigger('event2', arg);
 {% endhighlight %}
 
-bind vs proxy
-=============
+Function bind vs proxy
+======================
 Here the `prototype.bind` function is not the same as `$().bind` function, it will pass the object to the function's `this` variable. It is the similar as `$().proxy`.
 {% highlight js%}
   var $container = $(this.productContainer);
@@ -140,5 +152,27 @@ Here the `prototype.bind` function is not the same as `$().bind` function, it wi
   $container.once('shortlist_page', this.bindEvents.bind(this));
 {% endhighlight %}
 
+Reserved keyword arguments
+==========================
+`arguments` is a reserved keyword for a object given to every function scope.
 
- 
+False value in JS
+=================
+- Objects evaluate to true
+
+- Undefined evaluates to false
+
+- Null evaluates to false
+
+- Booleans evaluate to the value of the boolean
+
+- Numbers evaluate to false if +0, -0, or NaN, otherwise true
+
+- Strings evaluate to false if an empty string '', otherwise true
+
+{% highlight js%}
+if ([0]) {
+  // true
+  // An array is an object, objects evaluate to true
+}
+{% endhighlight %}
