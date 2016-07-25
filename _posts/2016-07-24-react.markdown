@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "React in ES6"
+date:   2016-07-24 7:05:52 +1000
+categories: Programming
+---
+
+`import` and `export` is the reserved keyword in ES6, it help you modularise javascript. 
+
+Use `Babel` to compile your ES6 javascript to compatible version. 

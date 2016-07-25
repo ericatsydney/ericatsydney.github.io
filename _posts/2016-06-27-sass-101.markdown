@@ -58,6 +58,10 @@ $list: adam john wynn mason kuroir
 {% endhighlight %}
 
 
+@extend
+=======
+`@extend` help to reuse the styling to another class.
+
 A real sample code
 ==================
 {% highlight sass%}
