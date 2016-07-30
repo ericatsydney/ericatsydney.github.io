@@ -4,6 +4,16 @@ title:  "Javascript and jQuery"
 date:   2016-06-22 22:30:52 +1000
 categories: Programming
 ---
+Does order matter in JS?
+===========
+
+Put it on top, as the mis-understanding `hosting` will cause some error how to detect.
+
+When I read the book "xxxx", I thought it's useless feature. But in the daily programming, I found it's so important.
+
+Yes, I agree with it's quite unique/ odd behaviours exist in Javascript ONLY.
+
+This is a [stackoverflow link](http://stackoverflow.com/questions/7609276/javascript-function-order-why-does-it-matter)  have sample and detail explanation about `hosting`. 
 
 Regex in JS
 ===========

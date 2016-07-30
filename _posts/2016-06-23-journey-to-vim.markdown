@@ -4,44 +4,59 @@ title:  "Vim"
 date:   2016-06-23 6:30:52 +1000
 categories: Programming
 ---
-Shortcut Cheatsheet
-===================
-[A very simple reference](http://www.worldtimzone.com/res/vi.html).
+Mode
+=====
+- Column edit mode: `Ctrl + v` switch column edit mode (visual block) , use 'up' and 'down' to choose column, `I` switch to insert mode, edit then `Esc`
 
-- `Ctrl + v` switch column edit mode (visual block) , use 'up' and 'down' to choose column, `I` switch to insert mode, edit then `Esc`
+- Insert Mode: <tbc>
 
-- `v` in normal mode to switch to visual mode
+- Normal Mode: <tbc>
+
+- View Mode: `v` in normal mode to switch to visual mode
+
+Moving Around
+============
+`motion`
 
 - `gg` go to the top of the file, `G` go to the bottom of the file ,`zz` make the current line to the center.
 
-- `dd` cut one line, `d` cut
+- `{` & `}` move by paragraph
 
-- `cw`, `cc` delete and insert
+- `(` & `)`, `[` & `]`  move by parentesis and square bracket
 
-- `yy` `yw` yank command
-
-- `}` Go to the paragraph end
+- `vf_` & `vt_` move to the next `_`, first one will include search key and second one will stop before the key
      
-- `p` paste
+Mapping
+=======
+{% highlight shell%}
+nmap <C + L> : <C + W> <C + L>
+{% endhighlight %}
 
+
+AutoScript
+==========
+{% highlight shell%}
+TBC
+{% endhighlight %}
+
+Productive
+==========
 - `%s\old\new\g` global replace, `%s\old\new\gc` replace with confirmation
 
-How to install Plugin
-=====================
+Plugin
+======
 - Pathogen use `git clone` command to get the source code
 
 - Vunble use .vimrc to config and run `:PluginInstall`
 
 - Some useful plugins: ctrlP, nerdtree, airline, syntastic
 
+
 Multple File Editing
 ====================
 - `:vsp` slip screen vertically
 
 - `ctrl + w` and `ctrl + h` swap the slip, so we could add mapping like this:
-{% highlight js%}
-nmap <C + L> : <C + W> <C + L>
-{% endhighlight %}
 
 - `:bn`, `:bp`, `:b1`, `:b2`, `:b3` change buffer
 
@@ -61,4 +76,13 @@ Linting
 
 - `:SyntasticCheck` enable the linting
 
+- `:SyntasticToggle` switch from the passive and active mode
+
 - `:SyntasticInfo` check the current checkers.
+
+
+Appendix
+========
+[A very simple reference](http://www.worldtimzone.com/res/vi.html).
+
+My [config files](https://gist.github.com/ericatsydney/b5e62ef00b4eb80c2b0bd3d80d9b1932) on Gist. 
