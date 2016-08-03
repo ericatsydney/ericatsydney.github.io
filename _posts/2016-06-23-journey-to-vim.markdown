@@ -25,7 +25,9 @@ Moving Around
 - `(` & `)`, `[` & `]`  move by parentesis and square bracket
 
 - `vf_` & `vt_` move to the next `_`, first one will include search key and second one will stop before the key
-     
+
+- `-` Go to first non-space character in last line, `+` in next line
+
 Mapping
 =======
 {% highlight shell%}
@@ -61,6 +63,12 @@ Multple File Editing
 - `:bn`, `:bp`, `:b1`, `:b2`, `:b3` change buffer
 
 - `ctrl + ^` swap buffer
+
+- Open multiple files
+{% highlight shell%}
+$ vim *.php
+{% endhighlight %}
+
 
 - plugin `nerdtree`: help to show files in folders
 

@@ -7,16 +7,30 @@ categories: Programming
 Linux
 ============
 - Alias
+{% highlight shell%}
+#Personal alias
+alias foo='git diff'
+{% endhighlight %}
+
+- grep, pipe
+{% highlight shell%}
+# recursive search keyword in specific suffix files
+grep -rl --include=\*.{php,inc} 'breadcrumb'
+{% endhighlight %}
+
+- find 
+{% highlight shell%}
+# search 'js' folder in current direcotry
+find . -type d -name js
+{% endhighlight %}
+
+- package management: `yum install` and `apt-get`
+
+- `curl` and `wget` to get the file from internet.
 
 - Export
 
-- Shell script sample
-
 - Crontab
-
-- grep, pipe
-
-- find 
 
 - which / whereis
 
@@ -27,9 +41,5 @@ Linux
 - start service
 
 - backup file
-
-- package management: `yum install` and `apt-get`
-
-- `curl` and `wget`
 
 - shortcut: `ctrl + a` go to start of the command, `ctrl + e` go to the end of the command

@@ -48,6 +48,10 @@ Framework / CMS / Library
 
 - React.js
 
+- Foundation (media query in JS, throttle)
+
+- Bootstrap
+
 Workflow / Tooling / IDE
 ========================
 
