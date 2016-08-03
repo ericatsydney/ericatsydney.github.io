@@ -51,7 +51,7 @@ Framework / CMS / Library
 Workflow / Tooling / IDE
 ========================
 
-- Gulp
+- [Gulp](http://ericatsydney.github.io/programming/2016/07/23/gulp-setup.html) 
 
 - [Chrome Dev Tool](http://ericatsydney.github.io/thinking/2016/05/29/chrome-devel-tool.html) 
 
@@ -102,6 +102,19 @@ Design Pattern
 
 DevOps
 ======
+
+- Docker
+
+- Micro services
+
+- Cloud Foundry
+
+- Concourse CI
+
+- Kubernetes
+
+- Openshift
+
 - [Shell script / command / Crontab](http://ericatsydney.github.io/programming/2016/06/22/shell-and-linux.html) 
 
 - User account setup

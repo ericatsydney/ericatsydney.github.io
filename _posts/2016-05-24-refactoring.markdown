@@ -113,40 +113,6 @@ PHP (based on Drupal)
    }
 {% endhighlight %}
 
--- Use `array_map` function to call a function multiple times, every time one element will be assign as parameter.
-{% highlight php%}
-// Drupal 'theme' function will get the corresponding template back.
-// The result will be stored in array.
-$rendered_html = array_map('theme', [
-    'theme1',
-    'theme2',
-    'theme3',
-]);
-{% endhighlight %}
-
--- Use `array_reduce` function to call a function iteratively, reduce the array to single value.
-
--- Use `array_merge` function to override default value in array (e.g. extend/override configuration).
-{% highlight php%}
-  $block_default = ['cache' => DRUPAL_NO_CACHE, 'category' => t('CATEGORY')];
-  $blocks['BLOCK1'] = array_merge($block_default, [
-    'info' => t('BLOCK ONE'),
-  ]);
-  $blocks['BLOCK2'] = array_merge($block_default, [
-    'info' => t('BLOCK TWO'),
-  ]);
-  $blocks['BLOCK3'] = array_merge($block_default, [
-    'info' => t('BLOCK THREE'),
-  ]);
-{% endhighlight %}
-
--- Use `array_fill_keys` to assign same value to all the elements in an array
-{% highlight php%}
-$keys = array('Batman', 'Superman', 'Spiderman', 'Ironman');
-$a = array_fill_keys($keys, 'Marvel Comics');
-{% endhighlight %}
-
--- Use `array_filter` to remove the empty value.
 
 - Use block to put multiple template together
 
