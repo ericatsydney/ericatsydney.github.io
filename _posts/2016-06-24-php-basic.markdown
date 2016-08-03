@@ -9,13 +9,11 @@ Single quote vs double quote
 ============================
 The double quote could have the variable inside.
 {% highlight php%}
-$name = Eric;
-
+$name = 'Eric';
 $greeting1 = "Hello $name";
 $greeting2 = 'Hello $name';
-
-echo $greeting1; // Output: Hello Eric
-echo $greeting2; // Output: Hello $name
+echo $greeting1; // Hello Eric 
+echo $greeting2; // Hello $name 
 {% endhighlight %}
 
 Iterator in php
