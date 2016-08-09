@@ -14,7 +14,7 @@ alias foo='git diff'
 
 - grep, pipe
 {% highlight shell%}
-# recursive search keyword in specific suffix files
+# recursive search keyword in specific suffix files, list the file name as result.
 grep -rl --include=\*.{php,inc} 'breadcrumb'
 {% endhighlight %}
 

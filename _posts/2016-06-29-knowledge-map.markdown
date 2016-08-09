@@ -109,7 +109,7 @@ DevOps
 
 - Docker
 
-- Micro services
+- Microservices
 
 - Cloud Foundry
 
