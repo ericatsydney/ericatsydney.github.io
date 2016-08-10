@@ -6,6 +6,11 @@ categories: Programming
 ---
 Linux
 ============
+- Manually installation
+ - `configure`: check the system and collect dependency information of this system.
+ - `make`: run the Makefile where keep the software installation info and system config.
+ - `make install`: move the file to correct system location.
+
 - Alias
 {% highlight shell%}
 #Personal alias
