@@ -4,6 +4,10 @@ title:  "Javascript and jQuery"
 date:   2016-06-22 22:30:52 +1000
 categories: Programming
 ---
+null and undefined
+===============
+TBC
+
 Does order matter in JS?
 ===========
 
@@ -62,6 +66,10 @@ this is a mystry
 - the name space (parent object) define function reference.
 
 When a prototype function is called using `call()` or `apply()`, or `bind()`, this refers to the first argument passed to these methods. 
+
+`$(this)` is the jquery version.
+
+How to handle `this` in react, please refer this [blog](#).
 
 Use event to decouple
 =====================

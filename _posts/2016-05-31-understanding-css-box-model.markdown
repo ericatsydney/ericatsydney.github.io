@@ -136,3 +136,8 @@ Row可以放在一个固定width的div里，再使用column。
 
 **Fixed Width带来的麻烦**
 
+**virtical middle**
+use `line-height` or `margin-top`
+
+**padding vs margin**
+<TBC>

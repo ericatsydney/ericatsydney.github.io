@@ -34,7 +34,6 @@ Mapping
 nmap <C + L> : <C + W> <C + L>
 {% endhighlight %}
 
-
 AutoScript
 ==========
 {% highlight shell%}
@@ -44,6 +43,14 @@ TBC
 Productive
 ==========
 - `%s\old\new\g` global replace, `%s\old\new\gc` replace with confirmation
+
+- `the silver search` and `ag-vim` could help to search keyword in vim, it's much faster than the `grep`
+ 
+  configure: 
+  
+  usage: `:Ag KEY_WORD ./**/*.php`
+
+- `YouCompleteMe` 
 
 Plugin
 ======

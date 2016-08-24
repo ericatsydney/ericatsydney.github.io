@@ -168,8 +168,6 @@ $form = drupal_get_form('user_register_form');
 print drupal_render($form);
 {% endhighlight %}
 
-
-
 Block and context
 ==================
 Block is container to wrap the content/logic provided by a module, in this aspect, it's like the pane created by ctools. But block could be put in the region based on the context (e.g. content type, URL). You don't need to configure the setting for every panel/node. As all the setting is done in the module itself.
@@ -319,3 +317,36 @@ Drupal [Exmaple module](https://www.drupal.org/project/examples) is a really goo
 
 drupal variable 
 js setting
+
+
+entity
+======
+@todo
+
+paragraph
+=========
+@todo
+
+theme setting
+=============
+Sometimes we would like to put some setting only in theme level, we could use the theme setting.
+1. in the `theme.info` define a setting like this:
+{% highlight php%}
+' this setting is for the theme
+['setting_name'] = ''
+{% endhighlight %}
+
+2. define the admin UI using form api in 
+{% highlight php%}
+form['setting_name'] = 
+@todo
+{% endhighlight %}
+
+3. use the theme setting in any hook like this
+{% highlight php%}
+if @todo
+{% endhighlight %}
+
+drush command
+=============
+<TBC>

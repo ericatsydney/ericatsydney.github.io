@@ -5,14 +5,38 @@ date:   2016-07-24 7:05:52 +1000
 categories: Programming
 ---
 
+es6
+===
+
+- Classes
+
+- Modulazie
+
 `import` and `export` is the reserved keyword in ES6, it help you modularise javascript. 
 
-Use `Babel` to compile your ES6 javascript to compatible version. 
+- Transpile `Babel`
+  Use `Babel` to compile your ES6 javascript to compatible version. 
 
-The object will be rendered again only when we use `setState()` function.
- 
-The only parent component have the state, and pass state to children component via `property`.
-  
 How to bind this in react: there are serveral ways 1. 2. 3. 4. 5
 
-How to put the browserify into different bundles?
+React
+=====
+
+- lifecycle
+  - `componentInitial`
+  - `componentWillMount`
+  - `componentDidMount`
+  - `componentWillUpdate`
+  - `componentDidUpdate` Don't add `setState()` here, otherwise it will cause the infinite loop.
+  - `componentWillUnmount`
+  - `componentDidUnmount`
+  The object will be rendered again only when we use `setState()` function.
+
+Redux
+=====
+The only parent component have the state, and pass state to children component via `property`.
+  
+
+Browserify
+==========
+Check it in [Gulp Setup](http://ericatsydney.github.io/programming/2016/07/23/gulp-setup.html) 

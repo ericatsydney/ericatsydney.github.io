@@ -11,6 +11,8 @@ Elements
 
 - Pick color even on a image using Color picker.
 
+- use the color picker as converter (RGB, hex)
+
 - Modify the html markup directly, use drag and draw to reorganize the DOM.
 
 - Right click on the element to fix the `focus` effect.

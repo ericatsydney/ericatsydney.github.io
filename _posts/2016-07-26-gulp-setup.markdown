@@ -5,21 +5,27 @@ date:   2016-07-24 7:05:52 +1000
 categories: Programming
 ---
 
+My Gulp Resipe 
+==============
+[Please refer my gulpfile.js](#) 
+
 Gulp
 ====
-Gulp is the build script to automate the preprocess. We can use gulp to convert sass, jsx, ES6, and minify, generate source map and so on. 
+Gulp is the build script to stream line the process. We can use `gulp`` to convert sass, jsx, ES6, and minify, generate source map and so on. 
 
-`broserify` is the tran
+`broserify` is the plugin to make the browser could run node style js.
 
-`gulp-babel` 
+How to put the browserify into different bundles?
 
-`babelify` 
+`watchify` is part of the `browserify` it will detect the change in the bundle, and only compile what's been updated.
 
-`gulp-bundle` will output bab
+`babelify` convert ES6 and React to vanilla JS, it could use plugin/ preset.
 
-`vinly-source-stream` and `gulp.src()`???
+`vinly-source-stream`
 
-`watchify`
+`gulp-browserify` is out of maintenance.
+
+`gulp-babel` is out of maintenance ?
 
 
 npm - Node Package Management
@@ -28,8 +34,10 @@ npm - Node Package Management
 npm/Gulp is one of the most important skill set of front-end developer. It help us build our app making use of the open source library and on the other hand it setup a very good standard for the developer going to put their project as open source.
 
 `npm install --save` 
-symlink error: use option `--no-bin-links`
-specify version: could add version like this `package_name@version` or update the package 
+
+- symlink error: use option `--no-bin-links`
+
+- specify version: could add version like this `package_name@version` or update the package 
 
 `npm update`
 
@@ -41,3 +49,15 @@ specify version: could add version like this `package_name@version` or update th
 
 `package.json` is the npm config file. In this file, we can use prefix to control which version of the package to install. e.g. '1.2.3' using '~' (same 1st and 2nd partition) or '^' (latest and same 1st partition) as prefix.
 
+
+node
+====
+
+- stream
+
+- read vs write
+
+Reference
+=========
+[How to split bundle](https://www.snip2code.com/Snippet/462312/Browserify---separate-app-and-enternal-v) 
+[Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes) 

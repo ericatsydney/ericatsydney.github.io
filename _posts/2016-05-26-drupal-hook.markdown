@@ -34,6 +34,12 @@ This is the router of Drupal, link the url and callback function together, pleas
    // Code goes here.
 {% endhighlight %}
 
+## hook for Node/ Field/ View ##
+
+- `hook_preprocess_node`, `hook_preprocess_field`, `hook_preprocess_view`  
+
+We need these hooks when we would like to set the `themes_hook_suggestion` or pass the variables to the template like `node__<content_type>__<teaser>.tpl.php`.
+
 ##Field Type API##
 
 This is the field type API [DOC](https://api.drupal.org/api/drupal/modules%21field%21field.api.php/group/field_types/7.x)
@@ -48,7 +54,6 @@ This is the field type API [DOC](https://api.drupal.org/api/drupal/modules%21fie
 
 - TBC
 
-
 ## Block Hook ##
 
 - `hook_block_info()`: define the block's name.  
@@ -61,7 +66,7 @@ This is the field type API [DOC](https://api.drupal.org/api/drupal/modules%21fie
 
 - `hook_preprocess_view` 
 
-- TBC
+- template system: @todo 
 
 
 ## Page Hook ##
@@ -72,3 +77,13 @@ This is the field type API [DOC](https://api.drupal.org/api/drupal/modules%21fie
 
 
 ## hook_library ##
+`hook_library` will register the library, but it will not add this library automatically. so the following code is needed:
+{% highlight php%}
+form['#attach']['library'][]=library('module_name', 'library_name');
+{% endhighlight %}
+
+
+## Ajax framework ##
+
+The drupal provide the Ajax form out of box, this is an example to show how to use it.
+<TBC>
