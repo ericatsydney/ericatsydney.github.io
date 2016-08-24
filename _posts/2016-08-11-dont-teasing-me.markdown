@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "不要闹"
-date:   2026-08-11 23:05:52 +1000
+date:   2016-08-11 23:05:52 +1000
 categories: Thinking
+visible: false
 ---
 
 木独是广东话，跟木讷一个意思。
