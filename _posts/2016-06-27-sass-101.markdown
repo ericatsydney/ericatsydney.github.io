@@ -26,11 +26,16 @@ $primary-color: #333;
 ======
 Mixin make it possible to pass the parameters in.
 {% highlight sass%}
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+// Define mixin
+@mixin icon($icon) {
+  content: $icon;
+}
+
+// Use mixin
+.button {
+  @include icon(email) {
+    margin-left: 10px;
+  }
 }
 {% endhighlight %}
 
@@ -65,5 +70,5 @@ $list: adam john wynn mason kuroir
 A real sample code
 ==================
 {% highlight sass%}
-
+@todo
 {% endhighlight %}

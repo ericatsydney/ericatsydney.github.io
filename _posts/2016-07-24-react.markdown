@@ -5,14 +5,32 @@ date:   2016-07-24 7:05:52 +1000
 categories: Programming
 ---
 
-es6
-===
-
+React feat ES6
+==============
 - Classes
+We will use `class extends` keyword instead of `React.createClass` in ES6 flavor. And we also need the `constructor` to initialise the value.
 
-- Modulazie
+- Modualzie
 
 `import` and `export` is the reserved keyword in ES6, it help you modularise javascript. 
+
+- Arrow function
+
+Arrow function finishes 2 jobs: simplify the function syntax and pass the `this` to inside the function.
+
+{% highlight js%}
+// They are eaquavlent.
+function (a, b) { return a * b; }
+(a, b) => { return a * b; }
+(a, b) => a * b
+
+// No bind or alias is needed for getting this.
+$('.current-time').each(function () {
+  setInterval(() => $(this).text(Date.now()), 1000);
+});
+{% endhighlight %}
+
+When we need to use that in class, we need to turn on the stage1 option/ plugin.
 
 - Transpile `Babel`
   Use `Babel` to compile your ES6 javascript to compatible version. 
@@ -21,19 +39,50 @@ How to bind this in react: there are serveral ways 1. 2. 3. 4. 5
 
 React
 =====
+- JSX is a simplified syntax to define the html markup and data-binding, but it's optional to use React. We could use browserify to compile that to JS for production.
+{% highlight js%}
+// This is a simple sample from official website.
+var HelloMessage = React.createClass({
+  render: function() {
+    return <div>Hello {this.props.name}</div>;
+  }
+});
+
+ReactDOM.render(<HelloMessage name="John" />, mountNode);
+{% endhighlight %}
+
 
 - lifecycle
   - `componentInitial`
   - `componentWillMount`
-  - `componentDidMount`
+  - `componentDidMount` Run once after the component mount(e.g start the timer)
   - `componentWillUpdate`
   - `componentDidUpdate` Don't add `setState()` here, otherwise it will cause the infinite loop.
-  - `componentWillUnmount`
+  - `componentWillUnmount` Run once before the he component unmount (e.g. delete the timer)
   - `componentDidUnmount`
   The object will be rendered again only when we use `setState()` function.
 
-Redux
-=====
+- Reference to component
+Basically react will keep the component instance updated using the data flow. But it also provide a reference to the instance using `ref`.
+
+P.S. ref string attribute is going to deprecated at some point of future, reference callback is recommended.
+
+{% highlight js%}
+  // We could use string as reference and refer to that later in the `componentDidMount()` function. 
+  render() {
+  return (<React3>
+  <group ref='group' />
+  </React3>)
+  }
+  
+  componentDidMount() {
+    this.refs.group.add(myMesh);
+  }
+{% endhighlight %}
+
+
+Flux and Redux
+==============
 The only parent component have the state, and pass state to children component via `property`.
   
 

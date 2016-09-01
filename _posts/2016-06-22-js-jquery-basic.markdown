@@ -111,7 +111,7 @@ Avoid to use unbind
 The drawback of `unbind` is ??????.
 
 And the solution is chain `once` and `on` to attach function only once.
-{% highlight javascript%}
+{% highlight js%}
   $selector.once().on('eventName', function() {
     //callback function.
   });
@@ -120,7 +120,7 @@ And the solution is chain `once` and `on` to attach function only once.
 Function once vs one
 ====================
 - `once()` is a plugin of jQuery:
-{% highlight javascript%}
+{% highlight js%}
 // The following will change the color of each paragraph to red, just once
 // for the "changecolor" key.
 $('p').once('changecolor', function() {
@@ -129,7 +129,7 @@ $('p').once('changecolor', function() {
 {% endhighlight %}
 
 - while `one()` is a jQuery function, it attach a handler to an event for the elements, and the handler will be executed once per element per event type.
-{% highlight javascript%}
+{% highlight js%}
 // .one(events, handler)
 $( "#foo" ).one( "click", function() {
   alert( "This will be displayed only once." );
@@ -196,3 +196,6 @@ if ([0]) {
 {% endhighlight %}
 
 
+json
+====
+@todo

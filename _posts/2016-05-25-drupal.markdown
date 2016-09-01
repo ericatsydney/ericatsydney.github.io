@@ -297,7 +297,7 @@ Javascript API
 - `Drupal.behaviors` will get called DOM has loaded (for AJAX load as well), we can use `context` to know which DOM is being processed.
 
 - `Once` function is jQuery plugin, we can use `once()` in Drupal out of the box.
- {% highlight javascript%}
+ {% highlight js%}
 // The following will change the color of each paragraph to red, just once
 // for the "changecolor" key.
 $('p').once('changecolor').css('color', 'red'); 
@@ -315,13 +315,19 @@ P.S.
 Drupal [Exmaple module](https://www.drupal.org/project/examples) is a really good template we could start working on.
 
 
-drupal variable 
+drupal variable vs drupal conf
+==========
+we could get and  use Drupal vaiable anywhere via `drupal_get()` and `drupal_set()`.
+ 
+`conf()` will persistent the drupl variable.
+ 
 js setting
-
 
 entity
 ======
 @todo
+
+We could use `wrapper_metadata_entity('node', $node)` to simplify the access to fields' value.
 
 paragraph
 =========
@@ -349,4 +355,12 @@ if @todo
 
 drush command
 =============
-<TBC>
+Drupal provide cli utility `drush` to let us finish admin job efficiently and make it posible to put all the command into shell script.
+
+`drush cc all && drush rr` clean all the cache
+
+`drush sqlq 'select * from table limit 20'` run sql command
+
+`drush fr` revert feature
+
+more drush command we could refer this website.

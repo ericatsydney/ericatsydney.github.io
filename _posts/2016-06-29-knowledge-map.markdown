@@ -12,41 +12,45 @@ UX / UI
 
 - Responsive vs Adaptive
 
-- Wireframe
+- Wireframe (sambolic)
 
-- Sketch and Axshare
+- UI (Sketch and Axshare)
 
-- Userbila
+- Userbility 
 
-- A/B test ()
+- A/B test (VWO)
 
-- Customer Personas
+- Personas
+
+Some websites about UX / UI
+
+[Behance](https://www.behance.net/) 
+
+[Dibbble](https://dribbble.com/) 
+
+[Inspirationui](http://inspirationui.com/) 
 
 Language Understanding
 ======================
 
 - [PHP](http://ericatsydney.github.io/programming/2016/06/22/php-basic.html) 
 
-- Python
-
-- Java
-
-- Cobol
-
 - [javascript and jQuery](http://ericatsydney.github.io/programming/2016/06/22/js-jquery-basic.html)
 
 - [css box model](http://ericatsydney.github.io/programming/2016/05/30/understanding-css-box-model.html) and [SASS](http://ericatsydney.github.io/programming/2016/06/22/sass-101.html)
  
-- SVG
+- Python
+
+- Java
 
 Framework / CMS / Library
 =========================
 
 - [Drupal](http://ericatsydney.github.io/programming/2016/05/24/drupal.html) and [Drupal Hook](http://ericatsydney.github.io/programming/2016/05/24/drupal-hook.html)  
 
-- Laravel
+- Laravel (DOI)
 
-- React.js
+- React.js ()
 
 - Foundation (media query in JS, throttle)
 
@@ -92,6 +96,13 @@ Architect / Solution
 
 - abstract and detail
 
+Analytics
+=========
+
+- Google Analytics
+
+- Google Tag Manager
+
 Data Structure and Algorithm
 ============================
 
@@ -127,6 +138,4 @@ DevOps
 
 - Performance: webpageTest website and API
 
-Google Analytics
-Google Tag Manager
-vagrant
+- vagrant
