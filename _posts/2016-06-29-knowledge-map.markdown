@@ -7,6 +7,15 @@ categories: Programming
 
 UX / UI
 =======
+- Basic
+ 
+Typography: Open Sans, Roboto is the most popular webfont.
+
+Line height: 1.3em - 1.5em for body
+
+[Picking color](http://www.websitebuilderexpert.com/how-to-choose-color-for-your-website/): pick up a dominant color (blue or green cannot be bad choice), use it in the place to hightlight, and use netrual color as background.
+
+
 
 - Atomic Design
 
