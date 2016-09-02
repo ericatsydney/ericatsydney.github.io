@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Eric's blog
+title: Eric's Here
 email: eric.g.x.tan@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am learning Jekyll to build a blog for myself, where I will store my memory about
