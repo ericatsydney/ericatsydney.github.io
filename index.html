@@ -9,11 +9,18 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
     {% if post.visible != false %}
-      <li class="box">
+      <li class="box" data-category="{{ post.categories }}">
         <span class="post-meta subtitle6">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2 class="title">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <div class="level is-mobile">
+          <div class="level-left">
+            <h2 class="title level-item">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </div>
+          <div class="level-left is-hidden-mobile">
+            <span class="tag is-dark level-item">{{ post.categories }}</span>
+          </div>
+        </div>
       </li>
     {% endif %}
     {% endfor %}

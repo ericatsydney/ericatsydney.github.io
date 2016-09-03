@@ -31,3 +31,11 @@ html {
     font-size: 1.6em;
   }
 }
+
+@media (min-width: 980px) {
+  .post-list {
+    .box {
+      max-width: 600px;
+    }
+  }
+}

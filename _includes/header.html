@@ -12,12 +12,6 @@
         {% for cat in site.categories %}
         <a class="nav-item" href="#">{{ cat[0] }}</a>
         {% endfor %}
-
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="nav-item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
       </div>
     </nav>
 
