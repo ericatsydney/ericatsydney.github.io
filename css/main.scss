@@ -25,11 +25,43 @@ html {
     top: 0;
   }
 }
+.site-header {
+  height: 80px;
+}
 
 .post-content {
   h1 {
     font-size: 1.6em;
   }
+}
+
+footer {
+.section {
+  color: #fff;
+  background-color: #69707a;
+
+  .contact-list {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  .social-media-list {
+    li {
+      margin-bottom: 10px;
+    }
+
+    .icon {
+      margin-right: 10px;
+    }
+  }
+}
 }
 
 @media (min-width: 980px) {
