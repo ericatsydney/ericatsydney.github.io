@@ -1,19 +1,28 @@
-<header class="site-header hero is-primary">
-    <nav class="nav">
-      <div class="nav-left">
-        <a class="title nav-item" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      </div>
-    <span id="nav-toggle" class="nav-toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-  </span>
-      <div id="nav-menu" class="nav-right nav-menu">
+<section class="site-header hero is-primary">
+    <div class="hero-head">
+        <nav class="nav container">
+        <div class="nav-left">
+            <a class="title nav-item" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        </div>
+        <span id="nav-toggle" class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        </span>
+         <div id="nav-menu" class="nav-right nav-menu">
         {% for cat in site.categories %}
-        <a class="nav-item" href="#">{{ cat[0] }}</a>
+             <a class="nav-item" href="#">{{ cat[0] }}</a>
         {% endfor %}
-      </div>
-    </nav>
-
-
-</header>
+        </div>
+        </nav>
+    </div>
+    {% if (page.title) %}
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title is-2 has-text-centered">{{ page.title }}</h1>
+            <p class="has-text-centered subtitle is-6"> Posted in {{ page.categories }}</p>
+            <p class="subtitle is-6 post-meta has-text-centered">on {{ page.date | date: "%b %-d, %Y" }}</p>
+        </div>
+    </div>
+    {% endif %}
+</section>

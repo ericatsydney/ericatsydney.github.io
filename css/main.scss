@@ -32,6 +32,12 @@ html {
   }
 }
 
+.hero-body {
+  .title {
+    margin-bottom: 50px;
+  }
+}
+
 .post-content {
   h1 {
     font-size: 1.6em;
@@ -68,10 +74,6 @@ footer {
 }
 
 @media (min-width: 980px) {
-  .site-header {
-    height: 80px;
-  }
-
   .post-list {
     .box {
       max-width: 600px;
