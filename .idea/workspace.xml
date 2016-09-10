@@ -2,75 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-11-21-welcome-to-jekyll.markdown" afterPath="$PROJECT_DIR$/_posts/2015-11-20-welcome-to-jekyll.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-21-watch-pi-again.markdown" afterPath="$PROJECT_DIR$/_posts/2015-11-21-watch-pi-again.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-22-everywhere-is-under-construction.markdown" afterPath="$PROJECT_DIR$/_posts/2015-11-22-everywhere-is-under-construction.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-23-baby-sitting.markdown" afterPath="$PROJECT_DIR$/_posts/2015-11-23-baby-sitting.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-26-communication.markdown" afterPath="$PROJECT_DIR$/_posts/2015-11-26-communication.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-26-hometown-memory1.markdown" afterPath="$PROJECT_DIR$/_posts/2015-11-26-hometown-memory1.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-04-build-your-own-business.markdown" afterPath="$PROJECT_DIR$/_posts/2015-12-04-build-your-own-business.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-04-hometown-memory2.markdown" afterPath="$PROJECT_DIR$/_posts/2015-12-04-hometown-memory2.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-13-love-to-hate.markdown" afterPath="$PROJECT_DIR$/_posts/2015-12-13-love-to-hate.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-15-manage-energy.markdown" afterPath="$PROJECT_DIR$/_posts/2015-12-15-manage-energy.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-21-grow-up-with-kids.markdown" afterPath="$PROJECT_DIR$/_posts/2015-12-21-grow-up-with-kids.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-30-keep-calm.markdown" afterPath="$PROJECT_DIR$/_posts/2015-12-30-keep-calm.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-21-shameless.markdown" afterPath="$PROJECT_DIR$/_posts/2016-01-21-shameless.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-26-national-day.markdown" afterPath="$PROJECT_DIR$/_posts/2016-01-26-national-day.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-30-formula-milk.markdown" afterPath="$PROJECT_DIR$/_posts/2016-01-30-formula-milk.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" afterPath="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-03-05-dependency-injection.markdown" afterPath="$PROJECT_DIR$/_posts/2016-03-05-dependency-injection.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-08-i-miss-sydney.markdown" afterPath="$PROJECT_DIR$/_posts/2016-04-08-i-miss-sydney.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-09-faith.markdown" afterPath="$PROJECT_DIR$/_posts/2016-04-09-faith.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-22-anger.markdown" afterPath="$PROJECT_DIR$/_posts/2016-04-22-anger.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-23-dream.markdown" afterPath="$PROJECT_DIR$/_posts/2016-04-23-dream.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-27-makerbot-outsource.markdown" afterPath="$PROJECT_DIR$/_posts/2016-04-27-makerbot-outsource.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-29-give-you-the-finger.markdown" afterPath="$PROJECT_DIR$/_posts/2016-04-29-give-you-the-finger.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-06-join-the-apple.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-06-join-the-apple.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-07-love-sth-sb.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-07-love-sth-sb.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-10-greedy.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-10-greedy.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-11-politics.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-11-politics.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-12-hack.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-12-hack.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-13-learn-from-water.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-13-learn-from-water.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-20-public-speaking.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-20-public-speaking.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-21-killing-me-softly.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-21-killing-me-softly.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-22-philosophy-save-life.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-22-philosophy-save-life.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-23-humour.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-23-humour.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-25-drupal.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-25-drupal.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-26-drupal-hook.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-26-drupal-hook.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-31-understanding-css-box-model.markdown" afterPath="$PROJECT_DIR$/_posts/2016-05-31-understanding-css-box-model.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-01-release-management.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-01-release-management.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-02-children-drawing.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-02-children-drawing.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-04-Storm-insight.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-04-Storm-insight.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-13-restful-api.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-13-restful-api.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-17-learn-how-to-learn.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-17-learn-how-to-learn.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-18-how-to-be-efficient.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-18-how-to-be-efficient.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-21-Sublime-tricks.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-21-Sublime-tricks.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-23-journey-to-vim.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-23-journey-to-vim.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-24-php-basic.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-24-php-basic.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-07-mr-six.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-07-mr-six.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-08-decision-making.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-08-decision-making.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-09-rationality.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-09-rationality.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-12-problem-solving.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-12-problem-solving.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-16-linting.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-16-linting.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-21-refactoring-again.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-21-refactoring-again.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-24-react.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-24-react.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-08-11-dont-teasing-me.markdown" afterPath="$PROJECT_DIR$/_posts/2016-08-11-dont-teasing-me.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-08-24-regex-is-king.markdown" afterPath="$PROJECT_DIR$/_posts/2016-08-24-regex-is-king.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-08-29-how-to-negotiate.markdown" afterPath="$PROJECT_DIR$/_posts/2016-08-29-how-to-negotiate.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/icon-linkedin.html" afterPath="$PROJECT_DIR$/_includes/icon-linkedin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/main.js" afterPath="$PROJECT_DIR$/assets/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,110 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2016-07-14-BDD-terminology.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.41860464">
+              <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-07-16-linting.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-16-linting.markdown">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-07-17-BDD-file-structure.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-07-21-refactoring-again.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-21-refactoring-again.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0714285">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-07-24-react.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-24-react.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0714285">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-07-26-gulp-setup.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-08-11-dont-teasing-me.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-08-11-dont-teasing-me.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-08-24-regex-is-king.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-08-24-regex-is-king.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0714285">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-08-29-how-to-negotiate.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-08-29-how-to-negotiate.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.075187966">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-07-12-problem-solving.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-12-problem-solving.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -221,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-03-05-dependency-injection.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-04-08-i-miss-sydney.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-04-09-faith.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-04-22-anger.markdown" />
@@ -272,6 +114,8 @@
         <option value="$PROJECT_DIR$/_posts/2016-08-11-dont-teasing-me.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-08-24-regex-is-king.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-08-29-how-to-negotiate.markdown" />
+        <option value="$PROJECT_DIR$/assets/main.js" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
       </list>
     </option>
   </component>
@@ -358,20 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ericatsydney.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ericatsydney.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -743,7 +573,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21597221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270809" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -751,10 +583,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44548652" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -803,22 +633,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-03-05-dependency-injection.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-04-08-i-miss-sydney.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2222223">
@@ -1151,63 +965,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-08-29-how-to-negotiate.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-16-linting.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-21-refactoring-again.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0714285">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-24-react.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0714285">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-08-11-dont-teasing-me.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
+        <state vertical-scroll-proportion="0.075187966">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
@@ -1215,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-08-24-regex-is-king.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0714285">
+        <state vertical-scroll-proportion="0.078023404">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
@@ -1224,10 +984,80 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-08-29-how-to-negotiate.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-08-11-dont-teasing-me.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.075187966">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.075187966">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-24-react.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078023404">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-21-refactoring-again.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078023404">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.075187966">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-16-linting.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.075187966">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.075187966">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41860464">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
           <folding />
         </state>
       </provider>

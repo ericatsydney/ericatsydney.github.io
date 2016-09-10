@@ -59,4 +59,14 @@ jQuery(document).ready(function ($) {
         $('.post-list .box').hide();
         $('.post-list .box[data-category="' + this.text + '"]').show();
     })
+
+    $(window).scroll(function() {
+        $hero = $('.hero')
+        if ($(this).scrollTop() > $hero.height() + 30) {
+            $hero.addClass('sticky');
+        }
+        else {
+            $hero.removeClass('sticky');
+        }
+    })
 });

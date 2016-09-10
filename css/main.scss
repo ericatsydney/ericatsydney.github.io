@@ -73,10 +73,32 @@ footer {
   }
 }
 
+
+@media (min-width: 769px) {
+  .hero {
+    .hero-head {
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    }
+
+    &.sticky {
+      .hero-head {
+        background: #69707a;
+        position: fixed;
+        opacity: .9;
+        width: 100%;
+        z-index: 2;
+      }
+    }
+  }
+}
+
 @media (min-width: 980px) {
   .post-list {
     .box {
       max-width: 600px;
     }
   }
+
 }
