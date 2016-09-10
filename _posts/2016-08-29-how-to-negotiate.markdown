@@ -2,7 +2,7 @@
 layout: post
 title:  "如何谈判"
 date:   2016-08-29 18:30:52 +1000
-categories: Thinking
+categories: Think
 visible: false
 ---
 

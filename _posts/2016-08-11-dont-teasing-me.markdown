@@ -2,7 +2,7 @@
 layout: post
 title:  "不要闹"
 date:   2016-08-11 23:05:52 +1000
-categories: Thinking
+categories: Think
 visible: false
 ---
 

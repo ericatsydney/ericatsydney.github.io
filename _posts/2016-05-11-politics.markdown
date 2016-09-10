@@ -2,7 +2,7 @@
 layout: post
 title:  "政治"
 date:   2016-05-11 22:30:52 +1000
-categories: Thinking
+categories: Think
 ---
 政治
 

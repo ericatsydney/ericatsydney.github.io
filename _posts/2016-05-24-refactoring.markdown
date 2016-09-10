@@ -2,7 +2,7 @@
 layout: post
 title:  "Refactoring"
 date:   2016-05-24 7:05:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 Javascript

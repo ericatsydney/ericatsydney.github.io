@@ -2,7 +2,7 @@
 layout: post
 title:  "李开复谈情商"
 date:   2015-12-04 9:00:52 +1000
-categories: Reading
+categories: Read
 ---
 
 在情商所描述的各项能力因素中，自觉、同理心、自律和人际关系（四维情商）是四种对现代人的事业成败起决定性作用的关键因素。

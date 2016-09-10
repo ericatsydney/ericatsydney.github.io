@@ -2,7 +2,7 @@
 layout: post
 title:  "Knowledge Map"
 date:   2016-06-29 6:30:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 UX / UI

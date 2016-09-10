@@ -2,7 +2,7 @@
 layout: post
 title:  "脏显个性"
 date:   2016-04-29 8:00:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 听着大懒堂，拍个竖中指的selfie做头像，似乎还不够解恨，打开微信在最多人装b的群里吼一句 叼你老味，才肯罢休。

@@ -2,7 +2,7 @@
 layout: post
 title:  "超级奶爸"
 date:   2015-11-23 9:00:52 +1000
-categories: Family
+categories: Think
 ---
 二宝每天七点就醒了，醒了就不想再睡了，一直嚷嚷着，这就是要求出去散步的信号。
 

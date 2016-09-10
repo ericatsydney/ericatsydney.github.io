@@ -2,7 +2,7 @@
 layout: post
 title:  "我要当学霸"
 date:   2016-06-17 7:05:52 +1000
-categories: Thinking
+categories: Think
 ---
 生命有限而知识无限，如何高效地学习成为各学霸的必修课。时间有限，来不及解释了，先看看专家怎么说：
 

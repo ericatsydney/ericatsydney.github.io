@@ -2,7 +2,7 @@
 layout: post
 title:  "心术"
 date:   2016-06-28 7:05:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 想提高记忆力，于是把网上文章看了一圈，似乎最实用的建议就是”调整好作息“，意思是早点睡吧。

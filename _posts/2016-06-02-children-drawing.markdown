@@ -2,7 +2,7 @@
 layout: post
 title:  "儿童绘画"
 date:   2016-06-02 4:55:52 +1000
-categories: Reading
+categories: Read
 ---
 
 小孩学画画需要器官发育和心智发展作为基础，没到时候，急也急不来。

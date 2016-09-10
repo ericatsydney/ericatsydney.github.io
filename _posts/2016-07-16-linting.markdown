@@ -2,7 +2,7 @@
 layout: post
 title:  "Linting"
 date:   2016-07-16 2:30:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 jshint

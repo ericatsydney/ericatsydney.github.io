@@ -2,7 +2,7 @@
 layout: post
 title:  "理智与感情"
 date:   2016-07-09 23:05:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 现代社会很多怪兽家长，培养出情商低的小孩。情绪不稳定，容易发怒、伤心、着急、有挫败感。

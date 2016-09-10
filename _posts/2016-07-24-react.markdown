@@ -2,7 +2,7 @@
 layout: post
 title:  "React in ES6"
 date:   2016-07-24 7:05:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 React feat ES6

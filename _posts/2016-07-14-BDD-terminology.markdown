@@ -2,7 +2,7 @@
 layout: post
 title:  "BDD terminology and sample"
 date:   2016-07-14 20:30:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 - PhantomJS: For headless website testing.

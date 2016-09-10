@@ -2,7 +2,7 @@
 layout: post
 title:  "我是愤怒"
 date:   2016-04-22 23:00:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 年轻时，对“屈辱”往往是血气上涌，当面指责。事后回想，觉得有点傻，因为很可能是误会，或者是钻牛角尖了。

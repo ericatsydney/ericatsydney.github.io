@@ -2,7 +2,7 @@
 layout: post
 title:  "上善若水"
 date:   2016-05-13 7:00:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 观察和模仿生活中普通的事物也能领悟浩瀚天地中的“道”。好像这个五禽戏，蛤蟆功，猿击术，还有螳螂拳等等等等。

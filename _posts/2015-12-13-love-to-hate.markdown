@@ -2,7 +2,7 @@
 layout: post
 title:  "由爱生恨"
 date:   2015-12-13 7:30:52 +1000
-categories: China
+categories: Think
 visible: false
 ---
 在单纯的环境来评价 爱， 应该都是善的，如果只是两个人。但如果多于两个，甚至是两派，那就会产生恨。

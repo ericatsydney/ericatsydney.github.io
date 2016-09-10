@@ -2,7 +2,7 @@
 layout: post
 title:  "什么是爷们"
 date:   2016-07-07 7:05:52 +1000
-categories: Reading
+categories: Read
 ---
 
 自从有了娃之后想静下心来看部电影都是奢侈，昨晚在油管上拖着看完了冯小刚的《老炮》。

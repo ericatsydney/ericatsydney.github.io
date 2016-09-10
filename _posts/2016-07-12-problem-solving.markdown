@@ -2,7 +2,7 @@
 layout: post
 title:  "解决问题"
 date:   2016-07-09 23:05:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 以前我在Linkedin里描述自己是一个problem solver，现在想想真的汗颜，赶紧删掉。我反问自己具备什么素质才能称得上是解决问题的能手呢。

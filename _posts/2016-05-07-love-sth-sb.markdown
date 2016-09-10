@@ -2,7 +2,7 @@
 layout: post
 title:  "Love somebody"
 date:   2016-05-06 20:00:52 +1000
-categories: Thinking
+categories: Think
 ---
 假设真有丘比特爱神，小家伙的一支箭，就能让这个男的爱上那个女的，又或者那个女的爱上这个男的。那么，有没有一个神帮助凡人爱上一件事呢？
 

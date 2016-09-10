@@ -2,7 +2,7 @@
 layout: post
 title:  "自嘲"
 date:   2016-05-23 7:05:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 看王西的栋笃笑，隔着屏幕也能感觉到他心中的力量。

@@ -2,8 +2,7 @@
 layout: post
 title:  "为快不破"
 date:   2016-06-18 7:05:52 +1000
-categories: Thinking
-visible: false
+categories: Think
 ---
 
 对未知的事：积累自己的知识库，查找问题的地方，寻找问题的方法。

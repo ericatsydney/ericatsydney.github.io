@@ -2,7 +2,7 @@
 layout: post
 title:  "表达"
 date:   2016-06-03 21:30:52 +1000
-categories: Thinking
+categories: Think
 visible: false
 ---
 

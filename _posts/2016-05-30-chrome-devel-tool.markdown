@@ -2,7 +2,7 @@
 layout: post
 title:  "Chrome Development Tools"
 date:   2016-05-30 6:05:52 +1000
-categories: Thinking
+categories: Geek
 ---
 
 Elements

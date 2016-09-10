@@ -2,7 +2,7 @@
 layout: post
 title:  "Shell script and Linux"
 date:   2016-06-23 6:30:52 +1000
-categories: Programming
+categories: Geek
 ---
 Linux
 ============

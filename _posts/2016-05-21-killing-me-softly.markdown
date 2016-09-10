@@ -2,7 +2,7 @@
 layout: post
 title:  "无微不至"
 date:   2016-05-21 20:15:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 对小孩，以爱之名，施以无微不至的关怀，实则扼杀独立的勇气，判断力和想象力。

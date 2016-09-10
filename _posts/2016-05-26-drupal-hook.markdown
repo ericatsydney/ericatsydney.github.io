@@ -2,7 +2,7 @@
 layout: post
 title:  "Drupal Hook"
 date:   2016-05-25 7:05:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 Understanding Hook:

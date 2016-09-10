@@ -2,7 +2,7 @@
 layout: post
 title:  "黑客精神"
 date:   2016-05-12 7:00:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 一提到黑客我脑里想到的是电影Matrix，网络攻击一类的画面，觉得这是高智能犯罪的一种，本质上就是跟小偷和抢劫犯一样。

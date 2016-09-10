@@ -2,7 +2,7 @@
 layout: post
 title:  "发布的控制"
 date:   2016-06-01 4:55:52 +1000
-categories: Reading
+categories: Geek
 ---
 
 当我们要发布一个很大的改动时，为了降低风险和测试难度，我们可以将改动分成多批发布。

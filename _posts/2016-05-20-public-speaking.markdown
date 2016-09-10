@@ -2,7 +2,7 @@
 layout: post
 title:  "欢迎各位看官"
 date:   2016-05-20 6:00:52 +1000
-categories: Thinking
+categories: Think
 visible: false
 ---
 

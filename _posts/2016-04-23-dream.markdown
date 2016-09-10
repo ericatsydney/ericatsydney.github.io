@@ -2,7 +2,7 @@
 layout: post
 title:  "美·梦"
 date:   2016-04-23 23:00:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 忽然感到世界很美，美存在这世上的一事一物中，在每一个角落里，等着我去发现。

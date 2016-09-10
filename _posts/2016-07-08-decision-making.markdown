@@ -2,7 +2,7 @@
 layout: post
 title:  "判断力"
 date:   2016-07-08 6:05:52 +1000
-categories: Thinking
+categories: Think
 ---
 
 正所谓世事纷繁，人心难测。

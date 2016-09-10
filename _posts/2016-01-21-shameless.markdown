@@ -2,7 +2,7 @@
 layout: post
 title:  "FB骂战"
 date:   2016-01-21 7:30:52 +1000
-categories: Reading
+categories: Read
 ---
 昨天看到因为台湾女孩支持台独而在Facebook引起的骂战，双方在FB上展开浑身解数，最后大陆同胞用表情包完胜。
 

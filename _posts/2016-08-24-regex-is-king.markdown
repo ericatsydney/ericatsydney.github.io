@@ -2,7 +2,7 @@
 layout: post
 title:  "Regex is the King"
 date:   2016-08-24 7:05:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 Regex is so powerful to search any pattern you want, and it can used in almost every language.

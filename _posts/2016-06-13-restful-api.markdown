@@ -2,7 +2,7 @@
 layout: post
 title:  "Restful API"
 date:   2016-06-13 21:30:52 +1000
-categories: Programming
+categories: Geek
 ---
 When I study Restful API, I found [Linked Restful API](https://developer.linkedin.com/docs/rest-api) documentation is very easy to understand.
 

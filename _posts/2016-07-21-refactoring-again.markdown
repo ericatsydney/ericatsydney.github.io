@@ -2,7 +2,7 @@
 layout: post
 title:  "Refactoring AGAIN"
 date:   2016-07-21 9:05:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 To a programmer, refactoring should never end. 

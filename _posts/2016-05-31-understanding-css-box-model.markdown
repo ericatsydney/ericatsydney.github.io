@@ -2,7 +2,7 @@
 layout: post
 title:  "盒型模型的巧（er）妙（xin）"
 date:   2016-05-31 6:05:52 +1000
-categories: Programming
+categories: Geek
 ---
 
 CSS box model has many tricky thing.
