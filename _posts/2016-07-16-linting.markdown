@@ -54,3 +54,12 @@ phpcs
 eslint
 ======
 
+- install
+{% highlight shell%}
+sudo npm i -g eslint
+sudo npm i -g estraverse estraverse-fb eslint-plugin-react babel-eslint
+{% endhighlight %}
+
+- config
+
+Create a `.eslintrc` in project directory, please refer my [dotfile](https://gist.github.com/ericatsydney/b5e62ef00b4eb80c2b0bd3d80d9b1932)
