@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-09-30-if-I-am-a-cat.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-10-01-stair.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-30-if-I-am-a-cat.markdown" afterPath="$PROJECT_DIR$/_posts/2016-09-30-if-I-am-a-cat.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -77,8 +78,24 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-09-30-if-I-am-a-cat.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.4238227">
-                <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <first_editor vertical-scroll-proportion="0.18836565">
+                <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-10-01-stair.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-10-01-stair.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.32963988">
+                <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -125,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-04-23-dream.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-04-27-makerbot-outsource.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-04-29-give-you-the-finger.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-06-join-the-apple.markdown" />
@@ -175,6 +191,7 @@
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/_posts/2016-09-29-spring.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-09-29-reset.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-10-01-stair.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-09-30-if-I-am-a-cat.markdown" />
       </list>
     </option>
@@ -424,12 +441,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00098" summary="Update Drupal's post and add sublime tricks.">
-      <created>1466512617299</created>
-      <option name="number" value="00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1466512617301</updated>
     </task>
     <task id="LOCAL-00099" summary="Update sublime tricks.">
       <created>1466512689419</created>
@@ -719,7 +730,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475225087138</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Added 1 posts.">
+      <created>1475243032049</created>
+      <option name="number" value="00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1475243032049</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -759,7 +776,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated ‘mr six'." />
     <MESSAGE value="Added decision making." />
     <MESSAGE value="Update mr six." />
     <MESSAGE value="Update 2 old posts." />
@@ -784,20 +800,14 @@
     <MESSAGE value="Hide articles." />
     <MESSAGE value="updated a blog." />
     <MESSAGE value="Added 2 posts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 2 posts." />
+    <MESSAGE value="Added 1 posts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 1 posts." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2016-04-27-makerbot-outsource.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-04-29-give-you-the-finger.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2222223">
@@ -1196,11 +1206,25 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-10-01-stair.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.32963988">
+            <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-09-30-if-I-am-a-cat.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.4238227">
-            <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <first_editor vertical-scroll-proportion="0.18836565">
+            <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
