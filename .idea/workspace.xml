@@ -92,8 +92,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50595236">
-              <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.25297618">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -451,12 +451,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00100" summary="Update sublime tricks.">
-      <created>1466590249805</created>
-      <option name="number" value="00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1466590249808</updated>
-    </task>
     <task id="LOCAL-00101" summary="Update javascript basic.">
       <created>1466599322598</created>
       <option name="number" value="00101" />
@@ -745,7 +739,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475296332678</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Update the slide in effect.">
+      <created>1475296944089</created>
+      <option name="number" value="00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1475296944089</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -785,7 +785,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added decision making." />
     <MESSAGE value="Update mr six." />
     <MESSAGE value="Update 2 old posts." />
     <MESSAGE value="Update 3 old posts." />
@@ -810,7 +809,8 @@
     <MESSAGE value="updated a blog." />
     <MESSAGE value="Added 2 posts." />
     <MESSAGE value="Added 1 posts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 1 posts." />
+    <MESSAGE value="Update the slide in effect." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the slide in effect." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1240,8 +1240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50595236">
-          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.25297618">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
           <folding />
         </state>
       </provider>
