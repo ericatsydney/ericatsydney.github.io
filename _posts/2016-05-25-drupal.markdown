@@ -323,11 +323,40 @@ we could get and  use Drupal vaiable anywhere via `drupal_get()` and `drupal_set
  
 js setting
 
-entity
-======
+Entity and Node
+===============
 @todo
 
 We could use `wrapper_metadata_entity('node', $node)` to simplify the access to fields' value.
+
+How to render a node depending on the place, like in detail pages we use 'Full', in listing we use 'Teaser'. 'Full' and 'Teaser' is the default `view_mode` of the node. We can also create a customized one to extend the use cases.
+
+Example code?
+{% highlight php%}
+/**
+ * Implements hook_entity_info_alter().
+ */
+function MYMODULE_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['alternate'] = array(
+    'label' => t('Alternate'),
+    'custom settings' => TRUE,
+  );
+}
+
+/**
+ * Implements template_preprocess_node()
+ */
+function THEME_preprocess_node(&$variables) {
+  $node = $variables['node'];
+  $view_mode = $variables['view_mode'];
+  
+  // Set up template suggestions for non-standard view modes
+  if ($view_mode !== 'full') {
+    $variables['theme_hook_suggestions'][] = 'node__' . $node->type . '__' . $view_mode;
+  }
+}
+{% endhighlight %}
+
 
 paragraph
 =========

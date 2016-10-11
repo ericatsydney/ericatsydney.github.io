@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "生活的无奈"
+title:  "事实不可避免"
 date:   2016-10-01 14:30:52 +1000
 categories: Dream
 ---

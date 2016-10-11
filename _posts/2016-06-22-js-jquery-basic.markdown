@@ -6,7 +6,9 @@ categories: Geek
 ---
 null and undefined
 ===============
-TBC
+`undefined` is a type of variable, it means the variable is declared without assigement.
+
+While `null` is a object / value could be assigned to varaibles.
 
 Does order matter in JS?
 ===========
