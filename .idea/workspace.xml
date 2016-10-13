@@ -60,8 +60,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-10-12-front-end-framework.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.4722222">
-                <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
+              <first_editor vertical-scroll-proportion="0.6611111">
+                <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -309,12 +309,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Update the memory.">
-      <created>1467283840516</created>
-      <option name="number" value="00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1467283840516</updated>
     </task>
     <task id="LOCAL-00107" summary="Update the sass.">
       <created>1467284075890</created>
@@ -604,7 +598,13 @@
       <option name="project" value="LOCAL" />
       <updated>1476357566288</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Added a new post.">
+      <created>1476359779375</created>
+      <option name="number" value="00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1476359779375</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1140,8 +1140,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-10-12-front-end-framework.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.4722222">
-            <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
+          <first_editor vertical-scroll-proportion="0.6611111">
+            <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
