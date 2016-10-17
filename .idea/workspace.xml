@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" afterPath="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown" afterPath="$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -28,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-10-11-return-to-the-ground.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.48195878">
+              <first_editor vertical-scroll-proportion="0.0">
                 <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
                 <folding />
               </first_editor>
@@ -40,12 +42,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-10-12-aroma.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016-10-12-aroma.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.3943299">
-                <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+              <first_editor vertical-scroll-proportion="0.48195878">
+                <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -56,12 +58,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-10-12-front-end-framework.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-10-12-front-end-framework.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-10-12-front-end-framework.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.6611111">
+              <first_editor vertical-scroll-proportion="0.0">
                 <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-06-26-shell-and-linux.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -128,7 +146,6 @@
         <option value="$PROJECT_DIR$/_posts/2016-06-21-Sublime-tricks.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-23-journey-to-vim.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-24-php-basic.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown" />
@@ -157,8 +174,9 @@
         <option value="$PROJECT_DIR$/_posts/2016-10-05-bulimba.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-10-11-return-to-the-ground.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-10-09-soy-custer.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-10-12-front-end-framework.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown" />
       </list>
     </option>
   </component>
@@ -201,7 +219,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,13 +267,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="drupal&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-25-drupal.markdown&#10;jquery&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-22-js-jquery-basic.markdown&#10;yml&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_config.yml&#10;main.scss&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/css/main.scss&#10;regex&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-08-24-regex-is-king.markdown&#10;kno&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;react&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-07-24-react.markdown&#10;js&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-22-js-jquery-basic.markdown&#10;sass&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-27-sass-101.markdown&#10;publ&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-20-public-speaking.markdown&#10;know&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;devtoo&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-30-chrome-devel-tool.markdown&#10;css&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;vim&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-23-journey-to-vim.markdown&#10;shell&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-26-shell-and-linux.markdown&#10;refa&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-24-refactoring.markdown&#10;php&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-24-php-basic.markdown&#10;under&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-03-make-yourself-understood.markdown&#10;kn&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;knowledge&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;box&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;sub&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-21-Sublime-tricks.markdown&#10;pr&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-02-26-keep-programming.markdown&#10;make&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-03-make-yourself-understood.markdown&#10;index.ht&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_site/about/index.html&#10;config&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_config.yml" />
+    <property name="SearchEverywhereHistoryKey" value="shel&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-26-shell-and-linux.markdown&#10;drupal&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-25-drupal.markdown&#10;jquery&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-22-js-jquery-basic.markdown&#10;yml&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_config.yml&#10;main.scss&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/css/main.scss&#10;regex&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-08-24-regex-is-king.markdown&#10;kno&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;react&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-07-24-react.markdown&#10;js&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-22-js-jquery-basic.markdown&#10;sass&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-27-sass-101.markdown&#10;publ&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-20-public-speaking.markdown&#10;know&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;devtoo&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-30-chrome-devel-tool.markdown&#10;css&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;vim&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-23-journey-to-vim.markdown&#10;shell&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-26-shell-and-linux.markdown&#10;refa&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-24-refactoring.markdown&#10;php&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-24-php-basic.markdown&#10;under&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-03-make-yourself-understood.markdown&#10;kn&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;knowledge&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;box&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;sub&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-21-Sublime-tricks.markdown&#10;pr&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-02-26-keep-programming.markdown&#10;make&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-03-make-yourself-understood.markdown&#10;index.ht&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_site/about/index.html&#10;config&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_config.yml" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
     <property name="com.intellij.ide.scratch.NewScratchFileAction" value="PHP" />
@@ -309,12 +327,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Update the sass.">
-      <created>1467284075890</created>
-      <option name="number" value="00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1467284075890</updated>
     </task>
     <task id="LOCAL-00108" summary="Update the make yourself understood.">
       <created>1467375442682</created>
@@ -604,32 +616,38 @@
       <option name="project" value="LOCAL" />
       <updated>1476359779375</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Added a new post.">
+      <created>1476360007031</created>
+      <option name="number" value="00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1476360007036</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34114978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3464448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3691275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3686327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44548652" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -814,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2222223">
@@ -964,13 +975,13 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.075187966">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-09-29-spring.markdown">
@@ -1042,13 +1053,13 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2222223">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-05-25-drupal.markdown">
@@ -1060,13 +1071,13 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2222223">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-09-30-if-I-am-a-cat.markdown">
@@ -1112,22 +1123,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-10-11-return-to-the-ground.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.48195878">
+          <first_editor vertical-scroll-proportion="0.0">
             <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.3943299">
-            <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1140,8 +1137,41 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-10-12-front-end-framework.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.6611111">
+          <first_editor vertical-scroll-proportion="0.0">
             <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2222223">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.48195878">
+            <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
             <folding />
           </first_editor>
           <second_editor />

@@ -48,3 +48,9 @@ find . -type d -name js
 - backup file
 
 - shortcut: `ctrl + a` go to start of the command, `ctrl + e` go to the end of the command
+
+- file structure
+
+- inotifywatch
+
+- system checking `free -m`
