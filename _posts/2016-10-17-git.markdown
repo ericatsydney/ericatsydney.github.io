@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Git"
+date:   2016-10-12 6:20:52 +1000
+categories: Geek
+---
+Git
+============
+
+`git update-index assume-no-update path/file` 
