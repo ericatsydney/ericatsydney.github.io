@@ -8,3 +8,7 @@ Git
 ============
 
 `git update-index assume-no-update path/file` 
+
+
+Git Flow
+========

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-10-17-git.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown" afterPath="$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Added china dream.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-10-20-china-dream.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-10-17-git.markdown" afterPath="$PROJECT_DIR$/_posts/2016-10-17-git.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -62,8 +62,24 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-10-17-git.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.35142118">
-                <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.6149871">
+                <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-10-20-china-dream.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-10-20-china-dream.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.65891474">
+                <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -142,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-05-13-learn-from-water.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-20-public-speaking.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-21-killing-me-softly.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-05-22-philosophy-save-life.markdown" />
@@ -192,6 +207,7 @@
         <option value="$PROJECT_DIR$/_posts/2016-10-12-front-end-framework.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-10-20-china-dream.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-10-17-git.markdown" />
       </list>
     </option>
@@ -343,12 +359,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Add how to be efficient.">
-      <created>1467376313688</created>
-      <option name="number" value="00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1467376313688</updated>
     </task>
     <task id="LOCAL-00110" summary="Update the jquery basic.">
       <created>1467459641687</created>
@@ -638,7 +648,13 @@
       <option name="project" value="LOCAL" />
       <updated>1476703486343</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="Add post git.">
+      <created>1476880976292</created>
+      <option name="number" value="00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1476880976292</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -678,7 +694,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update 3 old posts." />
     <MESSAGE value="Update several old posts." />
     <MESSAGE value="Added problem solving." />
     <MESSAGE value="Added UX." />
@@ -703,20 +718,14 @@
     <MESSAGE value="Update the slide in effect." />
     <MESSAGE value="Added a new post." />
     <MESSAGE value="Update aroma." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update aroma." />
+    <MESSAGE value="Add post git." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add post git." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2016-05-21-killing-me-softly.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-05-22-philosophy-save-life.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2222223">
@@ -1190,11 +1199,25 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-10-20-china-dream.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.65891474">
+            <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-10-17-git.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.35142118">
-            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.6149871">
+            <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
