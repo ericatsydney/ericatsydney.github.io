@@ -4,6 +4,24 @@ title:  "Javascript and jQuery"
 date:   2016-06-22 22:30:52 +1000
 categories: Geek
 ---
+Function declaration vs Function Expression
+========
+{% highlight js%}
+// Function declaration
+function foo() {
+}
+
+// Function expression
+var bar = function() {
+};
+{% endhighlight %}
+
+
+
+window vs document
+==================
+document is the visible part of the window object.
+
 null and undefined
 ===============
 `undefined` is a type of variable, it means the variable is declared without assigement.
@@ -164,7 +182,7 @@ $('#id').trigger('event2', arg);
 
 Function bind vs proxy
 ======================
-Here the `prototype.bind` function is not the same as `$().bind` function, it will pass the object to the function's `this` variable. It is the similar as `$().proxy`.
+Here the `prototype.bind` function is not the same as `$().bind` function, the former will pass the object to the function's `this` variable. It is the similar as `$().proxy`.
 {% highlight js%}
   var $container = $(this.productContainer);
   // pass the `this` to bindEvents, so in the bindEvents function
