@@ -6,7 +6,6 @@ categories: Geek
 ---
 Function declaration vs Function Expression
 ========
-{% highlight js%}
 // Function declaration
 function foo() {
 }
@@ -14,9 +13,6 @@ function foo() {
 // Function expression
 var bar = function() {
 };
-{% endhighlight %}
-
-
 
 window vs document
 ==================
