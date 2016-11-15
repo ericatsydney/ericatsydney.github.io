@@ -33,7 +33,9 @@ find . -type d -name js
 
 - `curl` and `wget` to get the file from internet.
 
-- Export
+- Export/ echo
+
+- Source
 
 - Crontab
 
