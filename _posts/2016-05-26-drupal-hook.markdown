@@ -15,6 +15,45 @@ Hook's Sequence
 hook_preprocess_theme -> template
 hook_preprocess_block
 
+## Creating Hook ##
+Drupal's hook system is the way let modules interact with each other.
+
+At first, define a hook in the host module (automatically it will be called in place):
+{% highlight php%}
+  // Let's say the name of module to define the hook is "host_module"
+  // Sample 1, intercepting hook
+  $result = array();
+  foreach (module_implements('hook_name_1') as $module) {
+    // Calling all modules implementing hook_hook_name_1 and 
+    // Returning results than pushing them into the $result array:
+    $result[] = module_invoke($module, 'hook_name');
+  }
+
+   // Sample 2, alter hook
+   $data = array(
+     'key1' => 'value1',
+     'key2' => 'value2',
+   );
+   
+   // Calling all modules implementing hook_my_data_alter():
+   drupal_alter('hook_name_2', $data);
+{% endhighlight %}
+
+And then implement hook in other modules
+{% highlight php%}
+// The name of module to implement the hook is "other_module".
+// Here we try to modify the variables in "host_module".
+function other_module_host_module_hook_name_1() {
+  //Implementation code goes here
+}
+
+function other_module_host_module_hook_name_2_alter() {
+  //Implementation code goes here
+}
+{% endhighlight %}
+
+## hook_preprocess vs hook_preprocess_HOOK ##
+
 ## hook_menu ##
 
 This is the router of Drupal, link the url and callback function together, please note the Drupal bootstrap will be called.
