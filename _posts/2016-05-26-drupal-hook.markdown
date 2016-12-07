@@ -52,7 +52,19 @@ function other_module_host_module_hook_name_2_alter() {
 }
 {% endhighlight %}
 
-## hook_preprocess vs hook_preprocess_HOOK ##
+## preprocess theme hook ##
+
+This is a [reference](https://www.drupal.org/docs/7/theming/overriding-themable-output/setting-up-variables-for-use-in-a-template-preprocess-and)  about the sequence of running pre-process hook.
+
+When we using a preprocessor without specify a theme hook, a second parameter could be passed as current hook.
+
+{% highlight php%}
+function sample_module_preprocess(&$variables, $hook) {
+  // Use the theme hook name to set the base class, used for BEM modifiers.
+  $varaibles['base_class'] = drupal_html_class($hook);
+}
+{% endhighlight %}
+
 
 ## hook_menu ##
 
@@ -67,11 +79,7 @@ This is the router of Drupal, link the url and callback function together, pleas
 - `theme()` function: Route it to either the template file or theme function.
 
 - `<module_name>_preprocess_<theme_name>` / `hook_preproces_HOOK`
-{% highlight php%}
-   // This sample create variable in the preprocessor, and pass them to template.
-   // Make it possible to override the variable in sub-theme, sub-module
-   // Code goes here.
-{% endhighlight %}
+Please refer the preprocess hook above.
 
 ## hook for Node/ Field/ View ##
 
