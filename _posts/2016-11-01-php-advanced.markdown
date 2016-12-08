@@ -17,10 +17,10 @@ Callable function as variable
 
 Magic Variables
 ===============
-These are the magic variables I used a lot in php coding.
+These are the magic variables I used a lot in php coding, they should be sourounded by '\__'.
 |Name	| Description |
 |----------|:-------------:|
-|\__LINE__|	Good for debugging with var_dump().|
-|\__FILE__|	The full path and filename of the file with symlinks resolved. If used inside an include, the name of the included file is returned.|
-|\__DIR__|	The directory of the file. If used inside an include, the directory of the included file is returned. This is equivalent to dirname(\__FILE\__). This directory name does not have a trailing slash unless it is the root directory.|
-|\__FUNCTION__|	The function name.|
+|LINE|	Good for debugging with var_dump().|
+|FILE|	The full path and filename of the file with symlinks resolved. If used inside an include, the name of the included file is returned.|
+|DIR|	The directory of the file. If used inside an include, the directory of the included file is returned. This is equivalent to dirname(FILE). This directory name does not have a trailing slash unless it is the root directory.|
+|FUNCTION|	The function name.|
