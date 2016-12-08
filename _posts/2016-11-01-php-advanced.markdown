@@ -17,7 +17,7 @@ Callable function as variable
 
 Magic Variables
 ===============
-These are the magic variables I used a lot in php coding, they should be sourounded by underscore-underscore.
+These are the magic variables I used a lot in php coding, they should be sourounded by '__'.
 
 |Name	| Description |
 |----------|:-------------:|
