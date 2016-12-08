@@ -17,7 +17,7 @@ Callable function as variable
 
 Magic Variables
 ===============
-These are the magic variables I used a lot in php coding, they should be sourounded by '\__'.
+These are the magic variables I used a lot in php coding, they should be sourounded by '__'.
 |Name	| Description |
 |----------|:-------------:|
 |LINE|	Good for debugging with var_dump().|
