@@ -8,6 +8,9 @@ jQuery(document).ready(function ($) {
         $menu.toggleClass('is-active');
     });
 
+    // Add table class to all the tables for Bulma framework.
+    $('table').addClass('table');
+
     $('.modal-button').click(function() {
         var target = $(this).data('target');
         $('html').addClass('is-clipped');
