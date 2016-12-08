@@ -133,4 +133,22 @@ form['#attach']['library'][]=library('module_name', 'library_name');
 ## Ajax framework ##
 
 The drupal provide the Ajax form out of box, this is an example to show how to use it.
-<TBC>
+{% highlight php%}
+// #ajax is the indicator that when this field is changed, 
+// a callback on server side will be triggered in AJAX way.
+// wrapper is the CSS ID of the area to be replaced by AJAX callback. 
+function ajax_example_simplest($form, &$form_state) {
+  $form = array();
+  $form['changethis'] = array(
+    '#type' => 'select',
+    '#options' => array(
+      'one' => 'one',
+      'two' => 'two',
+      'three' => 'three',
+    ),
+    '#ajax' => array(
+      'callback' => 'ajax_example_simplest_callback',
+      'wrapper' => 'replace_textfield_div',
+     ),
+  );
+{% endhighlight %}
