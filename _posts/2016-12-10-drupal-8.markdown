@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Drupal 8"
+date:   2016-12-10 6:47:52 +1000
+categories: Geek
+---
+
+dependency injection vs hook
+============================
+Drupal 8 provide two way to alter original drupal core behaviours. 
+
+One is using hook as Drupal 7, please check here for more detail.
+
+Another way is the OO way using dependency injection, here's the official [documentation](https://www.drupal.org/docs/8/api/services-and-dependency-injection/services-and-dependency-injection-in-drupal-8) about the `Dependency Injection`. 
+
+And here's a [tutorial](https://www.sitepoint.com/drupal-8-hooks-symfony-event-dispatcher/) on sitepoint to compare two of them. 
+
+For sure, Drupal 8 encourage to use the later one to make all the logic decouple and testable.

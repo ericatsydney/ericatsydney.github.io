@@ -5,11 +5,11 @@ date:   2016-03-05 22:00:52 +1000
 categories: Geek
 ---
 
-不知道service provider和service container，就等于没有很好地理解Laravel.
+service provider和service container是Laravel/Sympony里面两个很重要的概念，是理解Laravel的关键.
 
-开始对这两个概念很模糊，但看到sitepoint上这篇<a target="_blank" href='http://www.sitepoint.com/dependency-injection-laravels-ioc/'>博客</a>之后就茅塞顿开。
+开始对这两个概念很模糊，知道看到sitepoint上这篇<a target="_blank" href='http://www.sitepoint.com/dependency-injection-laravels-ioc/'>博客</a>。
 
-如果说概念，service provider就是提供全局服务的类，service container是一个service provider的注册系统，用来记录哪些类／接口需要使用了service provider。
+就概念来说，service provider就是提供全局服务的类，service container是一个service provider的注册系统，用来记录哪些类／接口需要使用了service provider。
 
 Dependency Injection是一种很好的解耦方法，也另单元测试成为可能，她用参数形式来解释了应用与服务之间的关系，Laravel还能方便地使用php的reflection功能，自动实现类的实例化。
 
