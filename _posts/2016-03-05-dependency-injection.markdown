@@ -7,8 +7,11 @@ categories: Geek
 
 As my understanding
 
-> Dependency Injection is about how to defer concreting service class, create service instance along with the client instance.
-> But we still need to clarify the **dependency** between client and service, so we **inject** the service into the client as a parameter.  
+> Dependency Injection is about how to defer concreting service class.
+ 
+> Only create the service instance along with the client instance, it means no `new` keyword in client construct function.
+
+> But we still need to clarify the **dependency** between client and service classes, so we **inject** the service instance as a parameter into the client construct function.  
 
 1. This is the implementation without DI
 {% highlight php%}
