@@ -13,12 +13,13 @@ As my understanding
 
 > But we still need to clarify the **dependency** between client and service classes, so we **inject** the service instance as a parameter into the client construct function.  
 
-1. This is the implementation without DI
+This is the implementation without DI
+
 {% highlight php%}
 class Brush {
   private $color;
   private $texture;
-  public function _construct($color, $texture) {
+  public function __construct($color, $texture) {
     $this->setColor($color);
   }
   public function setColor($color) {
@@ -45,11 +46,11 @@ $picasso = new Paiter();
 $picasso.draw('red', 'soft');
 {% endhighlight %}
 
-2. Use Dependency Injection.
+Use Dependency Injection.
 {% highlight php%}
 class Painter {
   private $brush;
-  public function _construct(Brush $brush) {
+  public function __construct(Brush $brush) {
     $this->brush = $brush;
   }
   public function draw() {
@@ -58,9 +59,11 @@ class Painter {
   }
 }
 $picasso = new Paiter(new Brush('blue', 'hard'));
+$picasso.draw();
 {% endhighlight %}
 
-3. Laravel: use service container (Inversion of Control)
+Laravel: use service container (Inversion of Control)
+
 Sample 1: for the normal class 
 {% highlight php%}
 
@@ -73,7 +76,7 @@ Sample 1: for the normal class
 
 class Painter {
   private $tool;
-  public function _construct(Brush $brush) {
+  public function __construct(Brush $brush) {
     $this->tool = $tool;
   }
 }
@@ -94,7 +97,7 @@ App:bind( 'Tool', 'Pencil' );
 
 class Painter {
   private $tool;
-  public function _construct(Tool $tool) {
+  public function __construct(Tool $tool) {
     $this->tool = $tool;
   }
 }
@@ -102,7 +105,7 @@ class Painter {
 
 Reference: sitepoint [blog](http://www.sitepoint.com/dependency-injection-laravels-ioc).
 
-4. Symfony, use service container
+Symfony, use service container
 {% highlight php%}
 // Register brush in container as a service.
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -112,11 +115,11 @@ $container
 
 class Painter {
   private $brush;
-  public function _construct(\Brush $brush) {
+  public function __construct(\Brush $brush) {
     $this->brush = $brush;
   }
 }
 {% endhighlight %}
 
-5. Drupal 8
+Drupal 8
 TBC
