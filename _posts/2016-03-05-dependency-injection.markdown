@@ -1,27 +1,119 @@
 ---
 layout: post
-title:  "Denpendency Injection"
+title:  "Laravel - Dependency Injection"
 date:   2016-03-05 22:00:52 +1000
 categories: Geek
 ---
 
-service provider和service container是Laravel/Sympony里面两个很重要的概念，是理解Laravel的关键.
+As my understanding
 
-开始对这两个概念很模糊，知道看到sitepoint上这篇<a target="_blank" href='http://www.sitepoint.com/dependency-injection-laravels-ioc/'>博客</a>。
+> Dependency Injection is about how to defer concreting service class, create service instance along with the client instance.
+> But we still need to clarify the **dependency** between client and service, so we **inject** the service into the client as a parameter.  
 
-就概念来说，service provider就是提供全局服务的类，service container是一个service provider的注册系统，用来记录哪些类／接口需要使用了service provider。
+1. This is the implementation without DI
+{% highlight php%}
+class Brush {
+  private $color;
+  private $texture;
+  public function _construct($color, $texture) {
+    $this->setColor($color);
+  }
+  public function setColor($color) {
+    $this->color = $color;
+  };
+  public function getColor() {
+    print $this->color;
+  };
+  public function setTextture($texture) {
+    $this->texture = $texture;
+  };
+  public function getTextture() {
+    print $this->texture;
+  };
+}
+class Painter {
+  public function draw($color, $texture) {
+    $brush = new Brush($color, $texture);
+    $brush.getColor();
+    $brush.getTexture();
+  }
+}
+$picasso = new Paiter();
+$picasso.draw('red', 'soft');
+{% endhighlight %}
 
-Dependency Injection是一种很好的解耦方法，也另单元测试成为可能，她用参数形式来解释了应用与服务之间的关系，Laravel还能方便地使用php的reflection功能，自动实现类的实例化。
+2. Use Dependency Injection.
+{% highlight php%}
+class Painter {
+  private $brush;
+  public function _construct(Brush $brush) {
+    $this->brush = $brush;
+  }
+  public function draw() {
+    $this->brush.getColor();
+    $this->brush.getTexture();
+  }
+}
+$picasso = new Paiter(new Brush('blue', 'hard'));
+{% endhighlight %}
 
- 像这个列子：
-{% highlight php %}
+3. Laravel: use service container (Inversion of Control)
+Sample 1: for the normal class 
+{% highlight php%}
+
+// We don't need to bind method here, as Laravel is smart enough to 
+// detect we need an instance and use PHP Reflection to new the Brush 
+// class for us automatically.
+// App:bind( 'Brush', function() {
+//  return new Brush;
+//});
+
+class Painter {
+  private $tool;
+  public function _construct(Brush $brush) {
+    $this->tool = $tool;
+  }
+}
+{% endhighlight %}
+
+Sample 2: for the interface
+{% highlight php%}
+interface Tool {
+}
+class Brush implement Tool{
+}
+class Pencil implement Tool{
+}
+// App is the Facade of Application extend from Container
+// Without this binding, the Painter construct function will get error 
+// for binding a interface class. 
+App:bind( 'Tool', 'Pencil' );
+
+class Painter {
+  private $tool;
+  public function _construct(Tool $tool) {
+    $this->tool = $tool;
+  }
+}
+{% endhighlight %}
+
+Reference: sitepoint [blog](http://www.sitepoint.com/dependency-injection-laravels-ioc).
+
+4. Symfony, use service container
+{% highlight php%}
+// Register brush in container as a service.
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+$container = new ContainerBuilder();
+$container
+    ->register('brush', 'Brush');
+
+class Painter {
+  private $brush;
+  public function _construct(\Brush $brush) {
+    $this->brush = $brush;
+  }
+}
+{% endhighlight %}
+
+5. Drupal 8
 TBC
-{% endhighlight %}
-
-当服务类是一个接口时，Laravel就用service container（IOC／反向控制）来进一步地解释/搭建他们的关系。
-
- 像下面的例子：
-
-{% highlight php %}
-App:bind( 'SessionStorage', 'MysqlSessionStorage' );
-{% endhighlight %}

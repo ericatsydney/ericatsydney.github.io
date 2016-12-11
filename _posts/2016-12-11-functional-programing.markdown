@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Why the functional programming so popular?"
+date:   2016-12-11 06:15:52 +1000
+categories: Geek
+---
+
+TBC

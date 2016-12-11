@@ -15,8 +15,6 @@ Line height: 1.3em - 1.5em for body
 
 [Picking color](http://www.websitebuilderexpert.com/how-to-choose-color-for-your-website/): pick up a dominant color (blue or green cannot be bad choice), use it in the place to hightlight, and use netrual color as background.
 
-
-
 - Atomic Design
 
 - Responsive vs Adaptive
@@ -55,11 +53,15 @@ Language Understanding
 Framework / CMS / Library
 =========================
 
-- [Drupal](http://ericatsydney.github.io/programming/2016/05/24/drupal.html) and [Drupal Hook](http://ericatsydney.github.io/programming/2016/05/24/drupal-hook.html)  
+- [Drupal 7](http://ericatsydney.github.io/programming/2016/05/24/drupal.html) and [Drupal 7 Hook](http://ericatsydney.github.io/programming/2016/05/24/drupal-hook.html)
+  
+- [Drupal 8](http://ericatsydney.github.io/geek/2016/12/09/drupal-8.html)
 
-- Laravel (DOI)
+- Laravel
 
-- React.js ()
+- Symfony
+
+- [React.js](http://ericatsydney.github.io/geek/2016/07/23/react.html)
 
 - Foundation (media query in JS, throttle)
 
