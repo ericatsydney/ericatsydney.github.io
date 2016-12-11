@@ -46,6 +46,7 @@ class MyClass {
 {% endhighlight %}
 
 myapp.php:
+{% highlight php%}
 <?php
 use App\Lib1\MyClass as MC;
 
@@ -61,6 +62,7 @@ function __autoload($class) {
 
 }
 ?>
+{% endhighlight %}
 
 :: Operator
 =====
