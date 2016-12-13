@@ -65,6 +65,16 @@ Framework / CMS / Library
 
 - Foundation (media query in JS, throttle)
 
+This coding could avoid loading the Foundation default styling 
+
+$include-html-type-classes: false;
+
+$include-html-classes: false;
+
+$include-js-meta-styles: false;
+
+$include-html-global-classes: $include-html-classes;
+
 - Bootstrap
 
 Workflow / Tooling / IDE
