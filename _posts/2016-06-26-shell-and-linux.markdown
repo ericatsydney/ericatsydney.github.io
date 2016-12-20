@@ -17,6 +17,8 @@ Linux
 alias foo='git diff'
 {% endhighlight %}
 
+Use `source <alias file>` to make the change take effect. 
+
 - grep, pipe
 {% highlight shell%}
 # recursive search keyword in specific suffix files, list the file name as result.
@@ -28,6 +30,20 @@ grep -rl --include=\*.{php,inc} 'breadcrumb'
 # search 'js' folder in current direcotry
 find . -type d -name js
 {% endhighlight %}
+
+- sed
+sed is the stream editor, but can edit files directly too, with the following:
+{% highlight shell%}
+sed -i -e 's/foo/bar/g' filename
+{% endhighlight %}
+
+- how to pass parameter
+
+`$0` is the string value of command itself
+
+`$1` is the 1st parameter
+
+`$2` is the 2nd parameter and so on...
 
 - package management: `yum install` and `apt-get`
 

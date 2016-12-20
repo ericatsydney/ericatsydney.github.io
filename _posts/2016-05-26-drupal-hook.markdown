@@ -72,9 +72,36 @@ This is the router of Drupal, link the url and callback function together, pleas
 
 ## Theme Hook ##
 
-- `<module_name>_theme`: This is the place to store theme registration, also you can put the template file here.
+- `<module_name>_theme`: This is the place to store theme registration, also you could define how the theme will be rendered.
+{% highlight php%}
+function sample_module_theme() {
+ $return = array(
+   // This theme will be called by theme() and 
+   // variables will be casted into the template.
+   'sample_theme_name_1' => array(
+     'variables' => array?
+       //variables go here!
+     ),
+     'template' => 'template_name',
+     'path' => '/path/to/template'
+     'preprocess functions' => $preprocess_functions,
+   ),
+   // return a rendered element tree
+   'sample_theme_name_2' => array(
+     'render element' => 'element'
+   ),
+ );
+}
+{% endhighlight %}
 
-- `theme_<theme_name>`: After <theme_name> is registered above, this default function will be provided to implement (return html markup).
+- `theme_<theme_name>($variable)`: After <theme_name> is registered above, this default function will be provided to implement (return html markup).
+{% highlight php%}
+// sample_theme_name_1 don't need this.
+function theme_sample_theme_name_2 {
+  return render($render_array);
+}
+{% endhighlight %}
+
  
 - `theme()` function: Route it to either the template file or theme function.
 
@@ -104,8 +131,22 @@ This is the field type API [DOC](https://api.drupal.org/api/drupal/modules%21fie
 ## Block Hook ##
 
 - `hook_block_info()`: define the block's name.  
+{% highlight php%}
+$block_default = ['cache' => DRUPAL_NO_CACHE, 'category' => t('Sample Category')];
+$blocks['sample_block'] = array_merge($block_default, [
+    'info' => t('Sample Block'),
+  ]);
+return $blocks;
+{% endhighlight %}
 
-- `hook_block_view()`? define the block's render array.
+- `hook_block_view()`: define the block's render array.
+{% highlight php%}
+function sample_module_block_view($delta) {
+  $block = array();
+  $block['content']['#theme'] = $delta;
+  return $block;
+}
+{% endhighlight %}
 
 - `hook_preprocess_block()`: modify the variable before the block get rendered.
 
