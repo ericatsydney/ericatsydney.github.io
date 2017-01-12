@@ -1,19 +1,12 @@
 ---
 layout: post
-title:  "React in ES6"
+title:  "React (ES6)"
 date:   2016-07-24 7:05:52 +1000
 categories: Geek
 ---
 
-React feat ES6
-==============
-- Classes
-We will use `class extends` keyword instead of `React.createClass` in ES6 flavor. And we also need the `constructor` to initialise the value.
-
-- Modualzie
-
-`import` and `export` is the reserved keyword in ES6, it help you modularise javascript. 
-
+ES6
+===
 - Arrow function
 
 Arrow function finishes 2 jobs: simplify the function syntax and pass the `this` to inside the function.
@@ -32,10 +25,27 @@ $('.current-time').each(function () {
 
 When we need to use that in class, we need to turn on the stage1 option/ plugin.
 
+- Destructing Assignment
+{% highlight js%}
+// Get the assignment from this.props with the same name variables.
+const {variable1, variable2} = this.props
+{% endhighlight %}
+
+- Template literal
+{% highlight js%}
+// there's no need to use + to concat variable and string.
+let template = `This is the template for $appName`;
+{% endhighlight %}
+
+- Classes
+We will use `class extends` keyword instead of `React.createClass` in ES6 flavor. And we also need the `constructor` to initialise the value.
+
+- Modualzie
+
+`import` and `export` is the reserved keyword in ES6, it help you modularise javascript. 
+
 - Transpile `Babel`
   Use `Babel` to compile your ES6 javascript to compatible version. 
-
-How to bind this in react: there are serveral ways 1. 2. 3. 4. 5
 
 React
 =====
