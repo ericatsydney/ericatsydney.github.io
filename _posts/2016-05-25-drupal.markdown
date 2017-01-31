@@ -386,6 +386,8 @@ drush command
 =============
 Drupal provide cli utility `drush` to let us finish admin job efficiently and make it posible to put all the command into shell script.
 
+`drush vset theme_debug 1` this command will turn the theme debug on, the theme hook suggestion will be printed along with the html markup.
+
 `drush cc all && drush rr` clean all the cache
 
 `drush sqlq 'select * from table limit 20'` run sql command

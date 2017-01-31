@@ -5,13 +5,13 @@ date:   2016-05-25 7:05:52 +1000
 categories: Geek
 ---
 
-Understanding Hook:
+## Understanding Hook ##
 
-HOOK is the theme, module
+In Drupal documentation, HOOK is a key word shown everywhere.
 
-In many situations, we use the hook as pre-processor,  
+For example, we can see this `hook_preprocess_HOOK`. The first `hook` is like the module name you put this function in. The second `HOOK` with capital case has special meaning. It means the #trigger#, it can be a theme name or panel/ block/ view instance name.This function will be excuted when the `hook` is enabled and `HOOK` is going to be rendered in the page.
 
-Hook's Sequence
+`hook` is like Laravel's `container`, while `HOOK` is the services.
 hook_preprocess_theme -> template
 hook_preprocess_block
 
@@ -127,6 +127,10 @@ This is the field type API [DOC](https://api.drupal.org/api/drupal/modules%21fie
 - `hook_form_alter`: update the render array before form is rendered.
 
 - TBC
+
+## Panel Hook ##
+`hook_panel_pane_prerender($pane)`
+`hook_panel_pane_content_alter(&$variable, $pane)`
 
 ## Block Hook ##
 

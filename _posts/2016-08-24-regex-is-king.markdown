@@ -36,6 +36,13 @@ Use in PHP
 {% highlight php%}
 // / forward slash is the delimiter here.
 // \ back slash is the escape character
-pattern = '/(\s*)Key Word(.*)/'
+// and quote is needed to wrap all the things
+$pattern = '/(\s*)Key Word(.*)/';
+
+// preg_math will return 1 when found, return 0 when not found, 
+// return false when error happen
+if (preg_match($pattern, $hay)) {
+  dd('found');
+}
 {% endhighlight %}
 

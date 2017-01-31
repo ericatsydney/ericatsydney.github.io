@@ -90,6 +90,10 @@ P.S. ref string attribute is going to deprecated at some point of future, refere
   }
 {% endhighlight %}
 
+- uncontrolled components
+
+- special attributes: 
+
 
 Flux and Redux
 ==============
