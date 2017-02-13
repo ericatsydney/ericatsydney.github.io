@@ -27,6 +27,19 @@ How to put the browserify into different bundles?
 
 `gulp-babel` is out of maintenance ?
 
+webpack
+=======
+Both Browserify and Gulp try to convert the node.js to nativejs, they are quite different though.
+
+Webpack is using config while Browserify is using coding, webpack could only use file patern to target the source file, while Browserify could read specific files.
+
+In webpack's world we have 2 terms: loader and plugins.
+
+- `Loader` try to solve all the transform tasks. Like working with Reactjs, we use babel as the loader.
+
+- `plugin` try to do other automation tasks, like minify.
+
+
 
 npm - Node Package Management
 =============================
