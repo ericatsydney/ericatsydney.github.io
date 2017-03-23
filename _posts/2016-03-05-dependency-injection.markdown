@@ -122,4 +122,9 @@ class Painter {
 {% endhighlight %}
 
 Drupal 8
-TBC
+========
+{% highlight php%}
+// This kind of code will be stored in container.
+// And the InvokeAll will be the service.
+ \Drupal::moduleHandler()->invokeAll('help').
+{% endhighlight %}
