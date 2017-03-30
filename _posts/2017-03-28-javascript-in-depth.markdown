@@ -29,8 +29,13 @@ More details please check this [Codepend](https://codepen.io/eric_tan/pen/OpBqJp
 
 Callback function
 =================
+`callback` is used very often in Javascript. `callback` decouple the host and callback function itself. We could use it in these senario:
 
+- Provide a interface to be invoked by different objects.
+- Pass value to callback function on the fly/dynamically.
+- Event driven - execute only when the event triggered.
 
+Here's a [codepen](https://codepen.io/eric_tan/pen/KWmOLZ) about callback function.
 
 Hosting
 =======
@@ -41,4 +46,7 @@ And I think this concept is quite unique/ odd behaviours exist in Javascript ONL
 
 This is a [stackoverflow link](http://stackoverflow.com/questions/7609276/javascript-function-order-why-does-it-matter)  have sample and detail explanation about `hosting`. 
 
+Recursive function
+==================
 
+This is a [recursive function](https://codepen.io/eric_tan/pen/OpoqVx) experiment.
