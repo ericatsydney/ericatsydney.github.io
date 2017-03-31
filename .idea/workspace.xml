@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-03-28-javascript-in-depth.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.6112266">
+                <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -61,8 +61,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-12-29-drupal-solution.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.10602911">
-                <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <first_editor vertical-scroll-proportion="0.24740125">
+                <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -294,12 +294,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00137" summary="Added react.">
-      <created>1469452956225</created>
-      <option name="number" value="00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1469452956225</updated>
     </task>
     <task id="LOCAL-00138" summary="Added gulp.">
       <created>1469918419580</created>
@@ -589,7 +583,13 @@
       <option name="project" value="LOCAL" />
       <updated>1490857649903</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Update javascript in depth.">
+      <created>1490862459187</created>
+      <option name="number" value="00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1490862459188</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1317,8 +1317,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-12-29-drupal-solution.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.10602911">
-            <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <first_editor vertical-scroll-proportion="0.24740125">
+            <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1331,8 +1331,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-03-28-javascript-in-depth.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.6112266">
+            <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

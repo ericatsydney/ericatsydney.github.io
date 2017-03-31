@@ -35,7 +35,7 @@ Callback function
 - Pass value to callback function on the fly/dynamically.
 - Event driven - execute only when the event triggered.
 
-Here's a [codepen](https://codepen.io/eric_tan/pen/KWmOLZ) about callback function.
+Here's a [Codepen](https://codepen.io/eric_tan/pen/KWmOLZ) about callback function.
 
 Hosting
 =======
