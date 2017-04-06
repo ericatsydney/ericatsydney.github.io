@@ -6,7 +6,9 @@ categories: Geek
 ---
 Foundation
 ============
+
 *File Structure*
+
 |Name	| Description |
 |----------|:-------------|
 | _setting.scss|	The Foundation variables are stored here, it could also be treated as entry point to import other component files.|
