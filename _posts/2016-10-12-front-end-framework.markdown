@@ -15,6 +15,8 @@ Foundation
 |app.scss or what-ever-app.scss|	 This is the entry point to put other styling like normalise.|
 
 *Make the css scalable*
+includePath
+
 
 Bootstrap
 =========
