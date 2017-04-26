@@ -124,7 +124,8 @@ And the solution is chain `once` and `on` to attach function only once.
 
 Function once vs one
 ====================
-- `once()` is a plugin of jQuery:
+- `once()` is a plugin of jQuery, it will make sure the code will be excuted only once:
+
 {% highlight js%}
 // The following will change the color of each paragraph to red, just once
 // for the "changecolor" key.
@@ -133,7 +134,8 @@ $('p').once('changecolor', function() {
 }
 {% endhighlight %}
 
-- while `one()` is a jQuery function, it attach a handler to an event for the elements, and the handler will be executed once per element per event type.
+- while `one()` is a jQuery function, it will make sure the handler attached to an event only once.
+
 {% highlight js%}
 // .one(events, handler)
 $( "#foo" ).one( "click", function() {
