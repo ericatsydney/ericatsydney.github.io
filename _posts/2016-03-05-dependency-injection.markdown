@@ -7,7 +7,7 @@ categories: Geek
 
 As my understanding
 
-> Dependency Injection is about how to defer concreting service class.
+> Dependency Injection is about how to -  defer concreting service class.
  
 > Only create the service instance along with the client instance, it means no `new` keyword in client construct function.
 
