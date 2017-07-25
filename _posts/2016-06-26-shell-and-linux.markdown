@@ -15,6 +15,8 @@ Linux
 {% highlight shell%}
 #Personal alias
 alias foo='git diff'
+# Muti-command alias
+alias bar='command1 xxxx; command2 xxxx'
 {% endhighlight %}
 
 Use `source <alias file>` to make the change take effect. 
