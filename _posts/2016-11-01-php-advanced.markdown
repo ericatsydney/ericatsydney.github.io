@@ -25,3 +25,8 @@ These are the magic variables I used a lot in php coding.
 |\_\_FILE\_\_|	The full path and filename.|
 |\_\_DIR\_\_|	The directory of the file.|
 |\_\_FUNCTION\_\_|	The function name.|
+
+
+Closures
+=======
+@todo
