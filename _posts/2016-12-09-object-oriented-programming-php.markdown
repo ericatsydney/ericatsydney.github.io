@@ -7,7 +7,9 @@ categories: Geek
 
 Namespace
 =========
-Namespace is the way to avoid the name collision. 
+Namespace is the way to avoid the name collision. `namespace`, `use` and `as` are the keywords we use Namespace. The following is an example to show how to use the namespace. 
+
+{% highlight php%}
 // Define
 namespace App\Lib
 
@@ -24,7 +26,7 @@ echo Lib\FunctionName();
 use App\Lib as L;
 require_once('lib.php');
 echo L\FunctionName();
-
+{% endhighlight %}
 
 Autoloading Namespaced Classes
 ==============================
