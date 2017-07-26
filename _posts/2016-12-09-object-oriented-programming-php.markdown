@@ -64,6 +64,12 @@ function __autoload($class) {
 ?>
 {% endhighlight %}
 
+PSR-4 Autoloader
+================
+All the key word `require`, `include` or customized function `__autoload` try to fix autoload problem, but we still need a solution which is scallable and standardized, so all the framework and components can work well together. This is the purpose why PSR-4/Autoloader was designed.
+
+> The essensce of PSR-4 is mapping a top-level namespace prefix to a specific filesystem directory.
+
 :: Operator
 =====
 Double colon operator allow access to static, constant and overriden method of a class.
@@ -71,3 +77,6 @@ Double colon operator allow access to static, constant and overriden method of a
 Interface vs Abstract Class
 ===========================
 TBC
+
+Credit:
+Moden PHP
