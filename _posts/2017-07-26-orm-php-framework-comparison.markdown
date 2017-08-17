@@ -11,6 +11,38 @@ Yii's Active Record is powerful and flexible. It support `lazy loading` `eger lo
 
 Here's some examples:
 
+{% highlight php%}
+// Define the relations
+public function relations()
+{
+  return array(
+    'VarName'=>array('RelationType', 'ClassName', 'ForeignKey', ...additional options)
+  );
+}
+
+// Lazy loading:
+// The sql will be executed when the related object is accessed.
+$temp = $object->VarName;
+
+// Eager loading:
+// Prepopulate the `VarName` for all the objects before being accessed
+// with single join sql. Performance is better for a big table.
+$temps = Object::model()->with('VarName')->findAll();
+
+// Making use of CDbCriteria to add custom join sql to existing relations. 
+// Hight flexibility.
+public function byUserGroups($user_id) {
+  $criteria = new CDbCriteria;
+  $criteria->join = 'INNER JOIN (user_group AS UG1, user_group AS UG2)';
+  $criteria->condition = 'UG1.group_id = UG2.group_id
+    AND t.id = UG2.user_id
+    AND UG1.user_id = ' . $user_id;
+  $this->getDbCriteria()->mergeWith($criteria);
+  return $this;
+}
+
+{% endhighlight %}
+
 
 Yii 2
 =====
