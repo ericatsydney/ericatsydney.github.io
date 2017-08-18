@@ -30,7 +30,7 @@ $temp = $object->VarName;
 $temps = Object::model()->with('VarName')->findAll();
 
 // Making use of CDbCriteria to add custom join sql to existing relations. 
-// Hight flexibility.
+// High flexibility.
 public function byUserGroups($user_id) {
   $criteria = new CDbCriteria;
   $criteria->join = 'INNER JOIN (user_group AS UG1, user_group AS UG2)';
