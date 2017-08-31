@@ -48,8 +48,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="-0.6111111">
-                <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <first_editor vertical-scroll-proportion="0.7222222">
+                <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -480,12 +480,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00099" summary="Update sublime tricks.">
-      <created>1466512689419</created>
-      <option name="number" value="00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1466512689420</updated>
-    </task>
     <task id="LOCAL-00100" summary="Update sublime tricks.">
       <created>1466590249805</created>
       <option name="number" value="00100" />
@@ -774,7 +768,13 @@
       <option name="project" value="LOCAL" />
       <updated>1504181029092</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Update patterns.">
+      <created>1504181288455</created>
+      <option name="number" value="00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1504181288457</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1134,8 +1134,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-0.6111111">
-            <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <first_editor vertical-scroll-proportion="0.7222222">
+            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

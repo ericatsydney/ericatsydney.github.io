@@ -7,7 +7,6 @@ categories: Geek
 
 Yii - Filter
 =======
-{% highlight php%}
 // The filters are used in controller.
 public function filters() {
   return array(
@@ -18,7 +17,7 @@ public function filters() {
 
 public function filterCustom() {
 }
-{% endhighlight %}
+
 
 
 Laravel - Middleware
