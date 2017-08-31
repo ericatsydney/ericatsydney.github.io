@@ -29,4 +29,13 @@ These are the magic variables I used a lot in php coding.
 
 Closures
 =======
-@todo
+Closures is the anonymous function in PHP. We can use it in the callback.
+
+{% highlight php%}
+$greetings = array_map(function($name) {
+  return 'Hello ' . $name;
+}, ['John', 'Eric', 'Josh']);
+
+print_r($greetings);
+{% endhighlight %}
+
