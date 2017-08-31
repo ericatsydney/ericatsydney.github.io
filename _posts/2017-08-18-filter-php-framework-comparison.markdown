@@ -7,12 +7,8 @@ categories: Geek
 
 Yii - Filter
 =======
-{% highlight php%}
+{% highlight %}
 // The filters are used in controller.
-
-/**
- * Define the sequence of filters.
- */
 public function filters() {
   return array(
     'accessControl',
@@ -20,12 +16,10 @@ public function filters() {
   );
 }
 
-/**
- * Define the custom filters.
- */
 public function filterCustom() {
 }
 {% endhighlight %}
+
 
 Laravel - Middleware
 =======
