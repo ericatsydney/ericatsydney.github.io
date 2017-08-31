@@ -7,7 +7,7 @@ categories: Geek
 
 Yii - Filter
 =======
-{% highlight %}
+{% highlight php%}
 // The filters are used in controller.
 public function filters() {
   return array(
