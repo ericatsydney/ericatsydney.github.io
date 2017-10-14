@@ -64,7 +64,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.7705383">
-                <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+                <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -435,12 +435,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00105" summary="Fix highlight error.">
-      <created>1467204286557</created>
-      <option name="number" value="00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1467204286557</updated>
-    </task>
     <task id="LOCAL-00106" summary="Update the memory.">
       <created>1467283840516</created>
       <option name="number" value="00106" />
@@ -729,7 +723,13 @@
       <option name="project" value="LOCAL" />
       <updated>1507982054285</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Update php knowledge map.">
+      <created>1507982064149</created>
+      <option name="number" value="00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1507982064149</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1126,7 +1126,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.7705383">
-            <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />
