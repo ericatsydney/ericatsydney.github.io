@@ -8,9 +8,15 @@ categories: Geek
 Monitor Tools
 =========
 - New Relic
+
 - AWS Cloud Watch
 
 Provisioning
 ===============
 - Chef
+
+- Puppet
+
 - AWS Code Deploy
+
+Check [this](http://blog.takipi.com/deployment-management-tools-chef-vs-puppet-vs-ansible-vs-saltstack-vs-fabric/) out for the different solutions comparison.
