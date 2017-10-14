@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Update php know.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown" afterPath="$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -65,8 +63,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.43342775">
-                <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.7705383">
+                <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -437,12 +435,6 @@
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
     </task>
-    <task id="LOCAL-00104" summary="Added 2 posts.">
-      <created>1467204003469</created>
-      <option name="number" value="00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1467204003471</updated>
-    </task>
     <task id="LOCAL-00105" summary="Fix highlight error.">
       <created>1467204286557</created>
       <option name="number" value="00105" />
@@ -731,7 +723,13 @@
       <option name="project" value="LOCAL" />
       <updated>1507978793242</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="Update php knowledge map.">
+      <created>1507982054285</created>
+      <option name="number" value="00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1507982054285</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -771,7 +769,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update 2 old posts." />
     <MESSAGE value="Update 3 old posts." />
     <MESSAGE value="Update several old posts." />
     <MESSAGE value="Added problem solving." />
@@ -796,7 +793,8 @@
     <MESSAGE value="Update patterns." />
     <MESSAGE value="Update design pattern." />
     <MESSAGE value="Update css and js." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update css and js." />
+    <MESSAGE value="Update php knowledge map." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update php knowledge map." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1127,8 +1125,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.43342775">
-            <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.7705383">
+            <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             <folding />
           </first_editor>
           <second_editor />
