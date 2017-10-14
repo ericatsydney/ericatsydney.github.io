@@ -52,12 +52,6 @@ jQuery(document).ready(function ($) {
         $(this).parent().children('pre').css('max-height', 'none');
     });
 
-    new Clipboard('.copy', {
-        target: function(trigger) {
-            return trigger.previousSibling;
-        }
-    });
-
     $('.nav-menu .nav-item').click(function() {
         $('.post-list .box').hide();
         $('.post-list .box[data-category="' + this.text + '"]').show();
