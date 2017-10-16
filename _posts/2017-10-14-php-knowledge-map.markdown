@@ -15,7 +15,7 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Interfaces
   - Anonymous functions and closures
   - Abstract classes
-  - Exception and error handling
+  - [Exception and error handling](http://ericatsydney.github.io/geek/2017/10/10/php-exception-handling.html)
   - Traits
   - PHP extensions ?
   - SPL
@@ -32,24 +32,20 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Content negotiation
   - Language detection
   
-* Symfony Architecture
+* Framework Architecture
   - Symfony Standard Edition
-  - License
-  - Components
-  - Bundles
-  - Bridges
+  - Components (Usually PHP Library managed by Composer)
+  - Plugins / Extensions/ Bundles (how to register and inside folder structure?)
+  - Bridges?
   - Configuration
   - Code organization
   - Request handling
   - Exception handling
-  - Event dispatcher and kernel events
+  - Event dispatcher/ Subscriber (Sololearn)
+  - Kernel events
   - Official best practices
-  - Release management
-  - Backward compatibility promise
-  - Deprecations best practices
   
 * Standardization
-  - Release management and roadmap schedule
   - Framework interoperability and PSRs
   - Naming conventions
   - Coding standards
@@ -67,8 +63,9 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - The resources
   - Overriding default error pages
   - Bundle inheritance
-  - Event dispatcher and kernel events
   - Semantic configuration and compiler passes
+
+* Persistence
   
 * Controllers
   - Naming conventions
@@ -83,8 +80,9 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Generate 404 pages
   - File upload
   - Built-in internal controllers
+  - What's front controller?
   
-* Routing
+* [Routing](https://symfony.com/doc/current/routing.html)
   - Configuration (YAML, XML, PHP & annotations)
   - Restrict URL parameters
   - Set default values to URL parameters
@@ -112,19 +110,18 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Debugging variables
 
 * Forms
-  - Forms creation
-  - Forms handling
+  - [Forms creation / Forms handling](https://symfony.com/doc/current/forms.html)
   - Form types
   - Forms rendering with Twig
   - Forms theming
   - CSRF protection
-  - Handling file upload
+  - Handling file upload?
   - Built-in form types
   - Data transformers
-  - Form events
+  - Form events (submission?)
   - Form type extensions
 
-* Data Validation
+* Data Validation (Symfony can use annotations for validation)
   - PHP object validation
   - Built-in validation constraints
   - Validation scopes
@@ -145,19 +142,17 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Services autowiring
 
 * Security
-  - Authentication
+  - [Authentication / Users / Roles](https://symfony.com/doc/current/security.html)
   - Authorization
   - Configuration
   - Providers
   - Firewalls
-  - Users
   - Passwords encoders
-  - Roles
   - Access Control Rules
   - Guard authenticators
   - Voters and voting strategies
 
-* HTTP Caching
+* [HTTP Caching](https://symfony.com/doc/current/http_cache.html)
   - Cache types (browser, proxies and reverse-proxies)
   - Expiration (Expires, Cache-Control)
   - Validation (ETag, Last-Modified)
@@ -166,8 +161,8 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Edge Side Includes
 
 * Console
-  - Built-in commands
-  - Custom commands
+  - Built-in commands?
+  - [Custom commands](https://symfony.com/doc/current/console.html)
   - Configuration
   - Options and arguments
   - Input and Output objects
@@ -175,9 +170,9 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Console events
   - Verbosity levels
 
-* Automated Tests
-  - Unit tests with PHPUnit
-  - Functional tests with PHPUnit
+* [Automated Tests](https://symfony.com/doc/current/testing.html)
+  - Unit tests with PHPUnit (test on single class)
+  - Functional tests with PHPUnit (request -> test response -> interaction -> test response)
   - Client object
   - Crawler object
   - Profile object
@@ -188,11 +183,10 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Handling legacy deprecated code
 
 * Miscellaneous
-  - Error handling
   - Code debugging
-  - Deployment best practices
-  - Process and Serializer components
-  - Data collectors
+  - Deployment best practices (1.Code 2.Dependency 3.DB 4.Cache)
+  - Process and Serializer components (use as DI in the controller, check [this](https://symfony.com/doc/current/serializer.html) out)
+  - Data collectors (a composition of other field type as an array)
   - Web Profiler and Web Debug Toolbar
   - Internationalization and localization
 
