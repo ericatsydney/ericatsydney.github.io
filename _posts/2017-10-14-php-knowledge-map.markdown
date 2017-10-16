@@ -80,7 +80,7 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Generate 404 pages
   - File upload
   - Built-in internal controllers
-  - What's front controller?
+  - What's front controller? It's used to provide a centralized request handling mechanism so that all the requests will be handled by a single handler.
   
 * [Routing](https://symfony.com/doc/current/routing.html)
   - Configuration (YAML, XML, PHP & annotations)
