@@ -4,7 +4,7 @@ title:  "PHP Knowledge Map"
 date:   2017-10-13 13:30:00 +1000
 categories: Geek
 ---
-When checking the [Symphony certificate](https://sensiolabs.com/en/symfony/certification.html), found this list of knowledge area.
+When checking the [Symphony certificate](https://sensiolabs.com/en/symfony/certification.html), I found this list of knowledge area.
 
 I think it's realy good starting point to prepare my php knowledge base for the general MVC framework.
 
@@ -20,6 +20,7 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - PHP extensions ?
   - SPL
   - Web security (XSS, CSRF, etc.)
+    + Yii provide [security solution](http://www.yiiframework.com/doc/guide/1.1/en/topics.security) out of box
 
 * HTTP
   - Client / Server interaction
@@ -31,10 +32,13 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Caching
   - Content negotiation
   - Language detection
-  
+
+
 * Framework Architecture
   - Symfony Standard Edition
   - Components (Usually PHP Library managed by Composer)
+    + Yii: component property / event / behavior?
+    + Yii: These are the [core components](http://www.yiiframework.com/doc/guide/1.1/en/basics.application#core-application-components) 
   - Plugins / Extensions/ Bundles (how to register and inside folder structure?)
   - Bridges?
   - Configuration
@@ -119,7 +123,9 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Built-in form types
   - Data transformers
   - Form events (submission?)
+    + Yii: `action` in form controller
   - Form type extensions
+  - Yii: form has its own model extends from `CFormModel`, why?
 
 * Data Validation (Symfony can use annotations for validation)
   - PHP object validation
