@@ -163,7 +163,32 @@ I think it's realy good starting point to prepare my php knowledge base for the 
     + [Symfony doco](https://symfony.com/doc/current/security.html)
   - Authorization
     + Symfony: use the [expression language](https://symfony.com/doc/current/components/expression_language.html) to implement to complex business logic
-    + Yii: business rule is the association of roles, action and behavior
+    + Yii: business rule is the association of roles, operations and tasks. Here's an example:
+        {% highlight shell%}
+            $auth=Yii::app()->authManager;
+         
+            $auth->createOperation('createPost','create a post');
+            $auth->createOperation('readPost','read a post');
+            $auth->createOperation('updatePost','update a post');
+            $auth->createOperation('deletePost','delete a post');
+             
+             // This is like 
+            $bizRule='return Yii::app()->user->id==$params["post"]->authID;';
+            $task=$auth->createTask('updateOwnPost','update a post by author himself',$bizRule);
+            $task->addChild('updatePost');
+             
+            $role=$auth->createRole('reader');
+            $role->addChild('readPost');
+             
+            $role=$auth->createRole('author');
+            $role->addChild('reader');
+            $role->addChild('createPost');
+            $role->addChild('updateOwnPost');
+             
+            $role=$auth->createRole('editor');
+            $role->addChild('reader');
+            $role->addChild('updatePost');
+        {% endhighlight %}
   - Configuration
   - Providers
   - Firewalls
