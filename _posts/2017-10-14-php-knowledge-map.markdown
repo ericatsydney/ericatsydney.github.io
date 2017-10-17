@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PHP Knowledge Map"
+title:  "PHP Framework Knowledge Map"
 date:   2017-10-13 13:30:00 +1000
 categories: Geek
 ---
@@ -12,11 +12,15 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - PHP 5.3 to PHP 5.6 API
   - Object Oriented Programming
   - Namespaces
-  - Interfaces
+  - Interfaces vs Abstract classes
+    + Interfaces provide the abstract methods but no implements. It force the developer to follow the blueprint to develop.
+    + While Abstract classes could provide both abstract or concrete methods, it could save repeat coding in child class and keep the code centralized. 
   - Anonymous functions and closures
-  - Abstract classes
+    + Just like the JS, anonymous function could be assign to a variable or passed in method as a callback function parameters.
+    + Closures: [sololearn]?
   - [Exception and error handling](http://ericatsydney.github.io/geek/2017/10/10/php-exception-handling.html)
   - Traits
+    + Just like a class, but `use` is the keyword. It could make a child class to extends multiple 'class' (Polymorphism)
   - PHP extensions ?
   - SPL
   - Web security (XSS, CSRF, etc.)
@@ -29,21 +33,21 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - HTTP response
   - HTTP methods
   - Cookies
-  - Caching
   - Content negotiation
   - Language detection
 
 
 * Framework Architecture
-  - Symfony Standard Edition
   - Components (Usually PHP Library managed by Composer)
     + Yii: component property / event / behavior?
     + Yii: These are the [core components](http://www.yiiframework.com/doc/guide/1.1/en/basics.application#core-application-components) 
   - Plugins / Extensions/ Bundles (how to register and inside folder structure?)
+    + Yii: base on the core, components(front-end)/ extensions(back-end) could be added.
   - Bridges?
   - Configuration
   - Code organization
   - Request handling
+    + Yii: entry script(index.php)
   - Exception handling
   - Event dispatcher/ Subscriber (Sololearn)
   - Kernel events
@@ -78,16 +82,22 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - The response
   - The cookies
   - The session
+    + Yii: CWebUser provide `setState` method to store info into session.
   - The flash messages
   - HTTP redirects
   - Internal redirects
   - Generate 404 pages
   - File upload
   - Built-in internal controllers
-  - What's front controller? It's used to provide a centralized request handling mechanism so that all the requests will be handled by a single handler.
+  - What's front controller? 
+    + It's used to provide a centralized request handling mechanism so that all the requests will be handled by a single handler.
+    + Yii: `CWebApplication` is the front-controller. Either extends or configuration could customize the `CWebApplication`. And all the context could be accessed in the life cycle through this front controller. e.g. Yii::app()->user() and Yii::app()->parameters['param_name']
   
-* [Routing](https://symfony.com/doc/current/routing.html)
-  - Configuration (YAML, XML, PHP & annotations)
+* Routing
+  - Configuration 
+    + Yii: we can set the url config in front-controller. Its format is either `path` or `get`. And we can set the routing rules using regex.
+    + Symfony: provide YAML, XML, PHP & annotations options to config.
+    + [Symfony doco](https://symfony.com/doc/current/routing.html)
   - Restrict URL parameters
   - Set default values to URL parameters
   - Generate URL parameters
@@ -112,6 +122,7 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - String interpolation
   - Assets management
   - Debugging variables
+  - Yii: `widget` is a reusable template group, predefine how the data link to the template variables.
 
 * Forms
   - [Forms creation / Forms handling](https://symfony.com/doc/current/forms.html)
@@ -148,8 +159,11 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Services autowiring
 
 * Security
-  - [Authentication / Users / Roles](https://symfony.com/doc/current/security.html)
+  - Authentication / Users / Roles
+    + [Symfony doco](https://symfony.com/doc/current/security.html)
   - Authorization
+    + Symfony: use the [expression language](https://symfony.com/doc/current/components/expression_language.html) to implement to complex business logic
+    + Yii: business rule is the association of roles, action and behavior
   - Configuration
   - Providers
   - Firewalls
@@ -177,8 +191,10 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Verbosity levels
 
 * [Automated Tests](https://symfony.com/doc/current/testing.html)
-  - Unit tests with PHPUnit (test on single class)
-  - Functional tests with PHPUnit (request -> test response -> interaction -> test response)
+  - Unit tests with PHPUnit 
+    + test on single class
+  - Functional tests with PHPUnit 
+    + flow: request -> test response -> interaction -> test response
   - Client object
   - Crawler object
   - Profile object
@@ -190,12 +206,11 @@ I think it's realy good starting point to prepare my php knowledge base for the 
 
 * Miscellaneous
   - Code debugging
-  - Deployment best practices (1.Code 2.Dependency 3.DB 4.Cache)
-  - Process and Serializer components (use as DI in the controller, check [this](https://symfony.com/doc/current/serializer.html) out)
-  - Data collectors (a composition of other field type as an array)
+  - Deployment best practices 
+    + flow: 1.Code 2.Dependency 3.DB 4.Cache
+  - Process and Serializer components 
+    + Symfony: use as DI in the controller, check [this](https://symfony.com/doc/current/serializer.html) out
+  - Data collectors 
+    + a composition of other field type as an array
   - Web Profiler and Web Debug Toolbar
   - Internationalization and localization
-
-
-
-
