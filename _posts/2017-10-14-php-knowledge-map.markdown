@@ -172,7 +172,7 @@ I think it's realy good starting point to prepare my php knowledge base for the 
             $auth->createOperation('updatePost','update a post');
             $auth->createOperation('deletePost','delete a post');
              
-             // This is like 
+            // This is like Symfony's expression language.
             $bizRule='return Yii::app()->user->id==$params["post"]->authID;';
             $task=$auth->createTask('updateOwnPost','update a post by author himself',$bizRule);
             $task->addChild('updatePost');
