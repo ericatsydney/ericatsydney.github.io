@@ -4,8 +4,13 @@ title:  "PHP exception handling"
 date:   2017-10-10 15:01:00 +1000
 categories: Geek
 ---
-How key words `finally` works?
-Could the `catch` in child suprress the one in parent/ consumer?
-Why there are more than one `catch` in the same `try` code block?
-[Check this code play ground](https://code.sololearn.com/w7CDMXDlwCz3/#php).
 
+When I used `try catch` exception handling in working, I had the following questions:
+
+- How does the key word `finally` works?
+
+- When we use nested `catch`, could the one in child suppress the parent/consumer?
+
+- Why there are more than one `catch` in the same `try` code block?
+
+So I created this [code play ground](https://code.sololearn.com/w7CDMXDlwCz3/#php) for experiments.
