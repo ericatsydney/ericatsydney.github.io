@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" afterPath="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown" afterPath="$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" afterPath="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -25,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2017-10-10-php-exception-handling.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-10-10-php-exception-handling.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
@@ -33,7 +35,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.55921054">
-                <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+                <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -64,8 +66,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.9254386">
-                <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="2.4605262">
+                <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -89,15 +91,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-20-aws-training.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-09-20-aws-training.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.5964912">
-                <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.85745615">
+                <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -171,11 +173,11 @@
         <option value="$PROJECT_DIR$/_posts/2017-06-20-devops-tools.markdown" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/assets/main.js" />
-        <option value="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-10-13-auth-in-mvc.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-09-28-aws-training.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" />
       </list>
     </option>
   </component>
@@ -449,12 +451,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Update the jquery basic.">
-      <created>1467459641687</created>
-      <option name="number" value="00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1467459641687</updated>
     </task>
     <task id="LOCAL-00111" summary="Update knowledge map.">
       <created>1467462167686</created>
@@ -744,7 +740,13 @@
       <option name="project" value="LOCAL" />
       <updated>1508367043826</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Update php exception handling.">
+      <created>1508412743195</created>
+      <option name="number" value="00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1508412743199</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -784,7 +786,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update 3 old posts." />
     <MESSAGE value="Update several old posts." />
     <MESSAGE value="Added problem solving." />
     <MESSAGE value="Added UX." />
@@ -809,7 +810,8 @@
     <MESSAGE value="Update design pattern." />
     <MESSAGE value="Update css and js." />
     <MESSAGE value="Update php knowledge map." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update php knowledge map." />
+    <MESSAGE value="Update php exception handling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update php exception handling." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1085,6 +1087,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.55921054">
+            <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-12-yii-vs-laravel.markdown">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1113,42 +1129,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.5964912">
-            <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9254386">
-            <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="2.4605262">
+            <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.55921054">
-            <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+          <first_editor vertical-scroll-proportion="0.85745615">
+            <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
             <folding />
           </first_editor>
           <second_editor />

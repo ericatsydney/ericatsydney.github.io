@@ -15,7 +15,13 @@ Using cloud computing has the benefits as low cost, elastic, flexible, secured.
 
 Here's a table to categorize the AWS product by 5 Pilars
 
-
+|Areas   | Key Services  |
+|---|---|
+| Identity and Access Management | IAM, MFA  |
+| Detective Control  | CloudTrail, Config, Cloudwatch  |
+| Infrastructure protection  | VPC  |
+| Data Protection | ELB, EBS, S3, RDS |
+| Incident Response | IAM, Cloudformation |
 
 Regions
 

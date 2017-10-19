@@ -26,17 +26,6 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Web security (XSS, CSRF, etc.)
     + Yii provide [security solution](http://www.yiiframework.com/doc/guide/1.1/en/topics.security) out of box
 
-* HTTP
-  - Client / Server interaction
-  - Status codes
-  - HTTP request
-  - HTTP response
-  - HTTP methods
-  - Cookies
-  - Content negotiation
-  - Language detection
-
-
 * Framework Architecture
   - Components (Usually PHP Library managed by Composer)
     + Yii: component property / event / behavior?
@@ -53,16 +42,6 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Kernel events
   - Official best practices
   
-* Standardization
-  - Framework interoperability and PSRs
-  - Naming conventions
-  - Coding standards
-  - Third-party libraries integration
-  - Composer packages handling
-  - Development best practices
-  - Framework overloading
-  - Semantic versioning
-  
 * Bundles
   - Naming conventions
   - Code organization
@@ -73,7 +52,24 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Bundle inheritance
   - Semantic configuration and compiler passes
 
-* Persistence
+* Persistence/ ORM
+
+* View / Templates
+  - Twig
+  - Blade
+  - Auto escaping
+  - Template inheritance
+  - Global variables
+  - Filters and functions
+  - Template includes
+  - Loops and conditions
+  - URLs generation
+  - Controller rendering
+  - Translations and pluralization
+  - String interpolation
+  - Assets management
+  - Debugging variables
+  - Yii: `widget` is a reusable template group, predefine how the data link to the template variables.
   
 * Controllers
   - Naming conventions
@@ -109,34 +105,15 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - User's locale guessing
   - Router debugging
   
-* Templating with Twig
-  - Auto escaping
-  - Template inheritance
-  - Global variables
-  - Filters and functions
-  - Template includes
-  - Loops and conditions
-  - URLs generation
-  - Controller rendering
-  - Translations and pluralization
-  - String interpolation
-  - Assets management
-  - Debugging variables
-  - Yii: `widget` is a reusable template group, predefine how the data link to the template variables.
-
-* Forms
-  - [Forms creation / Forms handling](https://symfony.com/doc/current/forms.html)
-  - Form types
-  - Forms rendering with Twig
-  - Forms theming
-  - CSRF protection
-  - Handling file upload?
-  - Built-in form types
-  - Data transformers
-  - Form events (submission?)
-    + Yii: `action` in form controller
-  - Form type extensions
-  - Yii: form has its own model extends from `CFormModel`, why?
+* HTTP
+  - Client / Server interaction
+  - Status codes
+  - HTTP request
+  - HTTP response
+  - HTTP methods
+  - Cookies
+  - Content negotiation
+  - Language detection
 
 * Data Validation (Symfony can use annotations for validation)
   - PHP object validation
@@ -229,6 +206,20 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - PHPUnit bridge
   - Handling legacy deprecated code
 
+* Forms
+  - [Forms creation / Forms handling](https://symfony.com/doc/current/forms.html)
+  - Form types
+  - Forms rendering with Twig
+  - Forms theming
+  - CSRF protection
+  - Handling file upload?
+  - Built-in form types
+  - Data transformers
+  - Form events (submission?)
+    + Yii: `action` in form controller
+  - Form type extensions
+  - Yii: form has its own model extends from `CFormModel`, why?
+
 * Miscellaneous
   - Code debugging
   - Deployment best practices 
@@ -239,3 +230,13 @@ I think it's realy good starting point to prepare my php knowledge base for the 
     + a composition of other field type as an array
   - Web Profiler and Web Debug Toolbar
   - Internationalization and localization
+
+* Standardization
+  - Framework interoperability and PSRs
+  - Naming conventions
+  - Coding standards
+  - Third-party libraries integration
+  - Composer packages handling
+  - Development best practices
+  - Framework overloading
+  - Semantic versioning
