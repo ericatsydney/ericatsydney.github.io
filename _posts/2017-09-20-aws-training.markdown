@@ -5,17 +5,17 @@ date:   2017-09-20 20:30:00 +1000
 categories: Geek
 ---
 
-Cloud Concept
-
+Cloud Computing Concept includes:
 - on demand
 - IT
-- access on line
+- access online
 - pay as you go
 
-- low cost
-- elastic
-- flexible
-- secure
+Using cloud computing has the benefits as low cost, elastic, flexible, secured.
+
+Here's a table to categorize the AWS product by 5 Pilars
+
+
 
 Regions
 
