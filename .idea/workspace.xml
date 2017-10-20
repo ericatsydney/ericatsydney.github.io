@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" afterPath="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown" afterPath="$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" afterPath="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -59,15 +57,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-14-php-knowledge-map.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-10-14-php-knowledge-map.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="2.4605262">
-                <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.52412283">
+                <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -91,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-20-aws-training.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-09-20-aws-training.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
@@ -176,8 +174,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-13-auth-in-mvc.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-09-28-aws-training.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" />
       </list>
     </option>
   </component>
@@ -451,12 +449,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Update knowledge map.">
-      <created>1467462167686</created>
-      <option name="number" value="00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1467462167686</updated>
     </task>
     <task id="LOCAL-00112" summary="Added ‘mr six'.">
       <created>1467897987941</created>
@@ -746,7 +738,13 @@
       <option name="project" value="LOCAL" />
       <updated>1508412743199</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Update aws training.">
+      <created>1508414491055</created>
+      <option name="number" value="00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1508414491055</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -786,7 +784,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update several old posts." />
     <MESSAGE value="Added problem solving." />
     <MESSAGE value="Added UX." />
     <MESSAGE value="Updated BDD term." />
@@ -811,7 +808,8 @@
     <MESSAGE value="Update css and js." />
     <MESSAGE value="Update php knowledge map." />
     <MESSAGE value="Update php exception handling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update php exception handling." />
+    <MESSAGE value="Update aws training." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update aws training." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1129,20 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="2.4605262">
-            <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1151,6 +1135,20 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.85745615">
             <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.52412283">
+            <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             <folding />
           </first_editor>
           <second_editor />

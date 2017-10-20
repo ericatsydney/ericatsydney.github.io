@@ -17,7 +17,8 @@ I think it's realy good starting point to prepare my php knowledge base for the 
     + While Abstract classes could provide both abstract or concrete methods, it could save repeat coding in child class and keep the code centralized. 
   - Anonymous functions and closures
     + Just like the JS, anonymous function could be assign to a variable or passed in method as a callback function parameters.
-    + Closures: [sololearn]?
+    + Closures: Check this [code playground](https://code.sololearn.com/w7CDMXDlwCz3/#php)
+    + And here's a real good [tutorial](http://culttt.com/2013/03/25/what-are-php-lambdas-and-closures/)
   - [Exception and error handling](http://ericatsydney.github.io/geek/2017/10/10/php-exception-handling.html)
   - Traits
     + Just like a class, but `use` is the keyword. It could make a child class to extends multiple 'class' (Polymorphism)
