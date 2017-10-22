@@ -5,6 +5,9 @@ date:   2017-09-20 20:30:00 +1000
 categories: Geek
 ---
 
+Concept
+=======
+
 Cloud Computing Concept includes:
 - on demand
 - IT
@@ -13,7 +16,11 @@ Cloud Computing Concept includes:
 
 Using cloud computing has the benefits as low cost, elastic, flexible, secured.
 
-Here's a table to categorize the AWS product by 5 Pilars
+
+Product
+=======
+
+Here're the tables to list AWS key services by 5 pilars (security, reliability, performance)
 
 |Areas   | Key Services  |
 |---|---|
@@ -23,16 +30,23 @@ Here's a table to categorize the AWS product by 5 Pilars
 | Data Protection | ELB, EBS, S3, RDS |
 | Incident Response | IAM, Cloudformation |
 
-Regions
+Reliability Key Service: Cloudwatch
+|Areas   | Key Services  |
+|---|---|
+| Foundations | IAM, VPC  |
+| Change Management  | CloudTrail, Config  |
+| Failure Management  | Cloudformation  |
 
-It's public trans between region, encrypt your data. (alt solution private cloud)
+Performance Key Service: Cloudwatch
+|Areas   | Key Services  |
+|---|---|
+| Selection | EBS, Auto Scaling, S3, Glacier, RDS, Dynamo DB  |
+| Review | Cloudformation |
+| Monitoring | Cloudwatch, Lamda |
+| Trade-off | Cloudfront, Elasticache, RDS read replica |
 
-EC2
-T2 - For burst usage, e.g. high traffic in specific time
 
-Reserved Cost Model: Pay upfront, 50 -75% lower hourly rate
-
-Cow/ Pet strategy for server
+CloudTrail: records account activity by actions across different services in AWS
 
 ELB
 Detect health
@@ -60,6 +74,20 @@ Cloudformation: yaml, json format, cloudformer to export
 
 AWS snowball: Import/Export, use physical storage to upload to S3
 
+
+Topic
+=====
+Cow/ Pet strategy for server
+
+
+EC2
+T2 - For burst usage, e.g. high traffic in specific time
+
+Reserved Cost Model: Pay upfront, 50 -75% lower hourly rate
+
+
+
+
 Disaster Recovery: 
 Multi site, Warm Standby , pilot light, backup & restore.
 
@@ -74,10 +102,13 @@ Security done by AWS: ddos shield, API SSL(MAN in the middle), package sniffing 
 
 Key Management Service, Encrypt service ....
 
-CloudTrail:records api calls
-https://aws.amazon.com/security/
+
+
 AWS Trusted Advisor
 
 Storage gateway?
 
 
+Regions                                                                          
+                                                                                 
+It's public trans between region, encrypt your data. (alt solution private cloud)
