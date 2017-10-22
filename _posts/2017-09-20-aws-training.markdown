@@ -31,6 +31,7 @@ Here're the tables to list AWS key services by 5 pilars (security, reliability, 
 | Incident Response | IAM, Cloudformation |
 
 Reliability Key Service: Cloudwatch
+
 |Areas   | Key Services  |
 |---|---|
 | Foundations | IAM, VPC  |
@@ -38,6 +39,7 @@ Reliability Key Service: Cloudwatch
 | Failure Management  | Cloudformation  |
 
 Performance Key Service: Cloudwatch
+
 |Areas   | Key Services  |
 |---|---|
 | Selection | EBS, Auto Scaling, S3, Glacier, RDS, Dynamo DB  |
@@ -45,6 +47,11 @@ Performance Key Service: Cloudwatch
 | Monitoring | Cloudwatch, Lamda |
 | Trade-off | Cloudfront, Elasticache, RDS read replica |
 
+Cost optimisation: 
+- Cost allocation tag: A tag is the label you assign to AWS resource. When you enable the cost allocation tag, AWS use it to enrich cost report by categorized details, make it easier to track your cost.
+- AWS Trusted Advisor, it provide real time guidance to help you provision your resources following AWS best practices.
+
+Operational Excellence: Cloudformation
 
 CloudTrail: records account activity by actions across different services in AWS
 
@@ -104,7 +111,6 @@ Key Management Service, Encrypt service ....
 
 
 
-AWS Trusted Advisor
 
 Storage gateway?
 
