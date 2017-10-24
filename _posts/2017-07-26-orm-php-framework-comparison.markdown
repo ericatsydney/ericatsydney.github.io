@@ -29,7 +29,7 @@ $temp = $object->VarName;
 // with single join sql. Performance is better for a big table.
 $temps = Object::model()->with('VarName')->findAll();
 
-// Making use of CDbCriteria to add custom join sql to existing relations. 
+// Performing Relational query without getting related models.
 // High flexibility.
 public function byUserGroups($user_id) {
   $criteria = new CDbCriteria;
@@ -40,9 +40,15 @@ public function byUserGroups($user_id) {
   $this->getDbCriteria()->mergeWith($criteria);
   return $this;
 }
-
 {% endhighlight %}
 
+how to handle the many to many? We need to write explitit update method in relation class, and call this method in the class.
+{% highlight php%}
+@todo
+{% endhighlight %}
+
+
+close-button
 
 Yii 2
 =====
@@ -54,6 +60,36 @@ like:
 Laravel - Eloquent
 ===================
 `Eloquent` syntax is most institue and easiest to learn in these solutions. But the some of the area is not very flexible, e.g.
+
+Eloquent `eager loading` example:
+{% highlight php%}
+$books = App\Book::with('author')->get();
+
+foreach ($books as $book) {
+    echo $book->author->name;
+}
+{% endhighlight %}
+
+And this is how the Eloquent handle relationship save action:
+{% highlight php%}
+$comment = new App\Comment(['message' => 'A new comment.']);
+
+$post = App\Post::find(1);
+
+$post->comments()->save($comment);
+{% endhighlight %}
+
+And detach the relationship like this:
+{% highlight php%}
+// Detach a single role from the user...
+$user->roles()->detach($roleId);
+
+// Detach all roles from the user...
+$user->roles()->detach();
+{% endhighlight %}
+
+
+
 
 And the sql generated is not tuned [prove it]
 

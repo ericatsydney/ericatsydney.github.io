@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" afterPath="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-26-orm-php-framework-comparison.markdown" afterPath="$PROJECT_DIR$/_posts/2017-07-26-orm-php-framework-comparison.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -89,12 +89,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-20-aws-training.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-09-20-aws-training.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.9254386">
+              <first_editor vertical-scroll-proportion="2.0438597">
                 <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-07-26-orm-php-framework-comparison.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-07-26-orm-php-framework-comparison.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.8811189">
+                <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -125,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-06-21-Sublime-tricks.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" />
@@ -176,6 +191,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-14-php-knowledge-map.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-10-12-yii-vs-laravel.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2017-07-26-orm-php-framework-comparison.markdown" />
       </list>
     </option>
   </component>
@@ -339,12 +355,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Added decision making.">
-      <created>1468069523822</created>
-      <option name="number" value="00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1468069523823</updated>
     </task>
     <task id="LOCAL-00115" summary="Update mr six.">
       <created>1468070540878</created>
@@ -634,7 +644,13 @@
       <option name="project" value="LOCAL" />
       <updated>1508651495279</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="Update aws training.">
+      <created>1508675546801</created>
+      <option name="number" value="00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1508675546802</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -706,7 +722,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2016-06-01-release-management.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-17-learn-how-to-learn.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-13-restful-api.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2016-05-13-learn-from-water.markdown" />
@@ -1027,8 +1042,22 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9254386">
+          <first_editor vertical-scroll-proportion="2.0438597">
             <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-26-orm-php-framework-comparison.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.8811189">
+            <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
