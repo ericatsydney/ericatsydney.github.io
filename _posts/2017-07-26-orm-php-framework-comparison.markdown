@@ -28,7 +28,9 @@ $temp = $object->VarName;
 // Prepopulate the `VarName` for all the objects before being accessed
 // with single join sql. Performance is better for a big table.
 $temps = Object::model()->with('VarName')->findAll();
+{% endhighlight %}
 
+{% highlight php%}
 // Performing Relational query without getting related models.
 // High flexibility.
 public function byUserGroups($user_id) {
@@ -42,13 +44,21 @@ public function byUserGroups($user_id) {
 }
 {% endhighlight %}
 
-how to handle the many to many? We need to write explitit update method in relation class, and call this method in the class.
+In order to handle the `MANY_MANY` relationship, we need to write explicit update method in relation class, and call this method in the object class.
 {% highlight php%}
-@todo
+  // In Users.php, delete and create relations method is needed
+  public function clearMakeAssoc() {
+      UserMake::model()->deleteAll("user_id = :id", array(':id' => $this->id));
+  }
+
+
+  public function createMakeAssoc($id) {
+      $relation = new UserMake();
+      $relation->user_id = $this->id;
+      $relation->make_id = $id;
+      $relation->save();
+  }
 {% endhighlight %}
-
-
-close-button
 
 Yii 2
 =====
