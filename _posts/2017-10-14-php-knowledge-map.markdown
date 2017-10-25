@@ -123,6 +123,26 @@ I think it's realy good starting point to prepare my php knowledge base for the 
   - Validation groups
   - Group sequence
   - Custom callback validators
+    + Yii: can have custom validator in form model.
+      {% highlight shell%}
+        // In the form model class.
+        public function rules() {
+          return array(
+            array('email', 'uniqueEmail', 'on' => 'new, emailChanged'),
+          );
+        }
+
+        public function uniqueEmail($attribute, $params) {
+          $user = User::model()->find('email = :email', array(':email' => $this->email));
+          if($user != null) {
+              $this->addError('email', 'This email already exists.');
+              return false;
+          } else {
+              return true;
+          }
+        }
+      {% endhighlight %}
+
   - Violations builder
 
 * Dependency Injection
