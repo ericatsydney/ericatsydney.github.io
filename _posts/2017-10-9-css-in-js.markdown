@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "CSS in JS"
+date:   2017-10-9 22:01:00 +1000
+categories: Geek
+---
+
+Tonight join a meet-up talk about `CSS in JS` by Lochlan Bunn
+
+Here's the [link of the slides](https://theme-is-cssinjs.surge.sh/)
