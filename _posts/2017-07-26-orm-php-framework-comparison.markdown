@@ -46,19 +46,34 @@ public function byUserGroups($user_id) {
 
 In order to handle the `MANY_MANY` relationship, we need to write explicit update method in relation class, and call this method in the object class.
 {% highlight php%}
-  // In Users.php, delete and create relations method is needed
-  public function clearMakeAssoc() {
-      UserMake::model()->deleteAll("user_id = :id", array(':id' => $this->id));
-  }
+// In Users.php, delete and create relations method is needed
+public function clearMakeAssoc() {
+    UserMake::model()->deleteAll("user_id = :id", array(':id' => $this->id));
+}
 
 
-  public function createMakeAssoc($id) {
-      $relation = new UserMake();
-      $relation->user_id = $this->id;
-      $relation->make_id = $id;
-      $relation->save();
-  }
+public function createMakeAssoc($id) {
+    $relation = new UserMake();
+    $relation->user_id = $this->id;
+    $relation->make_id = $id;
+    $relation->save();
+}
 {% endhighlight %}
+
+Named scope is very handy to save time build custom query.
+{% highlight php%}
+public function scopes() {
+  return array(
+    'active' => array(
+      'condition' => 'active = 1'
+    ),
+  );
+}
+
+// Use the scope in chain.
+$user = User::model()->active()->findByPk($user);
+{% endhighlight %}
+
 
 Yii 2
 =====
@@ -80,17 +95,15 @@ foreach ($books as $book) {
 }
 {% endhighlight %}
 
-And this is how the Eloquent handle relationship save action:
+And this is how the Eloquent handle the updates for `MANY_MANY` relationship:
 {% highlight php%}
 $comment = new App\Comment(['message' => 'A new comment.']);
 
 $post = App\Post::find(1);
 
 $post->comments()->save($comment);
-{% endhighlight %}
 
-And detach the relationship like this:
-{% highlight php%}
+// And detach the relationship like this:
 // Detach a single role from the user...
 $user->roles()->detach($roleId);
 
@@ -98,7 +111,17 @@ $user->roles()->detach($roleId);
 $user->roles()->detach();
 {% endhighlight %}
 
+Eloquent's scope usage:
+{% highlight php%}
+// Define scope in User Class as a method.
+public function scopeActive($query)
+{
+  return $query->where('active', 1);
+}
 
+// Utilize the scope in chain style.
+$users = App\User::popular()->active()->orderBy('created_at')->get();
+{% endhighlight %}
 
 
 And the sql generated is not tuned [prove it]
