@@ -27,6 +27,8 @@ How to put the browserify into different bundles?
 
 `gulp-babel` is out of maintenance ?
 
+css pre-prossor: minify, less, sass
+
 webpack
 =======
 Both Browserify and Gulp try to convert the node.js to nativejs, they are quite different though.

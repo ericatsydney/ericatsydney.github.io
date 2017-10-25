@@ -12,7 +12,7 @@ ES6
 Arrow function finishes 2 jobs: simplify the function syntax and pass the `this` to inside the function.
 
 {% highlight js%}
-// They are eaquavlent.
+// They are equivalent.
 function (a, b) { return a * b; }
 (a, b) => { return a * b; }
 (a, b) => a * b
@@ -33,8 +33,8 @@ const {variable1, variable2} = this.props
 
 - Template literal
 {% highlight js%}
-// there's no need to use + to concat variable and string.
-let template = `This is the template for $appName`;
+// Using back-tick you can enclose a string with expressions.
+let template = `This is the template for ${appName}`;
 {% endhighlight %}
 
 - Classes
@@ -45,7 +45,12 @@ We will use `class extends` keyword instead of `React.createClass` in ES6 flavor
 `import` and `export` is the reserved keyword in ES6, it help you modularise javascript. 
 
 - Transpile `Babel`
-  Use `Babel` to compile your ES6 javascript to compatible version. 
+  Use `Babel` to compile your ES6 javascript to compatible version.
+   
+- let, const, var
+  + let is block scoped, the life cycle is with `{}`
+  + const is block scoped, cannot be changed.
+  + var is scoped to the close of the function.
 
 React
 =====
@@ -97,9 +102,16 @@ P.S. ref string attribute is going to deprecated at some point of future, refere
 
 Flux and Redux
 ==============
-The only parent component have the state, and pass state to children component via `property`.
-  
+The only parent component have the state, and pass state to children component via `property`.  
 
 Browserify
 ==========
 Check it in [Gulp Setup](http://ericatsydney.github.io/programming/2016/07/23/gulp-setup.html) 
+
+Babel
+=====
+It's the transpile helping convert the ES6 syntax to normal javascript, so make the browser understand ES6 generated scripts.
+
+Webpack
+=======
+Just a helpful packaging (bundler) tool to minify and chunk our JS along with Babel.

@@ -37,10 +37,10 @@ Callback function
 
 Here's a [Codepen](https://codepen.io/eric_tan/pen/KWmOLZ) about callback function.
 
-Hosting
-=======
+Hoisting
+========
 
-Mis-understanding `hosting` will cause some error difficult to detect.
+Mis-understanding `hoisting` will cause some error difficult to detect.
 
 And I think this concept is quite unique/ odd behaviours exist in Javascript ONLY.
 
