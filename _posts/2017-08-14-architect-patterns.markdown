@@ -7,7 +7,6 @@ categories: Geek
 
 MVC
 =======
-
 Model - Domain Model and the abstraction of DB tables.
 
 View - The UI to show the data from `model`.
@@ -16,7 +15,6 @@ Controller - Manage the commucation between model and view, typically the busine
 
 HMVC
 =======
-
 How to make the MVC's modularity better.
 
 a collection of MVC
@@ -27,10 +25,16 @@ front-controller
 
 MVA
 =====
-
 Model, view will not communicate directly.
 
 
 MVVM
 =======
 Data binding.
+
+Microservices
+=============
+- communicate with network
+- independently deployable
+- easy to replace
+
