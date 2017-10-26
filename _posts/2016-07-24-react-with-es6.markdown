@@ -51,6 +51,7 @@ We will use `class extends` keyword instead of `React.createClass` in ES6 flavor
   + let is block scoped, the life cycle is with `{}`
   + const is block scoped, cannot be changed.
   + var is scoped to the close of the function.
+  + check this [Codepen](https://codepen.io/eric_tan/pen/xXvKYX)
 
 React
 =====
