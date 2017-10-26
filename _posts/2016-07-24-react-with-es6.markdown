@@ -45,7 +45,7 @@ We will use `class extends` keyword instead of `React.createClass` in ES6 flavor
 `import` and `export` is the reserved keyword in ES6, it help you modularise javascript. 
 
 - Transpile `Babel`
-  Use `Babel` to compile your ES6 javascript to compatible version.
+  Use `Babel` to convert your ES6 features to help the unsupported browsers understand it.
    
 - let, const, var
   + let is block scoped, the life cycle is with `{}`
@@ -63,15 +63,15 @@ var HelloMessage = React.createClass({
     return <div>Hello {this.props.name}</div>;
   }
 });
-
+// JSX: custom html tag and props.
 ReactDOM.render(<HelloMessage name="John" />, mountNode);
 {% endhighlight %}
 
 
 - lifecycle
   - `componentInitial`
-  - `componentWillMount`
-  - `componentDidMount` Run once after the component mount(e.g start the timer)
+  - `componentWillMount`: Good entry point to set the initial variable.
+  - `componentDidMount`: Run once after the component mount(e.g start the timer, fetch data using ajax)
   - `componentWillUpdate`
   - `componentDidUpdate` Don't add `setState()` here, otherwise it will cause the infinite loop.
   - `componentWillUnmount` Run once before the he component unmount (e.g. delete the timer)
@@ -80,6 +80,9 @@ ReactDOM.render(<HelloMessage name="John" />, mountNode);
 
 - Reference to component
 Basically react will keep the component instance updated using the data flow. But it also provide a reference to the instance using `ref`.
+
+Reference call back happen when the elements mount.
+
 
 P.S. ref string attribute is going to deprecated at some point of future, reference callback is recommended.
 
@@ -116,3 +119,4 @@ It's the transpile helping convert the ES6 syntax to normal javascript, so make 
 Webpack
 =======
 Just a helpful packaging (bundler) tool to minify and chunk our JS along with Babel.
+Webpack config file is `webpack.config.js`

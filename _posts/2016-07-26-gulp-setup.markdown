@@ -7,13 +7,38 @@ categories: Geek
 
 My Gulp Resipe 
 ==============
-[Please refer my gulpfile.js](#) 
 
 Gulp
 ====
-Gulp is the build script to stream line the process. We can use `gulp`` to convert sass, jsx, ES6, and minify, generate source map and so on. 
+Gulp is the build script to stream line the process. We can use `gulp`` to convert sass, jsx, ES6, and minify, generate source map and so on.
+ 
+`gulpfile.js` is where the streamline coding stored.
 
-`broserify` is the plugin to make the browser could run node style js.
+Gulp define the step as task:
+{% highlight js%}
+// jsx task run before jsx:build.
+gulp.task('jsx:build', ['jsx'], function() {
+  var bundler = browserify({
+    entries: [paths.reactComponentsOutput + '/app.js'],
+    paths: ['./node_modules'],
+    debug: true
+  })
+  .transform(babelify, {
+    presets: [es2015Preset, reactPreset],
+    moduleRoot: './'
+  });
+
+  return bundler.bundle()
+    .pipe(source('fcf.app.js'))
+    .pipe(buffer())
+    .pipe(plugins.uglify({ mangle: true }))
+    .pipe(plugins.rename('fcf.app.min.js'))
+    .pipe(gulp.dest(paths.reactComponentsOutput));
+});
+{% endhighlight %}
+
+
+`browserify` is the plugin to make the browser could run node style js.
 
 How to put the browserify into different bundles?
 
@@ -21,13 +46,13 @@ How to put the browserify into different bundles?
 
 `babelify` convert ES6 and React to vanilla JS, it could use plugin/ preset.
 
-`vinly-source-stream`
+`vinly-source-stream` 
 
-`gulp-browserify` is out of maintenance.
+`gulp-browserify` and `gulp-babel` is out of maintenance
 
-`gulp-babel` is out of maintenance ?
+css pre-prossor: less, sass
 
-css pre-prossor: minify, less, sass
+css post-prossor: minify, ,cssnano, auto-prefixer
 
 webpack
 =======
@@ -41,6 +66,7 @@ In webpack's world we have 2 terms: loader and plugins.
 
 - `plugin` try to do other automation tasks, like minify.
 
+Here's a wepack config [file](https://github.com/ericatsydney/mybabyjournal/blob/master/webpack.config.js) 
 
 
 npm - Node Package Management

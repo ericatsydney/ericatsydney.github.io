@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-24-react-with-es6.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-24-react-with-es6.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ericatsydney.github.io.iws" />
@@ -121,28 +122,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-03-28-javascript-in-depth.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-03-28-javascript-in-depth.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-03-28-javascript-in-depth.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.29166666">
+              <first_editor vertical-scroll-proportion="1.6822916">
                 <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-07-24-react-with-es6.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-24-react-with-es6.markdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.2983683">
-                <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -157,8 +142,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.9254386">
-                <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+              <first_editor vertical-scroll-proportion="-1.4912281">
+                <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -253,8 +238,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-09-20-aws-training.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-07-26-orm-php-framework-comparison.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-03-28-javascript-in-depth.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-10-9-css-in-js.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-24-react-with-es6.markdown" />
       </list>
     </option>
@@ -364,7 +349,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/fc_repo/fcl-corporate" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistoryKey" value="yml&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_config.yml&#10;main.scss&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/css/main.scss&#10;regex&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-08-24-regex-is-king.markdown&#10;jquery&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-22-js-jquery-basic.markdown&#10;kno&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;react&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-07-24-react.markdown&#10;js&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-22-js-jquery-basic.markdown&#10;sass&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-27-sass-101.markdown&#10;drupal&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-25-drupal.markdown&#10;publ&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-20-public-speaking.markdown&#10;know&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;devtoo&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-30-chrome-devel-tool.markdown&#10;css&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;vim&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-23-journey-to-vim.markdown&#10;shell&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-26-shell-and-linux.markdown&#10;refa&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-24-refactoring.markdown&#10;php&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-24-php-basic.markdown&#10;under&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-03-make-yourself-understood.markdown&#10;kn&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;knowledge&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-29-knowledge-map.markdown&#10;box&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-05-31-understanding-css-box-model.markdown&#10;sub&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-21-Sublime-tricks.markdown&#10;pr&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-02-26-keep-programming.markdown&#10;make&#9;FILE&#9;file://C:/Users/Eric/Code/ericatsydney.github.io/_posts/2016-06-03-make-yourself-understood.markdown&#10;index.ht&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_site/about/index.html&#10;config&#9;FILE&#9;file:///Users/yanhu/ericatsydney.github.io/_config.yml" />
@@ -530,12 +515,6 @@
       <created>1448030887059</created>
       <option name="number" value="Default" />
       <updated>1448030887059</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Update 3 old posts.">
-      <created>1468071895972</created>
-      <option name="number" value="00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1468071895973</updated>
     </task>
     <task id="LOCAL-00118" summary="Update 3 old posts.">
       <created>1468072024933</created>
@@ -825,12 +804,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508933092077</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Update javascript and react.">
+      <created>1508997876641</created>
+      <option name="number" value="00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1508997876641</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3154671" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -838,7 +823,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17076923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28153846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1212,34 +1197,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-03-28-javascript-in-depth.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.29166666">
-            <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9254386">
-            <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-10-php-exception-handling.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1268,11 +1225,39 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="-1.4912281">
+            <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-07-24-react-with-es6.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.2983683">
-            <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+          <first_editor vertical-scroll-proportion="-0.47619048">
+            <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-03-28-javascript-in-depth.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="1.6822916">
+            <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
