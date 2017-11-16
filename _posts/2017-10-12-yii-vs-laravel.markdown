@@ -6,6 +6,7 @@ categories: Geek
 ---
 
 here's a table to compare the functions/ configuration between Yii and Laravel.
+
 |	|Yii 2.x|	Laravel 5.x|
 |---|-------|--------------|
 |Controller|	Yes parameters auto binding	| Yes|
@@ -15,7 +16,7 @@ here's a table to compare the functions/ configuration between Yii and Laravel.
 |DB Version Control|	[Migration](http://www.yiiframework.com/doc-2.0/guide-db-migrations.html)|	Migration|
 |Composer Support|	Yes	|Yes|
 |Route|	Yes [but not as good as Laravel](http://www.yiiframework.com/doc-2.0/guide-runtime-routing.html)|	Yes and flexible|
-|API Support|	[Yes](http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html) *easily swap between XML and JSON *Rate limitting *versioning solution|	Route, middleware could be separated by Web and API|
+|API Support|	[Yes](http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html) easily swap between XML and JSON Rate limitting versioning solution|	Route, middleware could be separated by Web and API|
 |AWS Integration|	NO	|AWS S3|
 |Performance| | |		
 |Security|	Yes|	CRSF token|
