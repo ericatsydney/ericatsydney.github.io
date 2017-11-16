@@ -49,6 +49,10 @@ Using `role` is a very common solution for authorization. Even without installin
 
 When we use `roles` in access rule, `CWebUser::checkAccess` will be called to return true or false. 
 
+Business rule is the association of roles, operations and tasks. These relationship are stored in table: AuthAssignment, AuthItem, and AuthChild.
+ 
+
+
 Laravel
 =======
 
