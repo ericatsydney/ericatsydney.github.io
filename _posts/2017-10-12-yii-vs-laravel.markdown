@@ -30,3 +30,28 @@ here's a table to compare the functions/ configuration between Yii and Laravel.
 |Widget|	yes	|no|
 |Assets(JS/CSS)|	Yes, and flexible registerCss, registerScriptFile|	Yes, but bound on blade template.Use blade stack, add JS, CSS dynamically in blade template|
 |Architect Concept|	Dependency Injection, [Component](http://www.yiiframework.com/doc-2.0/guide-concept-di-container.html)|	Dependency Injection|
+
+
+Form building
+==========
+
+
+Widget
+========
+
+Search Session
+=========
+
+Controller to View
+==========
+render partial
+email template
+parameter
+
+
+Pagination
+=======
+
+Export result
+========
+

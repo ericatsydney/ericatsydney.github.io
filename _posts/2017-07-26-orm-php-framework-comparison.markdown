@@ -5,11 +5,29 @@ date:   2017-07-26 8:10:00 +1000
 categories: Geek
 ---
 
+ORM is my favourite part of the MVC framework. It make it so easy to access data anywhere. We use it mainly in the `Controller`, only sometime inside `Model` when need to access other model data (e.g. relations) , but seldom in side the view (we can always prepare it in controller and pass it to view).
+
+ORM provide a very handy/ quick syntax to access data in DB base on the model. We can add extra query to filter result, sort result, and it's very easy to access the other model using relations.
+
+Here's some example I used ORM in different PHP frameworks.
+
 Yii 1.1
 =======
-Yii's Active Record is powerful and flexible. It support `lazy loading` `eger loading` and custom join with relationship.
 
-Here's some examples:
+{% highlight php%}
+// Useful query building base on model.
+User::model()->findByPk($id);
+User::model()->findAll();
+// We don't need the % here like we do in sql.
+User::model()->findAll('name like :name', array(':name' => 'Eric');
+$criteria=new CDbCriteria();
+$criteria->content = 'role = :role AND active = :active';
+$criteria->params = array(':role' => 'admin',  ':active' => 1);
+$criteria->order = 'role asc, created_date desc';
+User::model()->findAll($criteria);
+{% endhighlight %}
+
+Yii's Active Record is powerful and flexible. It support `lazy loading` `eger loading` and custom join with relationship.
 
 {% highlight php%}
 // Define the relations
@@ -22,6 +40,7 @@ public function relations()
 
 // Lazy loading:
 // The sql will be executed when the related object is accessed.
+// N + 1 Query will be executed when there are N object instance returned.
 $temp = $object->VarName;
 
 // Eager loading:
@@ -30,32 +49,17 @@ $temp = $object->VarName;
 $temps = Object::model()->with('VarName')->findAll();
 {% endhighlight %}
 
-{% highlight php%}
-// Performing Relational query without getting related models.
-// High flexibility.
-public function byUserGroups($user_id) {
-  $criteria = new CDbCriteria;
-  $criteria->join = 'INNER JOIN (user_group AS UG1, user_group AS UG2)';
-  $criteria->condition = 'UG1.group_id = UG2.group_id
-    AND t.id = UG2.user_id
-    AND UG1.user_id = ' . $user_id;
-  $this->getDbCriteria()->mergeWith($criteria);
-  return $this;
-}
-{% endhighlight %}
-
 In order to handle the `MANY_MANY` relationship, we need to write explicit update method in relation class, and call this method in the object class.
 {% highlight php%}
-// In Users.php, delete and create relations method is needed
-public function clearMakeAssoc() {
-    UserMake::model()->deleteAll("user_id = :id", array(':id' => $this->id));
+// In Teacher.php, delete and create relations method is needed
+public function clearStudentAssoc() {
+    TeacherStudent::model()->deleteAll("teacher_id = :id", array(':id' => $this->id));
 }
 
-
-public function createMakeAssoc($id) {
-    $relation = new UserMake();
-    $relation->user_id = $this->id;
-    $relation->make_id = $id;
+public function createStudentAssoc($id) {
+    $relation = new TeacherStudent();
+    $relation->teacher_id = $this->id;
+    $relation->student_id = $id;
     $relation->save();
 }
 {% endhighlight %}

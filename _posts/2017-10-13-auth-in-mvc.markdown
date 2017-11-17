@@ -23,7 +23,7 @@ else
 Yii::app()->user->logout();
 {% endhighlight %}
 
-For the authorization, we can use access rules to control, here's an example:
+For the authorization, we can use access rules in controller, here's an example:
 {% highlight php%}
 public function accessRules() {
     return array(
@@ -49,8 +49,21 @@ Using `role` is a very common solution for authorization. Even without installin
 
 When we use `roles` in access rule, `CWebUser::checkAccess` will be called to return true or false. 
 
-Business rule is the association of roles, operations and tasks. These relationship are stored in table: AuthAssignment, AuthItem, and AuthChild.
- 
+Business rule is the association of roles, operations and tasks. These relationship are stored in table: authassignment, authitem, and authitemchild.
+
+Before we set oof to define an authorization hierachy and permform access checking. We need to configure the `authManager` application component. Typically, it will be like this:
+{% highlight php%}
+// The auth manager will try to cache auth informat in authassignment and reuse later.
+// If cannot be found in cache, then look for authitem and authitemchild to check operation against roles.
+'authManager' => array(
+    'class' => 'ext.ECachedDbAuthManager',
+    'cacheID' => 'cache',
+    'connectionID' => 'db',
+    'assignmentTable' => 'authassignment',
+    'itemTable' => 'authitem',
+    'itemChildTable' => 'authitemchild',
+),
+{% endhighlight %}
 
 
 Laravel
