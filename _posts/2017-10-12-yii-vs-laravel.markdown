@@ -32,26 +32,107 @@ here's a table to compare the functions/ configuration between Yii and Laravel.
 |Architect Concept|	Dependency Injection, [Component](http://www.yiiframework.com/doc-2.0/guide-concept-di-container.html)|	Dependency Injection|
 
 
-Form building
-==========
+**Yii's Tricks**
 
+Form Model
+==========
+Form Model is very unique concept across the MVC framework. Mainly it provide another layer to connect controller and the view. The form in View is pretty much built following the form model field. Form model provide the standar validation, custom validation (by mode) and label defination.
+
+Usually, in the controller we will check the get the submission data from `$_POST`, use `model->setAttributes()` to cast the info into the form model, then perform validation, if passed then use the real model to persistent data. 
 
 Widget
 ========
+`Widget` is self-contained front-end component.
+{% highlight php%}
+// Create a widget in widgets folder.
+class MyCaptcha extends CCaptcha
+{
+   public $model;
+   public $attribute;
+
+   public function run(){
+
+       parent::run();
+       echo CHtml::activeTextField($this->model, $this->attribute);
+    }
+}
+
+// In the view render the widget.
+$this->widget('application.components.widgets.MyCaptcha', array(
+    'model' => $model,
+    'attribute' => 'captcha',
+));
+
+
+// In the controller.
+public function actions() {
+    return array(
+        'captcha'=>array(
+            'class'=>'CCaptchaAction',
+            'backColor'=>0xFFFFFF,
+        ),
+    );
+}
+
+
+// In the form model.
+public function rules() {
+   return array(
+       array('username, password, email', 'required'),
+       array('email', 'email'),
+       array('captcha', 'captcha'),
+   );
+}
+{% endhighlight %}
 
 Search Session
 =========
+In order to save search criteria or for the pagination jumping, we need to find a way to persistent the search criteria. 
+  + create model to save the criteria
+  + assign unique ID for every record
+  + generate a record for search, and save the criteria in the table
+  + carry the search ID when jumping around, and retrieve the criteria
 
 Controller to View
 ==========
-render partial
-email template
-parameter
+{% highlight php%}
+// Render partial, this how we break the template down into small parts.
+<?php $this->renderPartial('_side_bar'); ?>
 
+// email template
+// Use the output buffer and extract function to get the template and assign the variables.
+{% endhighlight %}
 
 Pagination
 =======
+{% highlight php%}
+// Use the same criteria to retrieve model
+// and create the pagination.
+$count = User::model()->count($criteria);
+$pages = new CPagination($count);
+$pages->pageSize = 10;
+$pages->applyLimit($criteria);
+$this->vars->pages = $pages;
+
+
+// In View, render the pagination like this
+$this->widget('PageWidget', array(
+    'pages' => $pages,
+));
+{% endhighlight %}
 
 Export result
 ========
+The solution to export/download result as a file is pretty generic.
 
+{% highlight php%}
+// Download result as csv.
+header("Cache-Control: public");
+header("Content-Description: File Transfer");
+header("Content-Disposition: attachment; filename=".$fileName);
+header("Content-Type: application/octet-stream");
+header("Content-Transfer-Encoding: binary");
+echo $title_line;
+echo $data_line_1;
+echo $data_line_2;
+{% endhighlight %}
