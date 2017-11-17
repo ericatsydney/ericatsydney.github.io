@@ -22,8 +22,8 @@ here's a table to compare the functions/ configuration between Yii and Laravel.
 |Security|	Yes|	CRSF token|
 |Fillter|	Filter, Behaviours|	Middleware|
 |Generate Code|	Gii - GUI and yii [The yii command come out of the box are insufficient](http://www.yiiframework.com/doc-2.0/guide-tutorial-console.html)|	Artisan make - command|
-|Front-end tech|	Need to setup a template system, otherwise it will be cumbersum special syntax for form, widgets|	Blade Vue.js |
-|Unit Testing|	Yes but documentation still in development need to setup separated DB for testing|	Yes, and very flexible - there's traits concept, don't need a separated testing DB - could disable middle ware in testing| 
+|Front-end tech|	Need to setup a template system, otherwise it will be cumbersome special syntax for form, widgets|	Blade Vue.js |
+|Unit Testing|	Yes but documentation still in development need to setup separated DB for testing|	Yes, and very flexible - there's traits concept, don't need a separated testing DB - could disable middle ware in testing|
 |CLI Interpreter|	No	|Artisan tinker|
 |Local environment|	No	|Homestead|
 |Modularise|	Modules|	no Keep the MVC layers in whole application|
@@ -36,9 +36,9 @@ here's a table to compare the functions/ configuration between Yii and Laravel.
 
 Form Model
 ==========
-Form Model is very unique concept across the MVC framework. Mainly it provide another layer to connect controller and the view. The form in View is pretty much built following the form model field. Form model provide the standar validation, custom validation (by mode) and label defination.
+Form Model is very unique concept across the MVC framework. Mainly it provide another layer to connect controller and the view. The form in View is pretty much built following the form model field. Form model provide the standard validation, custom validation (by mode) and label definition.
 
-Usually, in the controller we will check the get the submission data from `$_POST`, use `model->setAttributes()` to cast the info into the form model, then perform validation, if passed then use the real model to persistent data. 
+Usually, in the controller we will check the get the submission data from `$_POST`, use `model->setAttributes()` to cast the info into the form model, then perform validation, if passed then use the real model to persistent data.
 
 Widget
 ========
@@ -87,7 +87,7 @@ public function rules() {
 
 Search Session
 =========
-In order to save search criteria or for the pagination jumping, we need to find a way to persistent the search criteria. 
+In order to save search criteria or for the pagination jumping, we need to find a way to persistent the search criteria.
   + create model to save the criteria
   + assign unique ID for every record
   + generate a record for search, and save the criteria in the table
