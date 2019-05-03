@@ -9,25 +9,29 @@ Core Concepts
 ==============
 
 *Actions*
+
 Actions are used to tell Redux that something in an application has changed, or that the user has interacted with the application in some way. Actions in Redux are plain objects with a `type` property.
 
 *Reducers*
+
 In Redux, reducers are used to facilitate state transformations based on actions. It use current state and action object to compute a new state.
 
-{% highlight shell%}
-# compress text, html, javascript, css, xml:
-AddOutputFilterByType DEFLATE text/plain
-AddOutputFilterByType DEFLATE text/html
-AddOutputFilterByType DEFLATE text/xml
-AddOutputFilterByType DEFLATE text/css
-AddOutputFilterByType DEFLATE application/xml
-AddOutputFilterByType DEFLATE application/xhtml+xml
-AddOutputFilterByType DEFLATE application/rss+xml
-AddOutputFilterByType DEFLATE application/javascript
-AddOutputFilterByType DEFLATE application/x-javascript
+*Store*
 
-# Or, compress certain file types by extension:
-<files *.html>
-SetOutputFilter DEFLATE
-</files>
+The store in Redux is what coordinates passing actions to your reducer, notifying you of changes to your state. It encapsulates the state and offers an interfaace that you can use to interact with it. This interface is comprised of the following:
+- dispatch(action)
+- getState()
+- subscribe(listener)
+
+*Middleware*
+
+Middleware acts as a pipeline that all dispatched actions go through before reaching the store. And actually middleware in Redux provide a interface to make a plugin-system possible.
+
+Redux Patterns
+========================
+
+{% highlight shell%}
 {% endhighlight %}
+
+Reference and credit:
+Developing a Redux Edge - by Johannes Lumpe; Karl Purkhardt; Darío Cravero; Troy Mott; Art Muller; Ezekiel Chentnik - Published by Bleeding Edge Edge Press, 2016
