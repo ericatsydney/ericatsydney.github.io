@@ -44,6 +44,10 @@ html {
   }
 }
 
+.content-container {
+  height: calc(100vh - 410px);
+}
+
 footer {
   .section {
     color: #fff;
