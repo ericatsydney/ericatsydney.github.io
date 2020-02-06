@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-05-11-how-to-learn-new-stuff.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-05-11-how-to-learn-new-stuff.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-21-lodash-usage.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-10-21-lodash-usage.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-11-01-lambd-function.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-01-lambd-function.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-11-15-solution-architecture.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-15-solution-architecture.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
