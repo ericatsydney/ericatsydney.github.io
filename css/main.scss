@@ -47,6 +47,10 @@ html {
 .content-container {
 }
 
+.content-container {
+  min-height: calc(100vh - 410px);
+}
+
 footer {
   .section {
     color: #fff;
