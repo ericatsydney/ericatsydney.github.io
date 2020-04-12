@@ -73,7 +73,7 @@ Component (abstracted class) <- Decorator (Interface or Abstracted class) <- Con
 extend reflect.invocation
 
 
-Performing and representing tasks
+Behavioral
 =================================
 
 **The Command Pattern**
@@ -86,20 +86,47 @@ Command <- (inherit) - concreteCommand < - (parameterized) - Receiver instance
 
 client - (call) -> Invoker.execute(concreteCommand instance)
 
-
-**The Interpreter Pattern**
-
-
 **The Strategy Pattern**
 
+contextClass <- (parameterized constructor) - strategyClass
+
+strategyClass (abstracted) <-(inherit)- concreteStrategy 
+
+**State Pattern**
+
+contextClass - (call)-> state.handleRequest()
+
+stateClass: abstract hanleRequest method <- (implement) - concreteStateClass
+
+concreteStateClass (handle request base on state and modify context state afterward) <- (parameterized constructor) - contextClass
 
 **The Observer Pattern**
 
+subjectClass include list of observers and its manage methods, state and its get set method
+
+concreteObserverClass <- (parameterized constructor) - subjectClass 
+
+concreteObserverClass - (call) -> subjectClass.setState()
+
+concreteObserverClass - (call) -> subjectClass.getState()
+
+**Template Method Pattern**
+
+Defer the implementation detail to subclass, but keep the main process in super class.
+
+**Iterator Pattern**
+
+TBC
+
+**The Interpreter Pattern**
 
 **The Visitor Pattern**
 
+**Chain of Responsibility Pattern**
 
-**Template Method Pattern**
+**Mediator Pattern**
+
+**Memento Pattern**
 
 
 
