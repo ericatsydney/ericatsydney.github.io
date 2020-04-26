@@ -74,7 +74,9 @@ private Foo foo;
 
 - @InjectMocks provide a fully functioned instance, so that we can call its method.
 
-matcher: any() eq()
+`when().thenReturn()` help us mock the behaviors.
 
-verify
+Argument matcher: we can use the matcher to the method's parameter, but we have to cover all parameters with these choices: any() eq().
+
+`verify().methodname` help us to make sure some of the methods have been called.
 

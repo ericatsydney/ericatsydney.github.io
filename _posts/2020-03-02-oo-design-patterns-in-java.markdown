@@ -5,6 +5,7 @@ date:   2020-03-02 09:55:00 +1000
 categories: Geek
 ---
 
+Here's the most common design pattern we will use in our day to day work, asterisk stand for the using frequency.
 
 Creational
 ================
@@ -13,13 +14,13 @@ Creational
 
 Using constructor without parameter to create single instance in application, make sure it's thread-safe (using eagerly instance or double checking).
 
-**The Builder Pattern**
+**The Builder Pattern** `*****`
 
 Using preset method to deal with complicated constructor. The stream-ish way make it clear and easy to instantiate object. 
 
-**Factory Method Pattern**
+In the modern Java, annotation @Builder can help us do most of the scaffold job. 
 
-:star: :star:
+**Factory Method Pattern** `*****`
 
 Defer the detail constructor in object subclass, actually the factory is the switch statement and call the subclass constructor. 
 
@@ -58,7 +59,7 @@ Abstraction (abstracted class) <- (inherited) - RefinedAbstraction
 
 Abstraction (abstracted class) <- (parameterized constructor) - Implementor (Interface) <- (implemented) - ConcreteImplementor 
 
-**The Facade Pattern**
+**The Facade Pattern** `*****`
 
 client -(call) -> Facade (simplified method) -> other complicated system
 

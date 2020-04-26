@@ -43,6 +43,7 @@ For detail we can check [this doco](https://docs.spring.io/spring-data/elasticse
 Base on the CrudRepository or PagingAndSortingRepository, we can use fragment interface to define the customised repo, in the repo we can use template to query ES to fulfill our special requirement (must have, should have etc.)
 
 **Elasticsearch Template**
+
 TBC
 
 
