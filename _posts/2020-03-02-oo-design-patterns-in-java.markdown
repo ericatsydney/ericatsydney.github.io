@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Design Patterns in Java"
+title:  "OO Design Patterns in Java"
 date:   2020-03-02 09:55:00 +1000
 categories: Geek
 ---
@@ -18,6 +18,8 @@ Using constructor without parameter to create single instance in application, ma
 Using preset method to deal with complicated constructor. The stream-ish way make it clear and easy to instantiate object. 
 
 **Factory Method Pattern**
+
+:star: :star:
 
 Defer the detail constructor in object subclass, actually the factory is the switch statement and call the subclass constructor. 
 
@@ -96,7 +98,7 @@ strategyClass (abstracted) <-(inherit)- concreteStrategy
 
 contextClass - (call)-> state.handleRequest()
 
-stateClass: abstract hanleRequest method <- (implement) - concreteStateClass
+stateClass: abstract handleRequest method <- (implement) - concreteStateClass
 
 concreteStateClass (handle request base on state and modify context state afterward) <- (parameterized constructor) - contextClass
 
@@ -128,6 +130,11 @@ TBC
 
 **Memento Pattern**
 
+
+Some Principle
+=======================
+
+SOLID 
 
 
 

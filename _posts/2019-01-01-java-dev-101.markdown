@@ -22,3 +22,12 @@ Maven phase
 Servlet VS Reactive Stack
 =========================
 ![servlet vs reactive](https://miro.medium.com/max/1214/1*XAZhrJAjoZkZZWVXMSWJqA.png)
+
+Lombok
+=========================
+Lombok is controversial project.
+
+- @Getter, @Setter, @Data
+
+- `val` keyword to define local variable, it will use implied initiating type and equivalent to `final`.
+
