@@ -66,6 +66,26 @@ private Foo foo;
 
 - @Autowired: similar as @Inject, and it's part of the Spring framework.
 
+**Configuration**
+@SpringBootApplication is the composed annotation, actually it includes the following annotations:
+- @Target({ElementType.TYPE})
+- @Retention(RetentionPolicy.RUNTIME)
+- @Documented
+- @Inherited
+- @SpringBootConfiguration
+- @EnableAutoConfiguration
+- @ComponentScan
+
+Then all the @Component will be scanned and put it as bean in Context, @Autowired will help to initiate the bean and dependency injection.
+
+And if we need to scan package not in default component scanning, we need to explicitly to add `@ComponentScan` annotation.
+
+**JPA**
+With Spring Boot's help, all the manual tedious works will be saved, e.g. setup the DB driver, open and close DB, SQL statement, convert result set to objects, etc. As a result, we can concentrate on the business logic.
+
+**DAO and Enity**
+
+
 **Unit Test**
 
 @Mock vs @InjectMocks
@@ -79,4 +99,14 @@ private Foo foo;
 Argument matcher: we can use the matcher to the method's parameter, but we have to cover all parameters with these choices: any() eq().
 
 `verify().methodname` help us to make sure some of the methods have been called.
+
+**Actuator**
+
+use endpoint `private/actuator/refresh` to refresh the config
+
+**Pagination**
+
+Hateos
+
+**Log config**
 

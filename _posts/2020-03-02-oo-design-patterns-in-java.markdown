@@ -132,10 +132,6 @@ TBC
 **Memento Pattern**
 
 
-Some Principle
-=======================
-
-SOLID 
 
 
 
