@@ -14,6 +14,7 @@ SOLID
     - move common method out
 
 - Open-closed principle: open for extend, closed for modification
+    - write an interface/abstract class and implement/extend class from there, this way can avoid keep modifying a class, after we have tested a class, we should try to extend rather than modify that.
 
 - Liskov substitution: object can be replace by subtype, still correct
 
