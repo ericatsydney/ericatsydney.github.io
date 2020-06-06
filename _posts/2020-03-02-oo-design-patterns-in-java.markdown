@@ -5,7 +5,9 @@ date:   2020-03-02 09:55:00 +1000
 categories: Geek
 ---
 
-Here's the most common design pattern we will use in our day to day work, asterisk stand for the using frequency.
+When I first touched JAVA in 2005, Design Pattern is still the popular terms, the `Head First Design Pattern` was the best seller at that time. Now fast forward to 2020, no one is talking about design pattern anymore, I guess because most of the matured framwork already made the hard lifting for low level structure, so that we could focus on the business logic itself; and sencondly, after Java 8 introduce the lambda function, we can use a different (simpler) way to build the structural scaffold. 
+
+But even so, it's still worthy to re-enforce some basic concept, because we still can find them in different applications. Here's the most common design pattern we will use in our day to day work, asterisk stand for the using frequency.
 
 Creational
 ================
@@ -131,6 +133,7 @@ TBC
 
 **Memento Pattern**
 
+P.S. compared with design pattern, I think the OO principle and its nature is more important, they are still being used in our day-to-day programming live.
 
 
 
