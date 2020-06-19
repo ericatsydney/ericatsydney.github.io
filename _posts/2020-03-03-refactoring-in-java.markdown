@@ -22,10 +22,12 @@ OO Design Principle
 
 SOLID 
 
-- Single responsibility 
+- Single Responsibility Principle
+    - A module should have one and only one reason to change.
     - move common method out
 
 - Open-closed principle: open for extend, closed for modification
+    - partition the system into component in a hierarchy, protect the higher level component from the changes of lower level 
     - write an interface/abstract class and implement/extend class from there, this way can avoid keep modifying a class, after we have tested a class, we should try to extend rather than modify that.
 
 - Liskov substitution: object can be replace by subtype, still correct
@@ -37,7 +39,7 @@ SOLID
     
 
 Refer:
-[Book Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com.au/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=Clean+Architecture%3A+A+Craftsman%27s+Guide+to+Software+Structure+and+Design&qid=1591422658&sr=8-1)
+[Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com.au/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=Clean+Architecture%3A+A+Craftsman%27s+Guide+to+Software+Structure+and+Design&qid=1591422658&sr=8-1)
 
 
 

@@ -86,19 +86,23 @@ With Spring Boot's help, all the manual tedious works will be saved, e.g. setup 
 **DAO and Enity**
 
 
-**Unit Test**
+**JUnit Test**
 
-@Mock vs @InjectMocks
+@Mock vs @InjectMocks vs new
 
 - @Mock provide a stub instance in the test.
 
 - @InjectMocks provide a fully functioned instance, so that we can call its method.
+
+- new
 
 `when().thenReturn()` help us mock the behaviors.
 
 Argument matcher: we can use the matcher to the method's parameter, but we have to cover all parameters with these choices: any() eq().
 
 `verify().methodname` help us to make sure some of the methods have been called.
+
+`AsertEqual`
 
 **Actuator**
 
