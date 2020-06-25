@@ -80,6 +80,10 @@ Then all the @Component will be scanned and put it as bean in Context, @Autowire
 
 And if we need to scan package not in default component scanning, we need to explicitly to add `@ComponentScan` annotation.
 
+**Constructor**
+@RequiredArgsContructor will generate a contructor with `final` fields. If customed logic is needed (e.g. setup a custom mapping for later usage), we need to create a explicit constructor manually.
+
+
 **JPA**
 With Spring Boot's help, all the manual tedious works will be saved, e.g. setup the DB driver, open and close DB, SQL statement, convert result set to objects, etc. As a result, we can concentrate on the business logic.
 
@@ -91,18 +95,15 @@ With Spring Boot's help, all the manual tedious works will be saved, e.g. setup 
 @Mock vs @InjectMocks vs new
 
 - @Mock provide a stub instance in the test.
+    - `when().thenReturn()` help us mock the behaviors.
+    - `verify().methodname` help us to make sure some of the methods have been called, will only work on mocked object.
 
 - @InjectMocks provide a fully functioned instance, so that we can call its method.
 
-- new
+- `new` keyword in test will run same thing as runtime: allocate memory and trigger the constructor.
+    - `AsertEqual()` will work on the object created by `new` 
 
-`when().thenReturn()` help us mock the behaviors.
-
-Argument matcher: we can use the matcher to the method's parameter, but we have to cover all parameters with these choices: any() eq().
-
-`verify().methodname` help us to make sure some of the methods have been called.
-
-`AsertEqual`
+p.s. Argument matcher: we can use the matcher to the method's parameter, but we have to cover all parameters with these choices: any() eq().
 
 **Actuator**
 

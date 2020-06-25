@@ -37,6 +37,15 @@ SOLID
 - Dependency inversion: depend on abstraction but not concretions.
     - avoid using new keyword in method,make the test easier
     
+Data Flow of Application
+========================
+controller - (request) -> service - (other service initiatives) -> Repo method - (get response ) -> service - (post processor, response convertion) -> controller
+
+Data flow is like the map of architecture, using this map we can decide where should we put the logic in and where can we get/reuse the same data. Here's some use case in my day to day work:
+
+- when we found two unrelated logic block putting in same class, it's the smell that we need to check data flow upward, and create another peer class and call it overthere. 
+
+- before we initiate a new resource, check data flow upward to see any existing data we can reuse.
 
 Refer:
 [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com.au/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=Clean+Architecture%3A+A+Craftsman%27s+Guide+to+Software+Structure+and+Design&qid=1591422658&sr=8-1)

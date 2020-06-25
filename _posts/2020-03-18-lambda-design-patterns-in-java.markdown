@@ -26,7 +26,7 @@ Important Method & Concept
 
 Functional interface can be accept the lambda expression, then use this lambda expression apply on the runtime argument.
 
-Consumer
+- Consumer: it's an operation interface can accept a single input and return nothing. So side effect is expected.
 
 Function
 

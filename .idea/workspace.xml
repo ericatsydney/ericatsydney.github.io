@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-01-01-java-dev-101.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-03-03-refactoring-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-03-03-refactoring-in-java.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-03-18-lambda-design-patterns-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-03-18-lambda-design-patterns-in-java.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-15-spring-boot.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-boot.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-06-19-pressures.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-06-19-pressures.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-06-20-efficient-communication.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-06-20-efficient-communication.markdown" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,15 +62,27 @@
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="C:\Users\tane\Code\ericatsydney.github.io\_posts" />
+      <recent name="C:\Code\ericatsydney.github.io\_posts" />
+      <recent name="C:\Users\Eric\Code\ericatsydney.github.io\_posts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Eric\Code\ericatsydney.github.io\assets" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tane\Code\ericatsydney.github.io\_posts" />
-      <recent name="C:\Code\ericatsydney.github.io\_posts" />
-      <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="C:\Users\Eric\Code\ericatsydney.github.io\_posts" />
-    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -92,18 +109,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -116,90 +121,8 @@
       <updated>1448030887059</updated>
       <workItem from="1565337427644" duration="1402000" />
       <workItem from="1584682245233" duration="1575000" />
-    </task>
-    <task id="LOCAL-00123" summary="Updated BDD term.">
-      <created>1468498245847</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1468498245847</updated>
-    </task>
-    <task id="LOCAL-00124" summary="Updated php basic.">
-      <created>1468505116839</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1468505116840</updated>
-    </task>
-    <task id="LOCAL-00125" summary="Updated php basic.">
-      <created>1468505591729</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1468505591729</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Added linting.">
-      <created>1468651688823</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1468651688841</updated>
-    </task>
-    <task id="LOCAL-00127" summary="Updated linting.">
-      <created>1468706080256</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1468706080256</updated>
-    </task>
-    <task id="LOCAL-00128" summary="Updated linting.">
-      <created>1468709296540</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1468709296541</updated>
-    </task>
-    <task id="LOCAL-00129" summary="Updated linting.">
-      <created>1468718658776</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1468718658776</updated>
-    </task>
-    <task id="LOCAL-00130" summary="Updated linting.">
-      <created>1468760367762</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1468760367762</updated>
-    </task>
-    <task id="LOCAL-00131" summary="Updated jquery.">
-      <created>1469019272835</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1469019272836</updated>
-    </task>
-    <task id="LOCAL-00132" summary="Updated jquery and problem solving.">
-      <created>1469097865051</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1469097865051</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Added refactoring again.">
-      <created>1469100678333</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1469100678334</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Updated refactoring again.">
-      <created>1469102096548</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1469102096549</updated>
+      <workItem from="1589457856206" duration="8358000" />
+      <workItem from="1590533384139" duration="22310000" />
     </task>
     <task id="LOCAL-00135" summary="Updated refactoring again.">
       <created>1469102325709</created>
@@ -460,11 +383,108 @@
       <option name="project" value="LOCAL" />
       <updated>1565338626383</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="Update java design pattern.">
+      <created>1586476789267</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1586476789267</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Update java design pattern.">
+      <created>1586476927385</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1586476927385</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Update java design pattern.">
+      <created>1586669142115</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1586669142115</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Update java design pattern.">
+      <created>1586689447570</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1586689447570</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Update java design pattern.">
+      <created>1587886221238</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1587886221238</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Update java design pattern.">
+      <created>1587902706204</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1587902706204</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Update multiple posts.">
+      <created>1590321075270</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1590321075270</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Add api best practices.">
+      <created>1590321152048</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1590321152048</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Add api best practices.">
+      <created>1590842501723</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1590842501723</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Update the OO principle.">
+      <created>1591422789342</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1591422789342</updated>
+    </task>
+    <task id="LOCAL-00182" summary="Add new post pressure.">
+      <created>1592562041399</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1592562041399</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Add new post communication.">
+      <created>1592568012364</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1592568012364</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -475,12 +495,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated jquery." />
-    <MESSAGE value="Updated jquery and problem solving." />
-    <MESSAGE value="Added refactoring again." />
-    <MESSAGE value="Updated refactoring again." />
-    <MESSAGE value="Added react." />
-    <MESSAGE value="Added gulp." />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Update php basic." />
     <MESSAGE value="Updated php basic." />
     <MESSAGE value="Updated vim." />
@@ -500,7 +516,13 @@
     <MESSAGE value="Update microservices." />
     <MESSAGE value="Update yii vs laravel." />
     <MESSAGE value="Update a poem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update a poem." />
+    <MESSAGE value="Update java design pattern." />
+    <MESSAGE value="Update multiple posts." />
+    <MESSAGE value="Add api best practices." />
+    <MESSAGE value="Update the OO principle." />
+    <MESSAGE value="Add new post pressure." />
+    <MESSAGE value="Add new post communication." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new post communication." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">
