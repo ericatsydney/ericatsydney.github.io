@@ -80,6 +80,10 @@ Then all the @Component will be scanned and put it as bean in Context, @Autowire
 
 And if we need to scan package not in default component scanning, we need to explicitly to add `@ComponentScan` annotation.
 
+@ConfigurationProperties Spring Boot 2.2 will add the corresponding field as bean into the application context.
+
+- then the config can be got from the either the application config or Spring Boot Admin  
+
 **Constructor**
 @RequiredArgsContructor will generate a contructor with `final` fields. If customed logic is needed (e.g. setup a custom mapping for later usage), we need to create a explicit constructor manually.
 
@@ -107,11 +111,35 @@ p.s. Argument matcher: we can use the matcher to the method's parameter, but we 
 
 **Actuator**
 
-use endpoint `private/actuator/refresh` to refresh the config
+Auctuator module provide production ready features, like monitoring, health, metrics gathering. To use that, we could just add `spring-boot-starter-actuator` in the dpendency.
 
-**Pagination**
+And we could use endpoint `private/actuator/refresh` to refresh the config
 
-Hateos
+**Links/ Pagination**
+
+HATEOAS is a standard/way to do the links in JAVA.
+
+>REST architectural style lets you use hypermedia links in the response contents so that the client can dynamically navigate to the appropriate resource by traversing the hypermedia links. 
+
+{% highlight java%}
+"_links": {
+        "first": {
+            "href": "http://localhost:8080/api/albums-list?page=0&size=2&sort=title,desc"
+        },
+        "prev": {
+            "href": "http://localhost:8080/api/albums-list?page=0&size=2&sort=title,desc"
+        },
+        "self": {
+            "href": "http://localhost:8080/api/albums-list?page=1&size=2&sort=title,desc"
+        },
+        "next": {
+            "href": "http://localhost:8080/api/albums-list?page=2&size=2&sort=title,desc"
+        },
+        "last": {
+            "href": "http://localhost:8080/api/albums-list?page=4&size=2&sort=title,desc"
+        }
+    }
+{% endhighlight%}
 
 **Log config**
 
