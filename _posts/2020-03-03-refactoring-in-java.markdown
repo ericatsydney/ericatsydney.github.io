@@ -47,7 +47,16 @@ Data flow is like the map of architecture, using this map we can decide where sh
 
 - before we initiate a new resource, check data flow upward to see any existing data we can reuse.
 
-Refer:
+Best Practices
+=================
+- Don't use * in import
+
+- Remove the unused import
+ 
+- Make sure the function is small (cohesive and decoupled)
+
+Reference:
+
 [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com.au/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=Clean+Architecture%3A+A+Craftsman%27s+Guide+to+Software+Structure+and+Design&qid=1591422658&sr=8-1)
 
 

@@ -107,6 +107,9 @@ With Spring Boot's help, all the manual tedious works will be saved, e.g. setup 
 - `new` keyword in test will run same thing as runtime: allocate memory and trigger the constructor.
     - `AsertEqual()` will work on the object created by `new` 
 
+
+`Mockeasy.expect` is related to `mockeasy.replay`
+
 p.s. Argument matcher: we can use the matcher to the method's parameter, but we have to cover all parameters with these choices: any() eq().
 
 **Actuator**
@@ -142,4 +145,6 @@ HATEOAS is a standard/way to do the links in JAVA.
 {% endhighlight%}
 
 **Log config**
+
+**Data Access**
 
