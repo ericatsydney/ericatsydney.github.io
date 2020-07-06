@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "高效沟通"
+title:  "wishlist"
 date:   2099-09-09 22:00:52 +1000
 categories: Think
 visible: false
 ---
 
+Java - Thread safe
 
 
 
