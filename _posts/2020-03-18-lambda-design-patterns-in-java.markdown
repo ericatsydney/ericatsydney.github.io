@@ -24,19 +24,19 @@ Important Method & Concept
 
 - apply(single argument)
 
-Functional interface can be accept the lambda expression, then use this lambda expression apply on the runtime argument.
+- Functional interface can be accept the lambda expression, then use this lambda expression apply on the runtime argument.
 
 - Consumer: it's an operation interface can accept a single input and return nothing. So side effect is expected.
 
-Function
+- Interface Function: when we define an interface, we could let the implement class pass the function reference 
+(i.e. not override/implement method, but an existing function passed as a parameter) dynamically. 
+In this situation, we can use interface function in the interface/abstracted class. 
 
-Functional Interface
+- filter
 
-Stream, filter & Lambda
+- Predicate
 
-Predicate
-
-Supplier
+- Supplier
 
 Design Pattern
 ==============
