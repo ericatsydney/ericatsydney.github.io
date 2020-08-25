@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="">
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="update post resilience.">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-08-11-marriage.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-07-22-resilience.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-07-22-resilience.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,14 +120,7 @@
       <workItem from="1565337427644" duration="1402000" />
       <workItem from="1584682245233" duration="1575000" />
       <workItem from="1589457856206" duration="8358000" />
-      <workItem from="1590533384139" duration="40232000" />
-    </task>
-    <task id="LOCAL-00141" summary="Updated vim.">
-      <created>1470225550334</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1470225550334</updated>
+      <workItem from="1590533384139" duration="53114000" />
     </task>
     <task id="LOCAL-00142" summary="Updated gulp.">
       <created>1470742434946</created>
@@ -464,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595421455821</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="update post resilience.">
+      <created>1595592481321</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1595592481321</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +495,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Updated gulp." />
     <MESSAGE value="Updated react, gulp." />
     <MESSAGE value="Hide articles." />
     <MESSAGE value="updated a blog." />
@@ -519,7 +519,8 @@
     <MESSAGE value="Update the java data structure." />
     <MESSAGE value="Add new post communication." />
     <MESSAGE value="Add new post resilience." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new post resilience." />
+    <MESSAGE value="update post resilience." />
+    <option name="LAST_COMMIT_MESSAGE" value="update post resilience." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">
