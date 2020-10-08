@@ -31,38 +31,15 @@ Here's the difference among the 4 annotations:
 
 - @Service, @Repository are also the special form of @Component is service and persistent layer.
 
-When it comes to Dependency Injection stage, there are 3 different choices, all of them support field and setter injection. And the details  are:
+When it comes to Dependency Injection stage, we can add them into the constructor or use the field dependency injection.
+
+And check [here](https://stackoverflow.com/questions/19414734/understanding-spring-autowired-usage) to see why the constructor way is better.
+
+For the field injection. there are 3 different choices, all of them support field and setter injection. And the details  are:
 
 - @Resource: resolves dependencies by name first.
-{% highlight java%}
-// matched by name
-@Resource(name="bar")
-private Foo foo;
-// matched by type
-@Resource
-private Foo foo1;
-// matched by qualifier
-@Resource
-@Qualifier("foo")
-private Foo foo2;
-
-{% endhighlight%}
 
 - @Inject: resolve dependencies by type as default.
-
-{% highlight java%}
-
-@Inject
-private Foo foo1;
-
-@Inject
-@Qualifier("foo")
-private Foo foo2;
-
-@Inject
-@Named("foo")
-private Foo foo;
-{% endhighlight%}
 
 - @Autowired: similar as @Inject, and it's part of the Spring framework.
 
