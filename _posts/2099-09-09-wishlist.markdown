@@ -34,6 +34,8 @@ Stock Market
 
 Persistency
 
+why not use Lombok
+
 
 
 

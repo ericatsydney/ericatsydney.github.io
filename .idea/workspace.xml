@@ -122,14 +122,7 @@
       <workItem from="1565337427644" duration="1402000" />
       <workItem from="1584682245233" duration="1575000" />
       <workItem from="1589457856206" duration="8358000" />
-      <workItem from="1590533384139" duration="69689000" />
-    </task>
-    <task id="LOCAL-00146" summary="Add design pattern.">
-      <created>1504180313497</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1504180313497</updated>
+      <workItem from="1590533384139" duration="70341000" />
     </task>
     <task id="LOCAL-00147" summary="Update patterns.">
       <created>1504181029092</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598922350228</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="update a post.">
+      <created>1602160469683</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1602160469683</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

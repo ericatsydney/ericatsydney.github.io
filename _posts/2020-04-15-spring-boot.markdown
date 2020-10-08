@@ -31,9 +31,9 @@ Here's the difference among the 4 annotations:
 
 - @Service, @Repository are also the special form of @Component is service and persistent layer.
 
-When it comes to Dependency Injection stage, we can add them into the constructor or use the field dependency injection.
+When it comes to Dependency Injection stage, we can add them into the constructor (e.g. @RequiredArgsConstructor) or use the field dependency injection.
 
-And check [here](https://stackoverflow.com/questions/19414734/understanding-spring-autowired-usage) to see why the constructor way is better.
+And check [here](https://stackoverflow.com/questions/58064406/how-to-prevent-using-autowired/58067977#58067977) to see why the constructor way is better.
 
 For the field injection. there are 3 different choices, all of them support field and setter injection. And the details  are:
 
@@ -41,7 +41,7 @@ For the field injection. there are 3 different choices, all of them support fiel
 
 - @Inject: resolve dependencies by type as default.
 
-- @Autowired: similar as @Inject, and it's part of the Spring framework.
+- @Autowired: similar as @Inject, and it's part of the Spring framework. [reference](https://stackoverflow.com/questions/19414734/understanding-spring-autowired-usage)
 
 **Configuration**
 @SpringBootApplication is the composed annotation, actually it includes the following annotations:
