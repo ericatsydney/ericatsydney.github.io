@@ -36,6 +36,24 @@ Persistency
 
 why not use Lombok
 
+cloudformation vs teraform
+
+Java spread.....
+
+how to be a (good) senior dev:
+1. how to deal with new tech you don't agree.
+
+Humor
+- 联想，相关
+- 夸张，反讽
+- 
+
+
+
+record and listen
+
+
+
 
 
 
