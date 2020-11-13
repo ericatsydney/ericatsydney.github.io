@@ -4,6 +4,7 @@
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="update a post.">
       <change afterPath="$PROJECT_DIR$/_posts/2020-09-14-small-talk.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-03-18-lambda-design-patterns-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-03-18-lambda-design-patterns-in-java.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,14 +122,7 @@
       <workItem from="1565337427644" duration="1402000" />
       <workItem from="1584682245233" duration="1575000" />
       <workItem from="1589457856206" duration="8358000" />
-      <workItem from="1590533384139" duration="78331000" />
-    </task>
-    <task id="LOCAL-00148" summary="Update patterns.">
-      <created>1504181288455</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1504181288457</updated>
+      <workItem from="1590533384139" duration="84043000" />
     </task>
     <task id="LOCAL-00149" summary="Update patterns.">
       <created>1504181352645</created>
@@ -466,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602161380899</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="update a post.">
+      <created>1604226997166</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1604226997166</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

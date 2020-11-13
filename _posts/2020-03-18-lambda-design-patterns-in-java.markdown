@@ -5,7 +5,7 @@ date:   2020-03-18 09:55:00 +1000
 categories: Geek
 ---
 
-Important Method & Concept
+Stream Concept
 =================
 
 - Stream:
@@ -16,11 +16,30 @@ Important Method & Concept
 
 >Terminal operations mean the end of the stream lifecycle. Most importantly for our scenario, they initiate the work in the pipeline.
 
+Stream Method
+======================
 
-- peek()
-> This method exists mainly to support debugging, where you want to see the elements as they flow past a certain point in a pipeline 
+- `stream()` Convert the collection (list, array) to a sequential/stream, usually it will be followed by other pure function method as shown below.
 
-> With this method we could alter the inner state of an element
+- `forEach(element -> element.propertyMethod)` Perform an action for each element of this stream, but this method will not return any result. It usually will be the last method of the chain.
+
+- `map(element -> Foo.bar(element))`  Return a stream consisting of the results of applying the given function to the elements of this stream.
+
+- `peek(element -> sideEffectMethod(element)` Return a stream consisting of the elements of this stream, additionally performing the provided action (debug, side effect etc) which consume the same stream.
+
+- `filter(element -> element.isApplicable().apply(foo)` Return a stream consisting of the elements of this stream that match the given predicate.
+
+- `parallel()` Return the parallel stream, use this when handling a big stream.
+
+- `flatMap(line -> Stream.of(line.split(" +"))` Apply transformation to the stream's element, then flatten the results into a new stream.
+
+- `collect(Collectors.toList())` Convert the stream back to collection, usually it will be the last method of the chain.
+
+- `sorted()` Return the sorted stream according to the Comparator provided.
+
+
+Pure Function Method
+=========================
 
 - apply(single argument)
 
@@ -32,11 +51,15 @@ Important Method & Concept
 (i.e. not override/implement method, but an existing function passed as a parameter) dynamically. 
 In this situation, we can use interface function in the interface/abstracted class. 
 
-- filter
-
 - Predicate
 
 - Supplier
+
+Other Utils Used Together
+=========================
+
+- `BeanUtils.copyProperties(source, target, ...ignoreProperties)` It's useful when building a mapper along with some stream method, 
+
 
 Design Pattern
 ==============
