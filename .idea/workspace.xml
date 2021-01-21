@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="update a post.">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-11-23-pivital-cloud-foundary.markdown" afterDir="false" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="add a post - pcf.">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-11-24-how-to-be-a-senior-dev.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-01-19-stop-addiction.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-01-20-why-not-lombok.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-11-23-pivital-cloud-foundary.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-11-23-pivital-cloud-foundary.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,13 +124,8 @@
       <workItem from="1584682245233" duration="1575000" />
       <workItem from="1589457856206" duration="8358000" />
       <workItem from="1590533384139" duration="84043000" />
-    </task>
-    <task id="LOCAL-00149" summary="Update patterns.">
-      <created>1504181352645</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1504181352645</updated>
+      <workItem from="1606302502614" duration="2845000" />
+      <workItem from="1610863509014" duration="10466000" />
     </task>
     <task id="LOCAL-00150" summary="Update design pattern.">
       <created>1504270211893</created>
@@ -464,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604226997166</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="add a post - pcf.">
+      <created>1606134741044</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1606134741044</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +500,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add design pattern." />
     <MESSAGE value="Update patterns." />
     <MESSAGE value="Update design pattern." />
     <MESSAGE value="Update css and js." />
@@ -519,7 +524,8 @@
     <MESSAGE value="update post marriage." />
     <MESSAGE value="add a new post." />
     <MESSAGE value="update a post." />
-    <option name="LAST_COMMIT_MESSAGE" value="update a post." />
+    <MESSAGE value="add a post - pcf." />
+    <option name="LAST_COMMIT_MESSAGE" value="add a post - pcf." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">
