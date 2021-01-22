@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="add a post Lombok">
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="update post communication.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-06-20-efficient-communication.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-06-20-efficient-communication.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-01-20-why-not-lombok.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-01-20-why-not-lombok.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="com.intellij.ide.scratch.NewScratchFileAction" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
   </component>
   <component name="RecentsManager">
@@ -121,14 +121,7 @@
       <workItem from="1589457856206" duration="8358000" />
       <workItem from="1590533384139" duration="84043000" />
       <workItem from="1606302502614" duration="2845000" />
-      <workItem from="1610863509014" duration="12868000" />
-    </task>
-    <task id="LOCAL-00151" summary="Update css and js.">
-      <created>1507978655427</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1507978655437</updated>
+      <workItem from="1610863509014" duration="14200000" />
     </task>
     <task id="LOCAL-00152" summary="Update css and js.">
       <created>1507978793242</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611227482097</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="update post communication.">
+      <created>1611315456375</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1611315456376</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +496,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update design pattern." />
     <MESSAGE value="Update css and js." />
     <MESSAGE value="Update php knowledge map." />
     <MESSAGE value="Update php exception handling." />
@@ -521,7 +520,8 @@
     <MESSAGE value="update a post." />
     <MESSAGE value="add a post - pcf." />
     <MESSAGE value="add a post Lombok" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a post Lombok" />
+    <MESSAGE value="update post communication." />
+    <option name="LAST_COMMIT_MESSAGE" value="update post communication." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">
