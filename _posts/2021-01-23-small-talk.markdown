@@ -13,7 +13,8 @@ Knowing the topics are not enough. As the practice, it is suggested to list some
 
 Then you can reuse them in your real live. I list mine here:
 
-*Work*
+Work
+==========
 
 Q:What do you do for work?
 
@@ -27,7 +28,8 @@ Q: What's your typical workday look like?
 
 A: Every morning, the team will have a catch-up to give a round table update, which we call stand-up meeting, in the meeting everyone can know about each other's progress and who need helps on anything. Then we will start the programming and testing. In between the acutal work, we will also have some meetings with other teams to make sure the project smooth.
 
-*Life*
+Life
+=============
 Q: Have you got much planned for the weekend?
 
 A:Yea, we are going to White Hill Reserved for a hiking on Saturday, another family will go with us. I think it will be fun. 
@@ -48,7 +50,8 @@ Q: So, do you have any kids/Pets?
 
 A: Yes, I have 2 daughters, they are 5 and 8 years old.
 
-*Travel*
+Travel
+===========
 
 Q: So, are you planning on getting away for the holidays?
 
@@ -64,7 +67,8 @@ Q: What places are on your bucket list?
 
 A: I would like to say it's Japan, I have watched so many travelling program about Japan, some day I will be there to have a look, I like the Japanese food and the culture over there.
 
-*Food*
+Food
+===========
 
 Q: Do you know any good restaurant around here?
 
@@ -80,20 +84,28 @@ Q: Do you like Thai food?
 
 A: Oh, I love it, and the green curry is my favourite.
 
-*Weather*
-It's a beautiful day today, isn't it?
-Can you believe all the rain we've been having lately?
-It's pouring out there! It's shame I rode my bike today. How did you get to work?
+Weather
+=============
+Q: It's a beautiful day today, isn't it?
+
+A: Yea, beautiful sunshine, it will be good if we can go out for a walk rather than sitting in the office.
+
+Q: Can you believe all the rain we've been having lately?
+
+A: 
+
+Q: It's pouring out there! It's shame I rode my bike today. How did you get to work?
+
+A: 
 
 And More:
-
+===========
 1. Do you have any plan in the weekends?
 2. How was your weekends?
 3. Are you going to take any day off in the Christmas time?
 4. How was the weather like last night?
-5. Reading
-6. Kids
-7. What project are you working on at the moment?
-8. Where do you live by the way?
+5. Do you have a second language?
+6. What project are you working on at the moment?
+7. Where do you live by the way?
 
 
