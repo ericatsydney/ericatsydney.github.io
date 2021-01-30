@@ -5,7 +5,7 @@ date:   2021-01-20 21:13:00 +1000
 categories: Geek
 ---
 
-Lombok is a very controversial java project, some of us hate it, others love it.
+Lombok is a very popular but also controversial java project, some of us hate it, others love it.
 
 I read some articles like this [Don't Use Lombok](https://artofcode.wordpress.com/2018/12/18/dont-use-lombok/).
 

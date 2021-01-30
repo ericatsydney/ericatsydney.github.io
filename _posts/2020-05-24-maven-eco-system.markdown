@@ -11,7 +11,17 @@ heart of the configuration
 
 - sonar: code quality analyser
 
--
+- dependency management
+
+- parent 
+
+- sub module
+
+- Nexus
+
+- release
+
+- loging
 
 
 SCM Plugin

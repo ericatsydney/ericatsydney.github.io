@@ -6,7 +6,12 @@ categories: Think
 visible: false
 ---
 
+Coming Soon
+================
+
 Java - Thread safe
+
+Java - Garbege collection.
 
 reflection for immigration
 
@@ -17,8 +22,6 @@ social justice
 barefoot investor 
 
 english reading
-
-small talk
 
 how to show your opinion safely?
 
@@ -34,7 +37,6 @@ Stock Market
 
 Persistency
 
-
 cloudformation vs teraform
 
 Java spread.....
@@ -48,6 +50,35 @@ record and listen
 
 如何抖包袱
 
+time management (plan and execute)
+
+专注
+
+dto
+
+tactics ogre 2
+
+how to be efficient
+
+k8s
+
+reasoning
+
+EMR - Big Data tooling
+
+受委屈，政治，成熟，小气，易怒, 气量
+
+恐惧，害怕
+
+why call fight as coward, how to be brave?
+
+authentication? JWT
+
+对个人空间保护
+
+Done or WIP
+===================
+
 pcf？(day 1)
 when you don't know sth (day 2)
 
@@ -58,20 +89,11 @@ how to be a (good) senior dev:
 4. can use the util to help to team to increase the productivity
 5. what's your response if you are challenged?
 6. how to motivate yourself and the team
+elabration, answer the question proactively
 
 沉迷的体验 （day 3）
 why not use Lombok (day 4)
-
-time management (plan and execute)
-
-
-专注
-
-dto
-
-tactics ogre 2
-
-how to be efficient
+small talk (day 5)
 
 
 
