@@ -2,7 +2,7 @@
 layout: post
 title:  "Small Talk"
 date:   2021-01-23 14:05:00 +1000
-categories: Think
+categories: Read
 ---
 
 The other day I found [an excellent youtube video about small talk](https://www.youtube.com/watch?v=WGoIoDuf83o&t=504s). It mentioned the Top Five topics of Small Talk are:
