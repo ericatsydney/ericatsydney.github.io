@@ -9,8 +9,6 @@ visible: false
 Coming Soon
 ================
 
-Java - Thread safe
-
 Java - Garbege collection.
 
 reflection for immigration
@@ -29,7 +27,7 @@ how to pray?
 
 Coverage report.
 
-Agatha Christie - The Murder of Roger Acroyle
+
 
 Tough Love
 
@@ -44,17 +42,15 @@ Java spread.....
 Humor
 - 联想，相关
 - 夸张，反讽
-- 
+- 如何抖包袱
 
 record and listen
-
-如何抖包袱
 
 time management (plan and execute)
 
 专注
 
-dto
+dto, sdk
 
 tactics ogre 2
 
@@ -68,13 +64,19 @@ EMR - Big Data tooling
 
 受委屈，政治，成熟，小气，易怒, 气量
 
-恐惧，害怕
-
-why call fight as coward, how to be brave?
+恐惧，害怕 how to be brave?
 
 authentication? JWT
 
 对个人空间保护
+
+Python Kotlin and Go
+
+如何保持对生活的热情
+
+态度决定一切
+
+自尊心
 
 Done or WIP
 ===================
@@ -94,6 +96,10 @@ elabration, answer the question proactively
 沉迷的体验 （day 3）
 why not use Lombok (day 4)
 small talk (day 5)
+
+Java - Thread safe (day 6)
+
+Agatha Christie - The Murder of Roger Acroyle
 
 
 
