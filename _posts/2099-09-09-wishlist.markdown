@@ -11,6 +11,8 @@ Coming Soon
 
 Java - Garbege collection.
 
+message queue and Kafka
+
 reflection for immigration
 
 svn vs git
@@ -56,13 +58,13 @@ how to be efficient
 
 k8s
 
-reasoning
-
 EMR - Big Data tooling
 
 受委屈，政治，成熟，小气，易怒, 气量
 
 恐惧，害怕 how to be brave?
+
+genuine, tell the truth.
 
 authentication? JWT
 
@@ -74,30 +76,20 @@ Python Kotlin and Go
 
 态度决定一切
 
-自尊心
+自我肯定 self esteem
+
+Jackson, serializer and deserializer
 
 Done or WIP
 ===================
-
 pcf？(day 1)
 when you don't know sth (day 2)
-
-how to be a (good) senior dev:
-1. how to deal with new tech you don't agree.
-2. compare and judge, pick the best option, make the balance, know when it should be comprised 
-3. understand and help other understand the complicated situation
-4. can use the util to help to team to increase the productivity
-5. what's your response if you are challenged?
-6. how to motivate yourself and the team
-elabration, answer the question proactively
-
 沉迷的体验 （day 3）
 why not use Lombok (day 4)
 small talk (day 5)
-
 Java - Thread safe (day 6)
-
-Agatha Christie - The Murder of Roger Acroyle
+Agatha Christie - The Murder of Roger Acroyle (day 7)
+reasoning (day 8)
 
 
 
