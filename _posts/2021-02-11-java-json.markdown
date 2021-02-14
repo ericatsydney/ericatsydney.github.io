@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Jackson"
+date:   2021-02-11 21:25:00 +1000
+categories: Geek
+---
+
+Jackson is most popular Java library to handle JSON parser.
+
+It's widely used in my date-to-date API development work. In restful API, no matter the request body or the response, JSON will be used.
+
+So the Jackson is working like to middle man to convert the JSON to POJO and vice versa.
+
+From JSON to POJO, the process is `deserialize`, and from POJO to JSON is `serialize`.
+
+Usually, `ObjectMapper` is the class we use to do the conversion. It looks like
+
+{% highlight java%}
+ ObjectMapper objectMapper = new ObjectMapper();
+ Car car = new Car("yellow", "renault");
+ objectMapper.writeValue(new File("target/car.json"), car);
+ 
+ String json = "{ \"color\" : \"Black\", \"type\" : \"BMW\" }";
+ Car car = objectMapper.readValue(json, Car.class);
+{% endhighlight%}
+
+Sometimes, the conversion need to be customized to handle some special requirement, for example the delimiter.
+
+That's why we need the customized serializer and deserializer like this 
+{% highlight java%}
+{% endhighlight%}
+ 

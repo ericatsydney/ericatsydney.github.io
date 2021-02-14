@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="update the post roger ackroyd·">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-02-06-reasoning.markdown" afterDir="false" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="update the senior dev·">
+      <change afterPath="$PROJECT_DIR$/_posts/2021-02-11-java-json.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-11-24-how-to-be-a-senior-dev.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-11-24-how-to-be-a-senior-dev.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-02-06-reasoning.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-02-06-reasoning.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,14 +124,7 @@
       <workItem from="1589457856206" duration="8358000" />
       <workItem from="1590533384139" duration="84043000" />
       <workItem from="1606302502614" duration="2845000" />
-      <workItem from="1610863509014" duration="44628000" />
-    </task>
-    <task id="LOCAL-00158" summary="Update php knowledge map.">
-      <created>1508367043826</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1508367043826</updated>
+      <workItem from="1610863509014" duration="48035000" />
     </task>
     <task id="LOCAL-00159" summary="Update php exception handling.">
       <created>1508412743195</created>
@@ -468,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612610674205</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="update the senior dev·">
+      <created>1613042788614</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1613042788614</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +499,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update orm php." />
     <MESSAGE value="Update javascript and react." />
     <MESSAGE value="Update microservices." />
     <MESSAGE value="Update yii vs laravel." />
@@ -523,7 +523,8 @@
     <MESSAGE value="update misc post." />
     <MESSAGE value="update the post small talk·" />
     <MESSAGE value="update the post roger ackroyd·" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the post roger ackroyd·" />
+    <MESSAGE value="update the senior dev·" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the senior dev·" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">
