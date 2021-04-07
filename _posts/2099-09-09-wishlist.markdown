@@ -9,7 +9,15 @@ visible: false
 Coming Soon
 ================
 
-Java - Garbege collection.
+Java - Garbege collection, profiler
+
+Java - multi thread - parallel stream
+
+Java - object mapper
+
+Java - function interface
+
+Java - generic type
 
 message queue and Kafka
 
@@ -39,6 +47,7 @@ cloudformation vs teraform
 
 Java spread.....
 
+Thymeleaf - template system.
 Humor
 - 联想，相关
 - 夸张，反讽
@@ -64,7 +73,7 @@ EMR - Big Data tooling
 
 恐惧，害怕 how to be brave?
 
-genuine, tell the truth.
+如何看待失败和错误？
 
 authentication? JWT
 
@@ -72,13 +81,11 @@ authentication? JWT
 
 Python Kotlin and Go
 
-如何保持对生活的热情
-
 态度决定一切
 
 自我肯定 self esteem
 
-Jackson, serializer and deserializer
+aws certificate
 
 Done or WIP
 ===================
@@ -91,6 +98,10 @@ Java - Thread safe (day 6)
 Agatha Christie - The Murder of Roger Acroyle (day 7)
 reasoning (day 8)
 Jackson （day 9）
+如何保持对生活的热情 (day 10)
+genuine, tell the truth, don't judge. (day 11)
+面试（day 12）
+自我介绍 （day 13）
 
 
 

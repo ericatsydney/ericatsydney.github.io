@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="update the senior dev·">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-02-11-java-json.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-02-15-keep-conversation-rolling.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-02-18-be-genuine.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-04-01-interview.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-04-07-introduce-yourself.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-11-24-how-to-be-a-senior-dev.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-11-24-how-to-be-a-senior-dev.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-02-06-reasoning.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-02-06-reasoning.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,15 +62,15 @@
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\Code\ericatsydney.github.io\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="C:\Users\tane\Code\ericatsydney.github.io\_posts" />
       <recent name="C:\Code\ericatsydney.github.io\_posts" />
       <recent name="C:\Users\Eric\Code\ericatsydney.github.io\_posts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eric\Code\ericatsydney.github.io\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,14 +125,8 @@
       <workItem from="1589457856206" duration="8358000" />
       <workItem from="1590533384139" duration="84043000" />
       <workItem from="1606302502614" duration="2845000" />
-      <workItem from="1610863509014" duration="48035000" />
-    </task>
-    <task id="LOCAL-00159" summary="Update php exception handling.">
-      <created>1508412743195</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1508412743199</updated>
+      <workItem from="1610863509014" duration="52751000" />
+      <workItem from="1616711865682" duration="3215000" />
     </task>
     <task id="LOCAL-00160" summary="Update aws training.">
       <created>1508414491055</created>
@@ -469,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613042788614</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="update the senior dev·">
+      <created>1613339919460</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1613339919461</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
