@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="update the senior dev·">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-02-15-keep-conversation-rolling.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2021-02-18-be-genuine.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2021-04-01-interview.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2021-04-07-introduce-yourself.markdown" afterDir="false" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Add interview.">
+      <change afterPath="$PROJECT_DIR$/_posts/2021-04-16-inner-peace.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-04-07-introduce-yourself.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-07-introduce-yourself.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,14 +124,7 @@
       <workItem from="1590533384139" duration="84043000" />
       <workItem from="1606302502614" duration="2845000" />
       <workItem from="1610863509014" duration="52751000" />
-      <workItem from="1616711865682" duration="3215000" />
-    </task>
-    <task id="LOCAL-00160" summary="Update aws training.">
-      <created>1508414491055</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1508414491055</updated>
+      <workItem from="1616711865682" duration="7085000" />
     </task>
     <task id="LOCAL-00161" summary="Update aws training.">
       <created>1508498906301</created>
@@ -471,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613339919461</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="Add interview.">
+      <created>1617796520550</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1617796520550</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +499,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update javascript and react." />
     <MESSAGE value="Update microservices." />
     <MESSAGE value="Update yii vs laravel." />
     <MESSAGE value="Update a poem." />
@@ -526,7 +523,8 @@
     <MESSAGE value="update the post small talk·" />
     <MESSAGE value="update the post roger ackroyd·" />
     <MESSAGE value="update the senior dev·" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the senior dev·" />
+    <MESSAGE value="Add interview." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add interview." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">

@@ -87,6 +87,8 @@ Python Kotlin and Go
 
 aws certificate
 
+360 leadership
+
 Done or WIP
 ===================
 pcf？(day 1)
