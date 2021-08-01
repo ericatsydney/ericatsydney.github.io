@@ -13,11 +13,13 @@ Java - Garbege collection, profiler
 
 Java - multi thread - parallel stream
 
-Java - object mapper
-
 Java - function interface
 
-Java - generic type
+Java - generic type (deserialize use case)
+
+Java - webflux, webclient
+
+Java - reflection
 
 message queue and Kafka
 
@@ -89,6 +91,14 @@ aws certificate
 
 360 leadership
 
+如何写建议书，开发规范
+
+Java debug valuation expression
+
+Java 11 feature
+
+Java design pattern
+
 Done or WIP
 ===================
 pcf？(day 1)
@@ -104,6 +114,14 @@ Jackson （day 9）
 genuine, tell the truth, don't judge. (day 11)
 面试（day 12）
 自我介绍 （day 13）
+inner peace (day 14)
+Generic Type (day 15)
+Time (day 16)
+Spring vs Spring Boot (day 17)
+Maven integration test (day 18)
+Make your speaking accurate and efficient (day 19)
+Java data base (day 20)
+How to learn a new language (day 21)
 
 
 

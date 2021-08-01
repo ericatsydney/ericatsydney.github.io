@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Add interview.">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-04-16-inner-peace.markdown" afterDir="false" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Add inner peace.">
+      <change afterPath="$PROJECT_DIR$/_posts/2021-04-25-java-generic-type.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-06-26-what-is-time.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-06-28-spring-vs-spring-boot.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-06-29-maven-integration-test.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-07-06-make-myself-understood.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-07-27-Java-database.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-07-28-new-language-learning.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-04-07-introduce-yourself.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-07-introduce-yourself.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-05-24-maven-eco-system.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-05-24-maven-eco-system.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-02-15-keep-conversation-rolling.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-02-15-keep-conversation-rolling.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,6 +63,12 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="com.intellij.ide.scratch.NewScratchFileAction" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
   </component>
@@ -124,14 +137,10 @@
       <workItem from="1590533384139" duration="84043000" />
       <workItem from="1606302502614" duration="2845000" />
       <workItem from="1610863509014" duration="52751000" />
-      <workItem from="1616711865682" duration="7085000" />
-    </task>
-    <task id="LOCAL-00161" summary="Update aws training.">
-      <created>1508498906301</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1508498906301</updated>
+      <workItem from="1616711865682" duration="11017000" />
+      <workItem from="1624666205757" duration="11475000" />
+      <workItem from="1625746403082" duration="29000" />
+      <workItem from="1627475055173" duration="2074000" />
     </task>
     <task id="LOCAL-00162" summary="Update aws training.">
       <created>1508651495278</created>
@@ -469,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617796520550</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="Add inner peace.">
+      <created>1618616774888</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1618616774888</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +515,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update microservices." />
     <MESSAGE value="Update yii vs laravel." />
     <MESSAGE value="Update a poem." />
     <MESSAGE value="Update java design pattern." />
@@ -524,7 +539,8 @@
     <MESSAGE value="update the post roger ackroyd·" />
     <MESSAGE value="update the senior dev·" />
     <MESSAGE value="Add interview." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add interview." />
+    <MESSAGE value="Add inner peace." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add inner peace." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">
