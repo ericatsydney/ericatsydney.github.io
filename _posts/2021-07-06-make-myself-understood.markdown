@@ -7,5 +7,15 @@ categories: Think
 
 simple, explain, courtesy
 
+turn the odd moment into positive
+- thanks for the patience
+- good learning opportunity for the team
+- help the team to be more efficient/ have better understanding
+
+encourage others
+- well done
+- good works
+ 
+
 
 

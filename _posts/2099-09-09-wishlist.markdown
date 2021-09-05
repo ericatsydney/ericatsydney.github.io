@@ -67,8 +67,6 @@ tactics ogre 2
 
 how to be efficient
 
-k8s
-
 EMR - Big Data tooling
 
 受委屈，政治，成熟，小气，易怒, 气量
@@ -87,15 +85,9 @@ Python Kotlin and Go
 
 自我肯定 self esteem
 
-aws certificate
-
 360 leadership
 
-如何写建议书，开发规范
-
 Java debug valuation expression
-
-Java 11 feature
 
 Java design pattern
 
@@ -122,9 +114,10 @@ Maven integration test (day 18)
 Make your speaking accurate and efficient (day 19)
 Java data base (day 20)
 How to learn a new language (day 21)
-
-
-
-
+如何写建议书，开发规范 (day 22)
+aws certificate (day 23)
+Java 11 feature (day 24)
+SpringBoot used in Application (day 25)
+K8s(day 26)
 
 

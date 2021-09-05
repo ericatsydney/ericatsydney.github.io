@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Add how to learn new language.">
+      <change afterPath="$PROJECT_DIR$/_posts/2021-08-01-how-to-write-a-proposal.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-08-19-java-11-features.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-08-20-spring-boot-in-application.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-03-18-lambda-design-patterns-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-03-18-lambda-design-patterns-in-java.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-15-spring-boot.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-boot.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-07-06-make-myself-understood.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-07-06-make-myself-understood.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2021-07-27-Java-database.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-07-27-Java-database.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +60,17 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="com.intellij.ide.scratch.NewScratchFileAction" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
   </component>
   <component name="RecentsManager">
@@ -130,14 +141,11 @@
       <workItem from="1616711865682" duration="11017000" />
       <workItem from="1624666205757" duration="11475000" />
       <workItem from="1625746403082" duration="29000" />
-      <workItem from="1627475055173" duration="2430000" />
-    </task>
-    <task id="LOCAL-00163" summary="Update aws training.">
-      <created>1508675546801</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1508675546802</updated>
+      <workItem from="1627475055173" duration="8958000" />
+      <workItem from="1630135941808" duration="102000" />
+      <workItem from="1630136240538" duration="52000" />
+      <workItem from="1630667115757" duration="3251000" />
+      <workItem from="1630738779527" duration="3384000" />
     </task>
     <task id="LOCAL-00164" summary="Update orm php.">
       <created>1508852154927</created>
@@ -475,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627819599370</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="Add how to learn new language.">
+      <created>1627820299038</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1627820299038</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

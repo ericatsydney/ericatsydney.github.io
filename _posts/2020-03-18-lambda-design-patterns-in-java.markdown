@@ -37,6 +37,8 @@ Stream Method
 
 - `sorted()` Return the sorted stream according to the Comparator provided.
 
+- `distinct()` Remove the duplicates, but only work on primitive type. To remove duplicated properties in the object, we need to use the TreeSet.
+
 
 Lambda Function Method
 =========================

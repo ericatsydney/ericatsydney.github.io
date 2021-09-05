@@ -64,6 +64,13 @@ And if we need to scan package not in default component scanning, we need to exp
 **Constructor**
 @RequiredArgsContructor will generate a contructor with `final` fields. If customed logic is needed (e.g. setup a custom mapping for later usage), we need to create a explicit constructor manually.
 
+**Properties**
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+
+**Spring Profile**
+
+The Spring profile can selectively enable part of the application, and help use the segregate the configuration for different environments.
 
 **JPA**
 With Spring Boot's help, all the manual tedious works will be saved, e.g. setup the DB driver, open and close DB, SQL statement, convert result set to objects, etc. As a result, we can concentrate on the business logic.
