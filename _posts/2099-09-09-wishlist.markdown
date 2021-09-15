@@ -9,17 +9,11 @@ visible: false
 Coming Soon
 ================
 
-Java - Garbege collection, profiler
-
 Java - multi thread - parallel stream
-
-Java - function interface
 
 Java - generic type (deserialize use case)
 
-Java - webflux, webclient
-
-Java - reflection
+Java - ObjectMapper
 
 message queue and Kafka
 
@@ -47,10 +41,7 @@ Persistency
 
 cloudformation vs teraform
 
-Java spread.....
-
 Thymeleaf - template system.
-Humor
 - 联想，相关
 - 夸张，反讽
 - 如何抖包袱
@@ -69,13 +60,9 @@ how to be efficient
 
 EMR - Big Data tooling
 
-受委屈，政治，成熟，小气，易怒, 气量
-
 恐惧，害怕 how to be brave?
 
 如何看待失败和错误？
-
-authentication? JWT
 
 对个人空间保护
 
@@ -89,7 +76,6 @@ Python Kotlin and Go
 
 Java debug valuation expression
 
-Java design pattern
 
 Done or WIP
 ===================
@@ -117,7 +103,15 @@ How to learn a new language (day 21)
 如何写建议书，开发规范 (day 22)
 aws certificate (day 23)
 Java 11 feature (day 24)
-SpringBoot used in Application (day 25)
-K8s(day 26)
-
+Java - webflux, webclient(day 25)
+Java - function interface (day 26)
+Java - Garbage collection, profiler (day 27)
+SpringBoot used in Application (day 28)
+Java - security oauth2 and JWT (day 29)
+Java - unit testing (junit, mokito) (day 30)
+Java - exception handling (day 31)
+Spring Cloud config (day 32)
+K8s(day 39)
+Humor(day 40)
+受委屈，政治，成熟，小气，易怒, 气量(day 41)
 

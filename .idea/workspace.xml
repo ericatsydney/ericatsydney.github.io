@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Add how to learn new language.">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-08-01-how-to-write-a-proposal.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2021-08-19-java-11-features.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2021-08-20-spring-boot-in-application.markdown" afterDir="false" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Update Jooq post.">
+      <change afterPath="$PROJECT_DIR$/_posts/2021-09-04-java-webflex.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-09-05-java-functional-interface.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-09-06-java-garbage-collection.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-09-07-java-auth.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-09-08-java-unit-test.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-09-09-java-exception-handling.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-09-10-spring-cloud.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-09-11-k8s.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-03-18-lambda-design-patterns-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-03-18-lambda-design-patterns-in-java.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-04-15-spring-boot.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-boot.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-07-06-make-myself-understood.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-07-06-make-myself-understood.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-03-test-philosophy.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-02-03-test-philosophy.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-03-02-oo-design-patterns-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-03-02-oo-design-patterns-in-java.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2021-07-27-Java-database.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-07-27-Java-database.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
     </list>
@@ -60,7 +64,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="com.intellij.ide.scratch.NewScratchFileAction" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -145,14 +149,8 @@
       <workItem from="1630135941808" duration="102000" />
       <workItem from="1630136240538" duration="52000" />
       <workItem from="1630667115757" duration="3251000" />
-      <workItem from="1630738779527" duration="3384000" />
-    </task>
-    <task id="LOCAL-00164" summary="Update orm php.">
-      <created>1508852154927</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1508852154927</updated>
+      <workItem from="1630738779527" duration="13930000" />
+      <workItem from="1631361608437" duration="7484000" />
     </task>
     <task id="LOCAL-00165" summary="Update javascript and react.">
       <created>1508933092077</created>
@@ -490,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627820299038</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="Update Jooq post.">
+      <created>1630844593684</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1630844593684</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +525,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update a poem." />
     <MESSAGE value="Update java design pattern." />
     <MESSAGE value="Update multiple posts." />
     <MESSAGE value="Add api best practices." />
@@ -545,7 +549,8 @@
     <MESSAGE value="Add interview." />
     <MESSAGE value="Add inner peace." />
     <MESSAGE value="Add how to learn new language." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add how to learn new language." />
+    <MESSAGE value="Update Jooq post." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Jooq post." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">

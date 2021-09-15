@@ -39,7 +39,7 @@ Structural
 
 **The Adaptor Pattern**
 
-client - (call) -> 
+client - (call) ->
 
 Adapter (which inherit Target Interface) - (composite) ->  
 

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Java Authentication and Authorization"
+date:   2021-09-07 8:32:00 +1000
+categories: Geek
+---
+
+In order to learn how to build the token-based security (authentication and authorization) in the application, I followed [this tutorial](https://buddhiprabhath.medium.com/spring-boot-oauth-2-0-separating-authorization-service-and-resource-service-1641ebced1f0) to make some experiment.
+
+The quick lab is using the dependency `spring-cloud-starter-oauth2`. Since it's the all-in-one library including both authorization server and resource server, it keep the testing short and easy.
+
+As the alternative, we can choose the Spring Security for RS and other open sourced authorization provider, e.g. Keycloak.
+
+Next experiment will be how to add the billing or statistics features on the security system.
+
+[Tutorial About Spring Security + Keycloak](https://www.baeldung.com/rest-api-spring-oauth2-angular)
+
+[Tutorial About Spring Cloud Security](https://www.baeldung.com/spring-cloud-security)
+
+[Spring Authorization Server Resurrection](https://github.com/spring-projects/spring-authorization-server)
+
+[JWT](https://jwt.io/introduction)
