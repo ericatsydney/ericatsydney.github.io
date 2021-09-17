@@ -1,23 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Update exception handling.">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-09-12-spring-framework.markdown" afterDir="false" />
+    <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Added the Spring framework post.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-11-20-welcome-to-jekyll.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-11-20-welcome-to-jekyll.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-11-21-watch-pi-again.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-11-21-watch-pi-again.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-11-22-everywhere-is-under-construction.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-11-22-everywhere-is-under-construction.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-11-23-baby-sitting.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-11-23-baby-sitting.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-11-26-communication.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-11-26-communication.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-11-26-hometown-memory1.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-11-26-hometown-memory1.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-12-04-build-your-own-business.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-12-04-build-your-own-business.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-12-04-hometown-memory2.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-12-04-hometown-memory2.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-12-13-love-to-hate.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-12-13-love-to-hate.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-12-15-manage-energy.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-12-15-manage-energy.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-12-21-grow-up-with-kids.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-12-21-grow-up-with-kids.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-12-30-keep-calm.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015/2015-12-30-keep-calm.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-04-15-spring-boot.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-boot.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-01-21-shameless.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-01-21-shameless.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-01-26-national-day.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-01-26-national-day.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-01-30-formula-milk.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-01-30-formula-milk.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-02-26-keep-programming.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-02-26-keep-programming.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-02-27-team-lead.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-02-27-team-lead.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-03-05-dependency-injection.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-03-05-dependency-injection.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-04-08-i-miss-sydney.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-04-08-i-miss-sydney.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-04-09-faith.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-04-09-faith.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-04-22-anger.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-04-22-anger.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-04-23-dream.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-04-23-dream.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-04-27-makerbot-outsource.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-04-27-makerbot-outsource.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-04-29-give-you-the-finger.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-04-29-give-you-the-finger.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-06-join-the-apple.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-06-join-the-apple.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-07-love-sth-sb.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-07-love-sth-sb.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-10-greedy.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-10-greedy.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-11-politics.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-11-politics.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-12-hack.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-12-hack.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-13-learn-from-water.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-13-learn-from-water.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-20-public-speaking.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-20-public-speaking.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-21-killing-me-softly.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-21-killing-me-softly.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-22-philosophy-save-life.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-22-philosophy-save-life.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-23-humour.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-23-humour.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-24-refactoring.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-24-refactoring.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-25-drupal.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-25-drupal.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-26-drupal-hook.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-26-drupal-hook.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-30-chrome-devel-tool.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-30-chrome-devel-tool.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-31-understanding-css-box-model.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-05-31-understanding-css-box-model.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-01-release-management.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-01-release-management.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-02-children-drawing.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-02-children-drawing.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-03-make-yourself-understood.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-03-make-yourself-understood.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-04-Storm-insight.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-04-Storm-insight.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-13-restful-api.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-13-restful-api.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-17-learn-how-to-learn.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-17-learn-how-to-learn.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-18-how-to-be-efficient.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-18-how-to-be-efficient.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-21-Sublime-tricks.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-21-Sublime-tricks.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-22-js-jquery-basic.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-22-js-jquery-basic.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-23-journey-to-vim.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-23-journey-to-vim.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-24-php-basic.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-24-php-basic.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-26-shell-and-linux.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-26-shell-and-linux.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-27-sass-101.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-27-sass-101.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-28-increase-your-memory.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-28-increase-your-memory.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-06-29-knowledge-map.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-06-29-knowledge-map.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-07-mr-six.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-07-mr-six.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-08-decision-making.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-08-decision-making.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-09-rationality.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-09-rationality.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-12-problem-solving.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-12-problem-solving.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-14-BDD-terminology.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-14-BDD-terminology.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-16-linting.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-16-linting.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-17-BDD-file-structure.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-17-BDD-file-structure.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-21-refactoring-again.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-21-refactoring-again.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-24-react-with-es6.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-24-react-with-es6.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-26-gulp-setup.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-07-26-gulp-setup.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-08-11-dont-teasing-me.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-08-11-dont-teasing-me.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-08-24-regex-is-king.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-08-24-regex-is-king.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-08-29-how-to-negotiate.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-08-29-how-to-negotiate.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-09-29-reset.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-09-29-reset.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-09-29-spring.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-09-29-spring.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-09-30-if-I-am-a-cat.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-09-30-if-I-am-a-cat.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-01-this-is-life.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-10-01-this-is-life.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-05-bulimba.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-10-05-bulimba.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-09-soy-custer.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-10-09-soy-custer.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-11-return-to-the-ground.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-10-11-return-to-the-ground.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-12-aroma.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-10-12-aroma.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-12-front-end-framework.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-10-12-front-end-framework.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-17-git.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-10-17-git.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-20-china-dream.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-10-20-china-dream.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-11-01-php-advanced.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-11-01-php-advanced.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-11-07-artificial-intellegence.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-11-07-artificial-intellegence.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-11-08-caching-strategy.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-11-08-caching-strategy.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-11-11-boring.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-11-11-boring.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-11-19-peace-of-world.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-11-19-peace-of-world.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-12-09-object-oriented-programming-php.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-12-09-object-oriented-programming-php.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-12-10-drupal-8.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-12-10-drupal-8.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-12-11-functional-programing.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-12-11-functional-programing.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-12-15-laravel-vs-drupal7.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-12-15-laravel-vs-drupal7.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-12-19-artisan-and-tinker-cheat-sheet.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-12-19-artisan-and-tinker-cheat-sheet.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-12-29-drupal-solution.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016/2016-12-29-drupal-solution.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +144,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/2016" />
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_posts/2015" />
       <recent name="C:\Users\Eric\Code\ericatsydney.github.io\assets" />
     </key>
@@ -154,14 +218,7 @@
       <workItem from="1630136240538" duration="52000" />
       <workItem from="1630667115757" duration="3251000" />
       <workItem from="1630738779527" duration="13930000" />
-      <workItem from="1631361608437" duration="11340000" />
-    </task>
-    <task id="LOCAL-00166" summary="Update javascript and react.">
-      <created>1508997876641</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1508997876641</updated>
+      <workItem from="1631361608437" duration="11701000" />
     </task>
     <task id="LOCAL-00167" summary="Update javascript and react.">
       <created>1509023501468</created>
@@ -499,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631706339239</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="Added the Spring framework post.">
+      <created>1631863607658</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1631863607658</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +593,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update multiple posts." />
     <MESSAGE value="Add api best practices." />
     <MESSAGE value="Update the OO principle." />
     <MESSAGE value="Add new post pressure." />
@@ -554,7 +617,8 @@
     <MESSAGE value="Add how to learn new language." />
     <MESSAGE value="Update Jooq post." />
     <MESSAGE value="Update exception handling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update exception handling." />
+    <MESSAGE value="Added the Spring framework post." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Spring framework post." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="-918" key="SettingsEditor" timestamp="1584682413993">
