@@ -9,14 +9,6 @@ visible: false
 Coming Soon
 ================
 
-Java - multi thread - parallel stream
-
-Java - generic type (deserialize use case)
-
-Java - ObjectMapper
-
-message queue and Kafka
-
 reflection for immigration
 
 svn vs git
@@ -52,8 +44,6 @@ time management (plan and execute)
 
 专注
 
-dto, sdk
-
 tactics ogre 2
 
 how to be efficient
@@ -66,16 +56,21 @@ EMR - Big Data tooling
 
 对个人空间保护
 
-Python Kotlin and Go
-
 态度决定一切
 
 自我肯定 self esteem
 
 360 leadership
 
-Java debug valuation expression
+Humor(day 40)
+受委屈，政治，成熟，小气，易怒, 气量(day 41)
+Nodejs Python Kotlin and Go (day 42)
 
+Java IDE - debug valuation expression
+
+Java Message Queue - message queue and Kafka
+
+Java - multi thread - parallel stream
 
 Done or WIP
 ===================
@@ -112,6 +107,7 @@ Java - unit testing (junit, mokito) (day 30)
 Java - exception handling (day 31)
 Spring Cloud config (day 32)
 K8s(day 39)
-Humor(day 40)
-受委屈，政治，成熟，小气，易怒, 气量(day 41)
-
+Java - Spring (day 40)
+Java - API development, dto, sdk (day 41)
+Java - generic type (day 42)
+Java - ObjectMapper (deserialize use case) (day 43)

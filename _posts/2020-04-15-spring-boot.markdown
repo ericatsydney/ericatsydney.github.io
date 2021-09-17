@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "Spring Boot"
+title:  "Spring Framework"
 date:   2020-04-15 1:25:00 +1000
 categories: Geek
 ---
 
 **Bean in Spring Boot**
 
-Spring Context is the corner stone of Spring, it represents Spring Container of Dependency Injection. It
-s the power house of initiating and wiring.
+Spring Context is the corner stone of Spring, it represents Spring Container of Dependency Injection. It's the power house of initiating and wiring.
 
 @Configuration is equivalent to the `Configuration.xml`, it use the class style to store the Java Bean definition.
   
