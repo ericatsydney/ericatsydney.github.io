@@ -30,7 +30,7 @@ SOLID
     - partition the system into component in a hierarchy, protect the higher level component from the changes of lower level 
     - write an interface/abstract class and implement/extend class from there, this way can avoid keep modifying a class, after we have tested a class, we should try to extend rather than modify that.
 
-- Liskov substitution: object can be replace by subtype, still correct
+- Liskov substitution: object can be replaced by subtype, still correct
 
 - Interface segregation: small specific interface better than single generic one.
 

@@ -5,3 +5,4 @@ date:   2021-09-11 21:59:00 +1000
 categories: Geek
 ---
 
+When you create a K8s, you will get a cluster, which contain: working node, control plane.....

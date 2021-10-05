@@ -5,6 +5,8 @@ date:   2020-03-18 09:55:00 +1000
 categories: Geek
 ---
 
+Stream/Lambda concept is introduced from Java 8, it's the game changer in Java world. With the simplified syntax, it save the life of Java dev from making the boilder plate of various loop and provide more flexibility to non-blocking programing.
+
 Stream Concept
 =================
 

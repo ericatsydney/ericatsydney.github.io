@@ -13,6 +13,3 @@ Generic type will be the way to go. We can use generic type in method, class to 
 
 We use the generic type <T> in application logic, and when call it in runtime, we pass in the class type as the parameter.
 
-
-
-

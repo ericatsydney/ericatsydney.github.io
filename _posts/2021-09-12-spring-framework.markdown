@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spring Framework - second look at that"
-date:   2021-09-11 21:59:00 +1000
+date:   2021-09-12 21:59:00 +1000
 categories: Geek
 ---
 

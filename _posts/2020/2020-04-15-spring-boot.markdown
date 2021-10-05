@@ -79,21 +79,6 @@ With Spring Boot's help, all the manual tedious works will be saved, e.g. setup 
 
 **JUnit Test**
 
-@Mock vs @InjectMocks vs new
-
-- @Mock provide a stub instance in the test.
-    - `when().thenReturn()` help us mock the behaviors.
-    - `verify().methodname` help us to make sure some of the methods have been called, will only work on mocked object.
-
-- @InjectMocks provide a fully functioned instance, so that we can call its method.
-
-- `new` keyword in test will run same thing as runtime: allocate memory and trigger the constructor.
-    - `AsertEqual()` will work on the object created by `new` 
-
-
-`Mockeasy.expect` is related to `mockeasy.replay`
-
-p.s. Argument matcher: we can use the matcher to the method's parameter, but we have to cover all parameters with these choices: any() eq().
 
 **Actuator**
 

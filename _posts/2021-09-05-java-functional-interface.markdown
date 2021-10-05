@@ -14,7 +14,6 @@ In the concret class, we can define the type. Then at run time pass in the input
 That's a good idea for function programing.
 
 
-
 Use Case 2
 ================
 All the subclass extend from a same parent class and use @component, make sure will be scaned into the context.

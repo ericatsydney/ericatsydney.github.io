@@ -51,6 +51,9 @@ for detail [check here](https://www.jooq.org/doc/2.6/manual/getting-started/use-
 - code generation is efficient and make sure your code always sync with schema
 
 
+what's connection pool? full?
+
+
 [jOOQ vs Hibernate](https://blog.jooq.org/jooq-vs-hibernate-when-to-choose-which/)
 
 [why jOOQ?](https://www.jooq.org/)

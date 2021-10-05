@@ -1,32 +1,71 @@
 ---
 layout: post
-title:  "Jackson"
+title:  "Jacksonize"
 date:   2021-02-11 21:25:00 +1000
 categories: Geek
+label: SpringBoot, 
 ---
 
-Jackson is most popular Java library to handle JSON parser.
+Jackson is most popular Java library to handle JSON parser, and it is the default choice in Spring Boot.
 
-It's widely used in my date-to-date API development work. In restful API, no matter the request body or the response, JSON will be used.
-
-So the Jackson is working like to middle man to convert the JSON to POJO and vice versa.
+In the rest services,  the Jackson converter will be created automatically and used to convert POJO objects to/from Json.N will be used.
 
 From JSON to POJO, the process is `deserialize`, and from POJO to JSON is `serialize`.
-
-Usually, `ObjectMapper` is the class we use to do the conversion. It looks like
-
-{% highlight java%}
- ObjectMapper objectMapper = new ObjectMapper();
- Car car = new Car("yellow", "renault");
- objectMapper.writeValue(new File("target/car.json"), car);
  
- String json = "{ \"color\" : \"Black\", \"type\" : \"BMW\" }";
- Car car = objectMapper.readValue(json, Car.class);
-{% endhighlight%}
-
-Sometimes, the conversion need to be customized to handle some special requirement, for example the delimiter.
-
-That's why we need the customized serializer and deserializer like this 
+On top of the default Jackson convertion, we can add customized filter on field bases:
 {% highlight java%}
+
+// Only convert the non null value
+@JsonInclude(JsonInclude.Include.NON_NULL)
+// The filter will be matched by name
+@JsonFilter("fooFilter")
+public class Foo {
+ // Ignore specific field from both serialization and deserialization.
+ @JsonIgnore
+ private Special specialField
+ 
+ // This field will be skipped from serialization because of the json filter.
+ private Bar anotherSpecialField
+ .....
+}
+
+public class FooService {
+    private static ObjectMapper mapper;
+    public FooService() {
+        mapper = new ObjectMapper();
+        FilterProvider filters = new SimpleFilterProvider.addFilter("fooFilter", 
+            SimpleBeanPropertyFilter.serializeAllExcept("anotherSpecialField"));
+        mapper.setFilterProvider(filters);
+    }
+    
+    // Convert using the predefined filters.
+    private static FooDestination convert(Foo foo) {
+        return mapper.convertValue(foo, FooDestination.class);
+    }
+}
 {% endhighlight%}
+
+For some use cases, we will use customized serializer like this.
+{% highlight java%}
+public class FooSerializer extends JsonSerializer<Foo> {
+
+    @Override
+    public void serialize() {
+    
+        // what ever logic for the customized convertion
+        ObjectMapper objectMapper = new ObjectMapper();
+        foo = objectMapper.writeValueAsString(....);
+        jsonGenerator.writeString(foo);
+    }
+}
+
+// Usage
+@JsonSerialize(using = FooSerializer.class) 
+public class Foo {
+    .........
+}
+{% endhighlight%}
+
+[Jackson Reference](https://www.baeldung.com/jackson)
+
  
