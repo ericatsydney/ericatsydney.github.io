@@ -51,8 +51,10 @@ for detail [check here](https://www.jooq.org/doc/2.6/manual/getting-started/use-
 - code generation is efficient and make sure your code always sync with schema
 
 
-what's connection pool? full?
+***Connection Pool***
+According to the article [Connection Pool](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing), the smaller connection pool size is usually better than the big one.
 
+Because too many thread/pool bring more overhead when the cpu switch the context.
 
 [jOOQ vs Hibernate](https://blog.jooq.org/jooq-vs-hibernate-when-to-choose-which/)
 

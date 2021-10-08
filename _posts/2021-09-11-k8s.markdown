@@ -1,8 +1,21 @@
 ---
 layout: post
-title:  "K8s"
+title:  "K8s and EKS"
 date:   2021-09-11 21:59:00 +1000
 categories: Geek
 ---
 
 When you create a K8s, you will get a cluster, which contain: working node, control plane.....
+
+
+etcd
+
+api
+
+manage controller
+
+POD
+
+kubulete
+
+scheduler

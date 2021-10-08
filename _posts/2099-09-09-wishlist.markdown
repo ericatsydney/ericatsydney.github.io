@@ -64,7 +64,7 @@ EMR - Big Data tooling
 
 Humor(day 40)
 受委屈，政治，成熟，小气，易怒, 气量(day 41)
-Nodejs Python Kotlin and Go (day 42)
+
 regex
 linux grep and text editing
 
@@ -82,9 +82,13 @@ Java - abstract vs interface
 
 Java - get the list of concret classes from an interface
 
+Java - architype
+
 UML
 
 AOP programming
+
+graphql
 
 Done or WIP
 ===================
@@ -125,3 +129,5 @@ Java - Spring (day 40)
 Java - API development, dto, sdk (day 41)
 Java Message Queue - message queue and Kafka (day 42)
 Java Eco System (day 43)
+Nodejs Python Kotlin and Go (day 44)
+Backend or Frontend (day 45)

@@ -27,4 +27,6 @@ xstream
 
 liquibase, flyway
 
+[Hikari](https://www.baeldung.com/hikaricp) is a very light-weight connection pool framework. Just a bit [simple setup](https://www.baeldung.com/spring-boot-hikari) can help us to set the maximumPoolSize and minimumIdle of connection pool.
+
 
