@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Update misc post.">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-10-06-other-programming-language.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2021-10-07-backend-or-frontend.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020/2020-02-01-utils-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020/2020-02-01-utils-in-java.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-07-27-Java-database.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-07-27-Java-database.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-09-11-k8s.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-09-11-k8s.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-09-24-kafka.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-09-24-kafka.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2099-09-09-wishlist.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020/2020-03-02-oo-design-patterns-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020/2020-03-02-oo-design-patterns-in-java.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,14 +144,8 @@
       <workItem from="1630667115757" duration="3251000" />
       <workItem from="1630738779527" duration="13930000" />
       <workItem from="1631361608437" duration="17649000" />
-      <workItem from="1632478419812" duration="20116000" />
-    </task>
-    <task id="LOCAL-00169" summary="Update yii vs laravel.">
-      <created>1510864869676</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1510864869687</updated>
+      <workItem from="1632478419812" duration="24359000" />
+      <workItem from="1634715620519" duration="5216000" />
     </task>
     <task id="LOCAL-00170" summary="Update yii vs laravel.">
       <created>1510866613401</created>
@@ -495,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633436156184</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="Update misc post.">
+      <created>1633688825781</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1633688825782</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
