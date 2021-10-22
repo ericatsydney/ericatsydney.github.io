@@ -17,8 +17,10 @@ Like in [this article](https://www.baeldung.com/spring-framework-design-patterns
 
 - Template Pattern (JDBC template will be one of the use case)
 
-Apart from above
-Spring Boot also use observer pattern in [Application Events](https://www.baeldung.com/spring-events)
+Apart from above, Spring Boot also use observer pattern in [Application Events](https://www.baeldung.com/spring-events).
+
+and this is [an example](https://dzone.com/articles/spring-boot-strategy-design-pattern-convenience-an) how about how to use Strategy Pattern by Spring boot annotation.
+
 
 But even so, it's still worthy to re-enforce some basic concept, because we still can find them in different applications. Here's the most common design pattern we will use in our day to day work, asterisk stand for the using frequency.
 

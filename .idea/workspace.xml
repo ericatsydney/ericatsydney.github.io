@@ -4,6 +4,7 @@
     <list default="true" id="642923ca-8f7b-4229-a89e-813ee3716af3" name="Default" comment="Update misc post.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020/2020-03-02-oo-design-patterns-in-java.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020/2020-03-02-oo-design-patterns-in-java.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-08-19-java-11-features.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-08-19-java-11-features.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,14 +146,7 @@
       <workItem from="1630738779527" duration="13930000" />
       <workItem from="1631361608437" duration="17649000" />
       <workItem from="1632478419812" duration="24359000" />
-      <workItem from="1634715620519" duration="5216000" />
-    </task>
-    <task id="LOCAL-00170" summary="Update yii vs laravel.">
-      <created>1510866613401</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1510866613404</updated>
+      <workItem from="1634715620519" duration="7061000" />
     </task>
     <task id="LOCAL-00171" summary="Update a poem.">
       <created>1565338626383</created>
@@ -490,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633688825782</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="Update misc post.">
+      <created>1634799288562</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1634799288562</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
