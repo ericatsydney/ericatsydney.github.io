@@ -84,9 +84,9 @@ Java - get the list of concret classes from an interface
 
 Java - architype
 
-UML
+Java - enum
 
-AOP programming
+UML
 
 graphql
 
@@ -131,3 +131,4 @@ Java Message Queue - message queue and Kafka (day 42)
 Java Eco System (day 43)
 Nodejs Python Kotlin and Go (day 44)
 Backend or Frontend (day 45)
+AOP programming (day 46)

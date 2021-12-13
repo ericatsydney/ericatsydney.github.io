@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "AOP"
+date:   2021-10-29 21:00:00 +1000
+categories: Geek
+---
+
+Cross cutting concerns
+

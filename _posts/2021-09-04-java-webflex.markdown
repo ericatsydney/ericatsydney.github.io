@@ -37,3 +37,5 @@ public <P extends Response> Mono<Response<P>> search(ParameterizedTypeReference<
 [How block method works](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#block--)
 
 [Reference](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
+
+[Reactive way to consume api](https://spring.io/guides/gs/reactive-rest-service/)
