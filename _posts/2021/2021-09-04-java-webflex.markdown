@@ -39,3 +39,5 @@ public <P extends Response> Mono<Response<P>> search(ParameterizedTypeReference<
 [Reference](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
 
 [Reactive way to consume api](https://spring.io/guides/gs/reactive-rest-service/)
+
+WebClient is part of the WebFlux library.

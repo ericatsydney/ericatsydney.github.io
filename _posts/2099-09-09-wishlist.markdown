@@ -78,17 +78,28 @@ Java - date
 
 Java - linting
 
-Java - abstract vs interface
-
 Java - get the list of concret classes from an interface
 
 Java - architype
 
-Java - enum
-
 UML
 
 graphql
+
+CICD - Best pratices, Git workflow, how to test earlier etc
+
+Git flow/ Git tag for release, backward compatible
+
+Terraform/ CDK: https://github.com/hashicorp/terraform-cdk
+
+Liquidbase vs flyway
+
+Open source good or bad?
+
+REDIS
+
+initiatives
+
 
 Done or WIP
 ===================
@@ -132,3 +143,10 @@ Java Eco System (day 43)
 Nodejs Python Kotlin and Go (day 44)
 Backend or Frontend (day 45)
 AOP programming (day 46)
+monitoring and logging (day 47)
+java interface vs abstract class (day 48)
+java 17 (day 49)
+Restful Template/Feign Client vs WebClient
+    - restful template is sync and block, each request use one thread, so a number of requests run togehter will make the perforamnce worse.
+    - Feign Client is alternative solution for restful template 
+    - while WebClient is async and non-blocking, the reactive framework will trigger the task only when the response is back, so it can process more logic with less resources. 

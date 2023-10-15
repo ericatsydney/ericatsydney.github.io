@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Java 17"
+date:   2021-12-22 19:49:00 +1000
+categories: Geek
+---
+
+Open JDK vs Oracle JDK
+
+Pattern matching for switch statements
+Sealed classes - determine which classes can override them.
+Lombok often takes a while to support the lates JDK
+Actuator to get the JDK version private/status?showEnvironment=true 
+
+Reference
+- [Open JDK vs Oracle JDK](https://www.baeldung.com/oracle-jdk-vs-openjdk)

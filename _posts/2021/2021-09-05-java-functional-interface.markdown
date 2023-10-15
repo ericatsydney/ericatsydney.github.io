@@ -8,10 +8,15 @@ categories: Geek
 Use Case 1
 ============
 In the interface, we can define default method and return a function with input and output type using generic.
- 
+
+{% highlight java%}
+   default Function<T, Boolean> myLambda() {
+        return (T input) -> input.stream().allMatch();
+    }
+{% endhighlight%} 
 In the concret class, we can define the type. Then at run time pass in the input.
 
-That's a good idea for function programing.
+That's a good idea for functional programing.
 
 
 Use Case 2

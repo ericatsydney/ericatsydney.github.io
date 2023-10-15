@@ -15,4 +15,6 @@ In order to use the Spring Config, the setup is light weight:
 
 - make sure Spring Boot Actuator and Spring Config Client are on classpath
 
+- make some of the config shared by different application?
+
 [Reference](https://spring.io/projects/spring-cloud-config)
