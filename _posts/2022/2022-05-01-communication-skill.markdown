@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "communication skill"
-date:   2099-09-09 22:00:52 +1000
+date:   2022-05-01 22:00:52 +1000
 categories: Think
 visible: false
 ---

@@ -24,25 +24,25 @@ and this is [an example](https://dzone.com/articles/spring-boot-strategy-design-
 
 But even so, it's still worthy to re-enforce some basic concept, because we still can find them in different applications. Here's the most common design pattern we will use in our day to day work, asterisk stand for the using frequency.
 
-| Type        | Pattern Name | Remarks |
-| ----------- | -----------  | ------------ |
-| Creational  | Singleton    | Using constructor without parameter to create single instance in application, make sure it's thread-safe (using eagerly instance or double checking). |
-|             | Builder      | Using preset method to deal with complicated constructor. The stream-ish way make it clear and easy to instantiate object. In the modern Java, annotation @Builder can help us do most of the scaffold job. |
-|             | Factory      | Defer the detail constructor in object subclass, actually the factory is the switch statement and call the subclass constructor. |
-|             | Abstract Factory | The factory of factories, handle complicated use case. Try to avoid this if there's alternative solution, because the complexity make it problematic.|
-| Structural  | Adaptor      | Kotlin use this to connect the layout to data class |
-|             | Facade      | We use it very often|
-|             | Decorator   | Python use this a lot|
-|             | Proxy       | |
-|             | Bridge      | |
-|             | Component   | |
-| Behavioral  | Visitor      | Subject has no idea how to behavior, instead visitor will give the instruction to subject depends on the classes. This pattern centralize all the logic in visitor, and help to prevent distributing the operation into various node classes.|
-|             | Template      | Defer the implementation detail to subclass, but keep the main process in super class. |
-|             | Observer      | |
-|             | Strategy      | |
-|             | Command      | |
-|             | Interpreter   | |
-|             | Mediator      | |
-|             | Memento      | |
+| Type        | Pattern Name | Remarks                                                                                                                                                                                                                                       |
+| ----------- | -----------  |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Creational  | Singleton    | Using constructor without parameter to create single instance in application, make sure it's thread-safe (using eagerly instance or double checking).                                                                                         |
+|             | Builder      | Using preset method to deal with complicated constructor. The stream-ish way make it clear and easy to instantiate object. In the modern Java, annotation @Builder can help us do most of the scaffold job.                                   |
+|             | Factory      | Defer the detail constructor in object subclass, actually the factory is the switch statement and call the subclass constructor.                                                                                                              |
+|             | Abstract Factory | The factory of factories, handle complicated use case. Try to avoid this if there's alternative solution, because the complexity make it problematic.                                                                                         |
+| Structural  | Adaptor      | Kotlin use this to connect the layout to data class                                                                                                                                                                                           |
+|             | Facade      | We use it very often                                                                                                                                                                                                                          |
+|             | Decorator   | Python use this a lot                                                                                                                                                                                                                         |
+|             | Proxy       |                                                                                                                                                                                                                                               |
+|             | Bridge      |                                                                                                                                                                                                                                               |
+|             | Component   |                                                                                                                                                                                                                                               |
+| Behavioral  | Visitor      | Subject has no idea how to behavior, instead visitor will give the instruction to subject depends on the classes. This pattern centralize all the logic in visitor, and help to prevent distributing the operation into various node classes. |
+|             | Template      | Defer the implementation detail to subclass, but keep the main process in super class.                                                                                                                                                        |
+|             | Observer      |                                                                                                                                                                                                                                               |
+|             | Strategy      | Generic interface + processor + executor                                                                                                                                                                                                      |
+|             | Command      |                                                                                                                                                                                                                                               |
+|             | Interpreter   |                                                                                                                                                                                                                                               |
+|             | Mediator      |                                                                                                                                                                                                                                               |
+|             | Memento      |                                                                                                                                                                                                                                               |
 
 P.S. compared with design pattern, I think the OO principle and its nature is more important, they are still being used in our day-to-day programming live.

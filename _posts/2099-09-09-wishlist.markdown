@@ -9,19 +9,9 @@ visible: false
 Coming Soon
 ================
 
-reflection for immigration
-
 svn vs git
 
-social justice
-
-barefoot investor 
-
-english reading
-
 how to show your opinion safely?
-
-how to pray?
 
 Coverage report.
 
@@ -42,30 +32,12 @@ record and listen
 
 time management (plan and execute)
 
-专注
-
-tactics ogre 2
-
 how to be efficient
 
 EMR - Big Data tooling
 
-恐惧，害怕 how to be brave?
-
-如何看待失败和错误？
-
-对个人空间保护
-
-态度决定一切
-
-自我肯定 self esteem
-
-360 leadership
-
-Humor(day 40)
-受委屈，政治，成熟，小气，易怒, 气量(day 41)
-
 regex
+
 linux grep and text editing
 
 Java IDE - debug valuation expression
@@ -95,8 +67,6 @@ Terraform/ CDK: https://github.com/hashicorp/terraform-cdk
 Liquidbase vs flyway
 
 Open source good or bad?
-
-REDIS
 
 initiatives
 
@@ -150,3 +120,4 @@ Restful Template/Feign Client vs WebClient
     - restful template is sync and block, each request use one thread, so a number of requests run togehter will make the perforamnce worse.
     - Feign Client is alternative solution for restful template 
     - while WebClient is async and non-blocking, the reactive framework will trigger the task only when the response is back, so it can process more logic with less resources. 
+RDIS

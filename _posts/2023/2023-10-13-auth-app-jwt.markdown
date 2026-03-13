@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JWT"
-date:   2021-12-22 19:49:00 +1000
+date:   2023-10-13 19:49:00 +1000
 categories: Geek
 ---
 

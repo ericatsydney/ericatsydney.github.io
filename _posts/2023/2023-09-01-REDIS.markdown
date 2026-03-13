@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Elasticache - REDIS"
-date:   2021-12-22 19:49:00 +1000
+date:   2023-09-01 19:49:00 +1000
 categories: Geek
 ---
 
