@@ -1,16 +1,18 @@
-<footer class="">
-
-  <div class="section">
-    <div class="container">
-    <div class="columns">
-      <div class="column is-quarter">
+<footer class="footer site-footer">
+  <div class="container">
+    <div class="columns is-variable is-6">
+      <div class="column is-4">
+        <p class="footer-title">{{ site.title }}</p>
+        <p class="footer-text">{{ site.description }}</p>
+      </div>
+      <div class="column is-4">
+        <p class="footer-title">Contact</p>
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
-
-      <div class="column is-quarter">
+      <div class="column is-4">
+        <p class="footer-title">Social</p>
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -29,15 +31,8 @@
             {% include icon-linkedin.html username=site.linkedin_username %}
           </li>
           {% endif %}
-
         </ul>
-      </div>
-
-      <div class="column is-half">
-        <p>{{ site.description }}</p>
       </div>
     </div>
   </div>
-  </div>
-
 </footer>

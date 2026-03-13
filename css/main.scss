@@ -1,111 +1,176 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+:root {
+  --ink: #1c1e21;
+  --muted: #667085;
+  --border: #e5e7eb;
+  --surface: #ffffff;
+  --soft: #f6f7f9;
+  --accent: #3b6ef5;
+}
+
 html {
   font-size: 18px;
 }
 
-.subtitle {
-  & + .title {
-    margin-top: -20px !important;
-  }
+body {
+  font-family: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  background: var(--soft);
+}
+
+.site-hero {
+  background: linear-gradient(135deg, #f4f7ff 0%, #f5fbf7 60%, #ffffff 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header .nav {
+  padding: 0.75rem 0;
+}
+
+.site-brand {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.site-header .nav-item {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.site-header .nav-item:hover {
+  color: var(--accent);
+}
+
+.hero-body .title {
+  margin-bottom: 0.75rem;
+}
+
+.site-tagline {
+  max-width: 640px;
+  margin: 0 auto;
+  color: var(--muted);
+}
+
+.content-container {
+  min-height: calc(100vh - 260px);
+}
+
+.home-header {
+  margin-bottom: 1.5rem;
+}
+
+.home-header .subtitle {
+  color: var(--muted);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.post-card {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(16, 24, 40, 0.08);
+}
+
+.post-card .post-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.post-card .post-link {
+  color: var(--ink);
+}
+
+.post-card .post-link:hover {
+  color: var(--accent);
+}
+
+.post-meta-row {
+  margin-top: 0.8rem;
+}
+
+.rss-subscribe {
+  margin-top: 1.75rem;
+  color: var(--muted);
+}
+
+.rss-subscribe a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.footer.site-footer {
+  border-top: 1px solid var(--border);
+  background: #ffffff;
+  padding: 2.5rem 1.5rem;
+}
+
+.footer-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.footer-text {
+  color: var(--muted);
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.contact-list a,
+.social-media-list a {
+  color: var(--ink);
+}
+
+.contact-list a:hover,
+.social-media-list a:hover {
+  color: var(--accent);
 }
 
 .highlight {
   position: relative;
-
-  .copy {
-    background: #fff;
-    border: solid #d3d6db;
-    border-width: 0 0 1px 1px;
-    color: #aeb1b5;
-    outline: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-}
-.site-header {
-  .title {
-    color: rgba(255, 255, 255, 1) !important;
-    font-weight: 400;
-  }
 }
 
-.hero-body {
-  .title {
-    margin-bottom: 50px;
-  }
+.highlight .copy {
+  background: #fff;
+  border: solid #d3d6db;
+  border-width: 0 0 1px 1px;
+  color: #aeb1b5;
+  outline: none;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-
-.post-content {
-  h1 {
-    font-size: 1.6em;
-  }
-}
-
-.content-container {
-}
-
-.content-container {
-  min-height: calc(100vh - 410px);
-}
-
-footer {
-  .section {
-    color: #fff;
-    background-color: #69707a;
-
-    .contact-list {
-      color: #fff;
-    }
-
-    p {
-      color: #fff;
-    }
-
-    a:hover {
-      color: #fff;
-    }
-
-    .social-media-list {
-      li {
-        margin-bottom: 10px;
-      }
-
-      .icon {
-        margin-right: 10px;
-      }
-    }
-  }
-}
-
 
 @media (min-width: 769px) {
-  .hero {
-    .hero-head {
-      transition-property: all;
-      transition-duration: .3s;
-      transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
-    }
-
-    &.sticky {
-      .hero-head {
-        background: #69707a;
-        position: fixed;
-        opacity: .9;
-        width: 100%;
-        z-index: 2;
-      }
-    }
-  }
-}
-
-@media (min-width: 980px) {
-  .post-list {
-    .box {
-      max-width: 600px;
-    }
+  .hero .hero-head {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
   }
 
+  .hero.sticky .hero-head {
+    background: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid var(--border);
+  }
 }

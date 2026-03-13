@@ -6,6 +6,8 @@ jQuery(document).ready(function ($) {
     $toggle.click(function() {
         $(this).toggleClass('is-active');
         $menu.toggleClass('is-active');
+        var isActive = $(this).hasClass('is-active');
+        $(this).attr('aria-expanded', isActive ? 'true' : 'false');
     });
 
     // Add table class to all the tables for Bulma framework.

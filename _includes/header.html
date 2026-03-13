@@ -1,28 +1,32 @@
-<section class="site-header hero is-primary">
+<section class="site-header hero is-light site-hero">
     <div class="hero-head">
         <nav class="nav container">
-        <div class="nav-left">
-            <a class="title nav-item" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
-        <span id="nav-toggle" class="nav-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-        </span>
-         <div id="nav-menu" class="nav-right nav-menu">
-        {% for cat in site.categories %}
-             <a class="nav-item" href="#">{{ cat[0] }}</a>
-        {% endfor %}
-        </div>
+            <div class="nav-left">
+                <a class="nav-item site-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            </div>
+            <span id="nav-toggle" class="nav-toggle" aria-label="menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div id="nav-menu" class="nav-right nav-menu">
+                {% for cat in site.categories %}
+                <a class="nav-item" href="#">{{ cat[0] }}</a>
+                {% endfor %}
+                <a class="nav-item" href="{{ '/about/' | prepend: site.baseurl }}">About</a>
+            </div>
         </nav>
     </div>
-    {% if (page.title) %}
     <div class="hero-body">
         <div class="container">
+            {% if (page.title) %}
             <h1 class="title is-2 has-text-centered">{{ page.title }}</h1>
-            <p class="has-text-centered subtitle is-6"> Posted in {{ page.categories }}</p>
+            <p class="has-text-centered subtitle is-6">Posted in {{ page.categories }}</p>
             <p class="subtitle is-6 post-meta has-text-centered">on {{ page.date | date: "%b %-d, %Y" }}</p>
+            {% else %}
+            <h1 class="title is-2 has-text-centered">{{ site.title }}</h1>
+            <p class="subtitle is-5 has-text-centered site-tagline">{{ site.description }}</p>
+            {% endif %}
         </div>
     </div>
-    {% endif %}
 </section>

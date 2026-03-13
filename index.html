@@ -2,30 +2,27 @@
 layout: default
 ---
 
-<div class="">
-
-  <h1 class="title">Posts</h1>
+<div class="home">
+  <div class="home-header">
+    <h2 class="title is-3">Latest Posts</h2>
+    <p class="subtitle is-6">Thoughts, notes, and updates.</p>
+  </div>
 
   <ul class="post-list">
     {% for post in site.posts %}
     {% if post.visible != false %}
-      <li class="box" data-category="{{ post.categories }}">
-        <span class="post-meta subtitle6">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <div class="level is-mobile">
-          <div class="level-left">
-            <h2 class="title level-item">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-          </div>
-          <div class="level-left is-hidden-mobile">
-            <span class="tag level-item">{{ post.categories }}</span>
-          </div>
+      <li class="post-card box" data-category="{{ post.categories }}">
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <h3 class="title is-4">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <div class="post-meta-row">
+          <span class="tag">{{ post.categories }}</span>
         </div>
       </li>
     {% endif %}
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe is-primary">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
